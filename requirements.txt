@@ -11,6 +11,9 @@ aiohttp>=3.9.1
 # Data processing
 pydantic>=2.5.0
 
+# Web server (keep-alive for Render)
+flask>=3.0.0
+
 # Utilities
 python-dotenv>=1.0.0
 pyyaml>=6.0.1

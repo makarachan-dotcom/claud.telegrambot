@@ -23,7 +23,10 @@ import uuid
 from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from pathlib import Path
+from threading import Thread
 from typing import Any, Dict, List, Optional, Tuple
+
+from flask import Flask
 
 # Add src to path
 sys.path.insert(0, str(Path(__file__).parent / "src"))
@@ -815,6 +818,26 @@ Please try again or contact support.
         await update.effective_message.reply_text(error_msg, parse_mode=ParseMode.HTML)
 
 
+flask_app = Flask(__name__)
+
+
+@flask_app.route("/")
+def home():
+    return "Bot is alive!"
+
+
+def keep_alive() -> None:
+    """Run a lightweight Flask server in a background thread to prevent Render from sleeping."""
+    try:
+        port = int(os.environ.get("PORT", 8080))
+    except ValueError:
+        logger.warning("Invalid PORT environment variable; defaulting to 8080.")
+        port = 8080
+    thread = Thread(target=lambda: flask_app.run(host="0.0.0.0", port=port, use_reloader=False))
+    thread.daemon = True
+    thread.start()
+
+
 def main() -> None:
     """Start the bot"""
     # Get token from environment
@@ -882,6 +905,9 @@ def main() -> None:
     # Add error handler
     application.add_error_handler(error_handler)
     
+    # Start the keep-alive web server for Render
+    keep_alive()
+
     # Start the bot
     print("✅ Bot is running! Press Ctrl+C to stop.")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
