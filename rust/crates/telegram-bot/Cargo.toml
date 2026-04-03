@@ -1,0 +1,22 @@
+[package]
+name = "telegram-bot"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "telegram-bot"
+path = "src/main.rs"
+
+[dependencies]
+teloxide = { version = "0.12", features = ["macros"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json.workspace = true
+log = "0.4"
+pretty_env_logger = "0.5"
+
+[lints]
+workspace = true
