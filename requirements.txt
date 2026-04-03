@@ -16,6 +16,9 @@ python-dotenv>=1.0.0
 pyyaml>=6.0.1
 colorama>=0.4.6
 
+# Flask for keep-alive HTTP server (Render deployment)
+flask>=2.3.0
+
 # Optional: For advanced features
 # numpy>=1.24.0
 # pandas>=2.0.0

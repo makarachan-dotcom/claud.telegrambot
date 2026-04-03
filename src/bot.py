@@ -25,9 +25,6 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent / "src"))
-
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Application,
@@ -41,14 +38,14 @@ from telegram.ext import (
 from telegram.constants import ParseMode
 
 # Import our ported modules
-from src.commands import get_commands, get_command, execute_command, find_commands
-from src.tools import get_tools, get_tool, execute_tool, find_tools
-from src.query_engine import QueryEnginePort, QueryEngineConfig, TurnResult
-from src.runtime import PortRuntime, RoutedMatch
-from src.session_store import save_session, load_session, StoredSession
-from src.models import UsageSummary
-from src.execution_registry import build_execution_registry
-from src.port_manifest import build_port_manifest
+from commands import get_commands, get_command, execute_command, find_commands
+from tools import get_tools, get_tool, execute_tool, find_tools
+from query_engine import QueryEnginePort, QueryEngineConfig, TurnResult
+from runtime import PortRuntime, RoutedMatch
+from session_store import save_session, load_session, StoredSession
+from models import UsageSummary
+from execution_registry import build_execution_registry
+from port_manifest import build_port_manifest
 
 # Enable logging
 logging.basicConfig(
