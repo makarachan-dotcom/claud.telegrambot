@@ -50,4 +50,4 @@ echo "🚀 Starting bot..."
 echo "   Press Ctrl+C to stop"
 echo ""
 
-python bot.py
+python run.py

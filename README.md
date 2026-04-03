@@ -66,7 +66,8 @@ TELEGRAM_BOT_TOKEN=your_bot_token_here
 ### 4. Run the Bot
 
 ```bash
-python bot.py
+# Run from the project root directory
+python run.py
 ```
 
 Or use the startup script:
@@ -78,6 +79,8 @@ start_bot.bat
 # On macOS/Linux:
 ./start_bot.sh
 ```
+
+> **Important:** Always run the bot from the **project root directory**, not from inside `src/`.
 
 ---
 

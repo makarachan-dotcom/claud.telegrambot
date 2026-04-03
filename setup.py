@@ -128,8 +128,8 @@ def print_next_steps():
 ║     Windows: venv\\Scripts\\activate                         ║
 ║     macOS/Linux: source venv/bin/activate                   ║
 ║                                                              ║
-║  3. Run the bot:                                             ║
-║     python bot.py                                            ║
+║  3. Run the bot from the project root:                       ║
+║     python run.py                                            ║
 ║                                                              ║
 ║  Or use the startup script:                                  ║
 ║     Windows: start_bot.bat                                   ║
