@@ -25,10 +25,6 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-
-
-# ============ REPLACE LINES 28-51 WITH THIS ============
-
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     Application,
@@ -41,7 +37,11 @@ from telegram.ext import (
 )
 from telegram.constants import ParseMode
 
-# Import our ported modules (no src. prefix since we're already in src/)
+# Flask imports for keeping bot alive
+from flask import Flask
+from threading import Thread
+
+# Import our ported modules (NO src. prefix - we're already in src/)
 from commands import get_commands, get_command, execute_command, find_commands
 from tools import get_tools, get_tool, execute_tool, find_tools
 from query_engine import QueryEnginePort, QueryEngineConfig, TurnResult
@@ -50,8 +50,6 @@ from session_store import save_session, load_session, StoredSession
 from models import UsageSummary
 from execution_registry import build_execution_registry
 from port_manifest import build_port_manifest
-
-# ============ END REPLACEMENT ============
 
 # Enable logging
 logging.basicConfig(
@@ -64,6 +62,24 @@ logger = logging.getLogger(__name__)
 BOT_NAME = "AI STAND WY2.5"
 BOT_VERSION = "2.5.0"
 BOT_CREATOR = "Kimi K2.5"
+
+# Flask app to keep bot alive
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "🤖 AI STAND WY2.5 Bot is alive! ✨"
+
+def keep_alive():
+    """Run Flask server in background thread"""
+    t = Thread(target=lambda: app.run(
+        host='0.0.0.0', 
+        port=int(os.environ.get('PORT', 8080)),
+        debug=False
+    ))
+    t.daemon = True
+    t.start()
+    logger.info("✅ Flask keep-alive server started on port 8080")
 
 # Cyberpunk styling
 STYLES = {
@@ -820,6 +836,9 @@ Please try again or contact support.
 
 def main() -> None:
     """Start the bot"""
+    # Start Flask keep-alive server
+    keep_alive()
+    
     # Get token from environment
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     
