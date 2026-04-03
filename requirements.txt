@@ -1,0 +1,21 @@
+# AI STAND WY2.5 - Telegram Bot Requirements
+# Created by Kimi K2.5
+
+# Core Telegram Bot
+python-telegram-bot>=20.7
+
+# HTTP and API requests
+requests>=2.31.0
+aiohttp>=3.9.1
+
+# Data processing
+pydantic>=2.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+colorama>=0.4.6
+
+# Optional: For advanced features
+# numpy>=1.24.0
+# pandas>=2.0.0

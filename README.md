@@ -1,191 +1,247 @@
-# Rewriting Project Claw Code
+# 🤖 AI STAND WY2.5 - Advanced Telegram Bot
 
 <p align="center">
-  <strong>⭐ The fastest repo in history to surpass 50K stars, reaching the milestone in just 2 hours after publication ⭐</strong>
+  <img src="https://img.shields.io/badge/Version-2.5.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Python-3.9+-green?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram" alt="Telegram">
 </p>
 
 <p align="center">
-  <a href="https://star-history.com/#instructkr/claw-code&Date">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=instructkr/claw-code&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=instructkr/claw-code&type=Date" />
-      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=instructkr/claw-code&type=Date" width="600" />
-    </picture>
-  </a>
+  <i>"Standing at the frontier of AI assistance"</i>
 </p>
-
-<p align="center">
-  <img src="assets/clawd-hero.jpeg" alt="Claw" width="300" />
-</p>
-
-<p align="center">
-  <strong>Better Harness Tools, not merely storing the archive of leaked Claude Code</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/sponsors/instructkr"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?logo=github&style=for-the-badge" alt="Sponsor on GitHub" /></a>
-</p>
-
-> [!IMPORTANT]
-> **Rust port is now in progress** on the [`dev/rust`](https://github.com/instructkr/claw-code/tree/dev/rust) branch and is expected to be merged into main today. The Rust implementation aims to deliver a faster, memory-safe harness runtime. Stay tuned — this will be the definitive version of the project.
-
-> If you find this work useful, consider [sponsoring @instructkr on GitHub](https://github.com/sponsors/instructkr) to support continued open-source harness engineering research.
 
 ---
 
-## Backstory
+## ✨ Features
 
-At 4 AM on March 31, 2026, I woke up to my phone blowing up with notifications. The Claude Code source had been exposed, and the entire dev community was in a frenzy. My girlfriend in Korea was genuinely worried I might face legal action from Anthropic just for having the code on my machine — so I did what any engineer would do under pressure: I sat down, ported the core features to Python from scratch, and pushed it before the sun came up.
-
-The whole thing was orchestrated end-to-end using [oh-my-codex (OmX)](https://github.com/Yeachan-Heo/oh-my-codex) by [@bellman_ych](https://x.com/bellman_ych) — a workflow layer built on top of OpenAI's Codex ([@OpenAIDevs](https://x.com/OpenAIDevs)). I used `$team` mode for parallel code review and `$ralph` mode for persistent execution loops with architect-level verification. The entire porting session — from reading the original harness structure to producing a working Python tree with tests — was driven through OmX orchestration.
-
-The result is a clean-room Python rewrite that captures the architectural patterns of Claude Code's agent harness without copying any proprietary source. I'm now actively collaborating with [@bellman_ych](https://x.com/bellman_ych) — the creator of OmX himself — to push this further. The basic Python foundation is already in place and functional, but we're just getting started. **Stay tuned — a much more capable version is on the way.**
-
-https://github.com/instructkr/claw-code
-
-![Tweet screenshot](assets/tweet-screenshot.png)
-
-## The Creators Featured in Wall Street Journal For Avid Claude Code Fans
-
-I've been deeply interested in **harness engineering** — studying how agent systems wire tools, orchestrate tasks, and manage runtime context. This isn't a sudden thing. The Wall Street Journal featured my work earlier this month, documenting how I've been one of the most active power users exploring these systems:
-
-> AI startup worker Sigrid Jin, who attended the Seoul dinner, single-handedly used 25 billion of Claude Code tokens last year. At the time, usage limits were looser, allowing early enthusiasts to reach tens of billions of tokens at a very low cost.
->
-> Despite his countless hours with Claude Code, Jin isn't faithful to any one AI lab. The tools available have different strengths and weaknesses, he said. Codex is better at reasoning, while Claude Code generates cleaner, more shareable code.
->
-> Jin flew to San Francisco in February for Claude Code's first birthday party, where attendees waited in line to compare notes with Cherny. The crowd included a practicing cardiologist from Belgium who had built an app to help patients navigate care, and a California lawyer who made a tool for automating building permit approvals using Claude Code.
->
-> "It was basically like a sharing party," Jin said. "There were lawyers, there were doctors, there were dentists. They did not have software engineering backgrounds."
->
-> — *The Wall Street Journal*, March 21, 2026, [*"The Trillion Dollar Race to Automate Our Entire Lives"*](https://lnkd.in/gs9td3qd)
-
-![WSJ Feature](assets/wsj-feature.png)
+- **🧠 Natural Language Processing** - Chat naturally with intelligent routing
+- **⚡ 400+ Commands** - Full integration with Claude Code architecture
+- **🔧 300+ Tools** - Extensive tool library for various operations
+- **💬 Session Management** - Persistent conversation history
+- **🎯 Smart Routing** - Automatic command/tool matching
+- **📊 User Statistics** - Track your usage and activity
+- **🔒 Admin Controls** - Built-in admin features
+- **🎨 Cyberpunk Styling** - Cool visual design
 
 ---
 
-## Porting Status
+## 🚀 Quick Start
 
-The main source tree is now Python-first.
+### 1. Get Your Bot Token
 
-- `src/` contains the active Python porting workspace
-- `tests/` verifies the current Python workspace
-- the exposed snapshot is no longer part of the tracked repository state
+1. Open Telegram and search for [@BotFather](https://t.me/BotFather)
+2. Start a chat and send `/newbot`
+3. Follow the instructions to create your bot
+4. Copy the bot token (looks like: `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`)
 
-The current Python workspace is not yet a complete one-to-one replacement for the original system, but the primary implementation surface is now Python.
-
-## Why this rewrite exists
-
-I originally studied the exposed codebase to understand its harness, tool wiring, and agent workflow. After spending more time with the legal and ethical questions—and after reading the essay linked below—I did not want the exposed snapshot itself to remain the main tracked source tree.
-
-This repository now focuses on Python porting work instead.
-
-## Repository Layout
-
-```text
-.
-├── src/                                # Python porting workspace
-│   ├── __init__.py
-│   ├── commands.py
-│   ├── main.py
-│   ├── models.py
-│   ├── port_manifest.py
-│   ├── query_engine.py
-│   ├── task.py
-│   └── tools.py
-├── tests/                              # Python verification
-├── assets/omx/                         # OmX workflow screenshots
-├── 2026-03-09-is-legal-the-same-as-legitimate-ai-reimplementation-and-the-erosion-of-copyleft.md
-└── README.md
-```
-
-## Python Workspace Overview
-
-The new Python `src/` tree currently provides:
-
-- **`port_manifest.py`** — summarizes the current Python workspace structure
-- **`models.py`** — dataclasses for subsystems, modules, and backlog state
-- **`commands.py`** — Python-side command port metadata
-- **`tools.py`** — Python-side tool port metadata
-- **`query_engine.py`** — renders a Python porting summary from the active workspace
-- **`main.py`** — a CLI entrypoint for manifest and summary output
-
-## Quickstart
-
-Render the Python porting summary:
+### 2. Install Dependencies
 
 ```bash
-python3 -m src.main summary
+# Clone or download this repository
+cd ai_stand_wy25_bot
+
+# Create virtual environment (recommended)
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install requirements
+pip install -r requirements.txt
 ```
 
-Print the current Python workspace manifest:
+### 3. Configure Environment
 
 ```bash
-python3 -m src.main manifest
+# Copy the example environment file
+cp .env.example .env
+
+# Edit .env and add your bot token
+TELEGRAM_BOT_TOKEN=your_bot_token_here
 ```
 
-List the current Python modules:
+### 4. Run the Bot
 
 ```bash
-python3 -m src.main subsystems --limit 16
+python bot.py
 ```
 
-Run verification:
+Or use the startup script:
 
 ```bash
-python3 -m unittest discover -s tests -v
+# On Windows:
+start_bot.bat
+
+# On macOS/Linux:
+./start_bot.sh
 ```
 
-Run the parity audit against the local ignored archive (when present):
+---
 
-```bash
-python3 -m src.main parity-audit
+## 📱 Bot Commands
+
+### Core Commands
+| Command | Description |
+|---------|-------------|
+| `/start` | Start the bot and show welcome message |
+| `/help` | Show all available commands |
+| `/about` | About the bot |
+| `/chat` | Enter interactive chat mode |
+| `/clear` | Clear conversation history |
+| `/session` | Show session information |
+| `/stats` | Show your usage statistics |
+
+### System Commands
+| Command | Description |
+|---------|-------------|
+| `/commands` | List all available commands |
+| `/tools` | List all available tools |
+| `/search <query>` | Search commands and tools |
+| `/manifest` | Show system manifest |
+
+### Execution Commands
+| Command | Description |
+|---------|-------------|
+| `/exec <command>` | Execute a specific command |
+| `/tool <tool> [payload]` | Execute a specific tool |
+| `/route <query>` | Route a query and show matches |
+
+### Admin Commands
+| Command | Description |
+|---------|-------------|
+| `/status` | Show bot system status |
+
+---
+
+## 🏗️ Architecture
+
+This bot is built on the **Claude Code Python Port** architecture:
+
+```
+ai_stand_wy25_bot/
+├── bot.py                 # Main bot entry point
+├── requirements.txt       # Python dependencies
+├── .env.example          # Environment template
+├── README.md             # This file
+├── src/                  # Core source code
+│   ├── commands.py       # Command registry
+│   ├── tools.py          # Tool registry
+│   ├── query_engine.py   # Query processing
+│   ├── runtime.py        # Execution runtime
+│   ├── session_store.py  # Session management
+│   └── reference_data/   # Command/tool snapshots
+├── config/               # Configuration
+│   └── bot_config.py     # Bot settings
+├── data/                 # User data (created at runtime)
+└── sessions/             # Session storage (created at runtime)
 ```
 
-Inspect mirrored command/tool inventories:
+---
 
-```bash
-python3 -m src.main commands --limit 10
-python3 -m src.main tools --limit 10
+## 💡 Usage Examples
+
+### Chat Mode
+```
+User: /chat
+Bot: Chat Mode Activated! Session ID: abc123...
+
+User: How do I search for files?
+Bot: 🤖 Processing your request...
+    🎯 Matched:
+      ⚙️ SearchCommand (3)
+      🔧 GrepTool (2)
+      🔧 FindTool (2)
+    
+    ⚡ Response:
+    You can use the SearchCommand or GrepTool to search for files...
 ```
 
-## Current Parity Checkpoint
+### Execute Commands
+```
+User: /exec GitStatusTool
+Bot: ✨ Command Executed
+    Command: GitStatusTool
+    Result: Git status would be displayed here...
+```
 
-The port now mirrors the archived root-entry file surface, top-level subsystem names, and command/tool inventories much more closely than before. However, it is **not yet** a full runtime-equivalent replacement for the original TypeScript system; the Python tree still contains fewer executable runtime slices than the archived source.
+### Search
+```
+User: /search git
+Bot: 🎯 Search Results for "git"
+    ⚙️ Commands (10):
+      • GitStatusCommand
+      • GitCommitCommand
+      • GitPushCommand
+      ...
+    
+    🔧 Tools (15):
+      • GitTool
+      • GitStatusTool
+      • GitLogTool
+      ...
+```
 
+---
 
-## Built with `oh-my-codex`
+## 🔧 Configuration
 
-The restructuring and documentation work on this repository was AI-assisted and orchestrated with Yeachan Heo's [oh-my-codex (OmX)](https://github.com/Yeachan-Heo/oh-my-codex), layered on top of Codex.
+### Environment Variables
 
-- **`$team` mode:** used for coordinated parallel review and architectural feedback
-- **`$ralph` mode:** used for persistent execution, verification, and completion discipline
-- **Codex-driven workflow:** used to turn the main `src/` tree into a Python-first porting workspace
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `TELEGRAM_BOT_TOKEN` | Your bot token from @BotFather | Required |
+| `ADMIN_USER_IDS` | Comma-separated admin Telegram IDs | None |
+| `LOG_LEVEL` | Logging level (DEBUG/INFO/WARNING/ERROR) | INFO |
+| `DATA_DIR` | Directory for user data | ./data |
+| `SESSION_DIR` | Directory for sessions | ./sessions |
 
-### OmX workflow screenshots
+### Bot Settings
 
-![OmX workflow screenshot 1](assets/omx/omx-readme-review-1.png)
+Edit `config/bot_config.py` to customize:
 
-*Ralph/team orchestration view while the README and essay context were being reviewed in terminal panes.*
+- Bot name and version
+- Message limits
+- Feature toggles
+- Query engine settings
 
-![OmX workflow screenshot 2](assets/omx/omx-readme-review-2.png)
+---
 
-*Split-pane review and verification flow during the final README wording pass.*
+## 🛠️ Development
 
-## Community
+### Adding New Commands
+
+1. Add command definition to `src/reference_data/commands_snapshot.json`
+2. Implement handler in `bot.py`
+3. Register in `main()` function
+
+### Adding New Tools
+
+1. Add tool definition to `src/reference_data/tools_snapshot.json`
+2. Implement tool logic in appropriate module
+
+---
+
+## 📝 License
+
+This project is based on the Claude Code Python Port.
+
+---
+
+## 🙏 Credits
+
+- **Created by:** Kimi K2.5
+- **Architecture:** Claude Code Python Port
+- **Framework:** python-telegram-bot
+
+---
 
 <p align="center">
-  <a href="https://instruct.kr/"><img src="assets/instructkr.png" alt="instructkr" width="400" /></a>
+  <i>Made with 💜 and lots of ☕</i>
 </p>
 
-Join the [**instructkr Discord**](https://instruct.kr/) — the best Korean language model community. Come chat about LLMs, harness engineering, agent workflows, and everything in between.
-
-[![Discord](https://img.shields.io/badge/Join%20Discord-instruct.kr-5865F2?logo=discord&style=for-the-badge)](https://instruct.kr/)
-
-## Star History
-
-See the chart at the top of this README.
-
-## Ownership / Affiliation Disclaimer
-
-- This repository does **not** claim ownership of the original Claude Code source material.
-- This repository is **not affiliated with, endorsed by, or maintained by Anthropic**.
+<p align="center">
+  <b>AI STAND WY2.5</b> - "The future of AI assistance is here"
+</p>

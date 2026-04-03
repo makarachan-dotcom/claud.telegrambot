@@ -1,1037 +1,860 @@
 [
-  {
-    "name": "add-dir",
-    "source_hint": "commands/add-dir/add-dir.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/add-dir/add-dir.tsx"
-  },
-  {
-    "name": "add-dir",
-    "source_hint": "commands/add-dir/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/add-dir/index.ts"
-  },
-  {
-    "name": "validation",
-    "source_hint": "commands/add-dir/validation.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/add-dir/validation.ts"
-  },
-  {
-    "name": "advisor",
-    "source_hint": "commands/advisor.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/advisor.ts"
-  },
-  {
-    "name": "agents",
-    "source_hint": "commands/agents/agents.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/agents/agents.tsx"
-  },
-  {
-    "name": "agents",
-    "source_hint": "commands/agents/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/agents/index.ts"
-  },
-  {
-    "name": "ant-trace",
-    "source_hint": "commands/ant-trace/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/ant-trace/index.js"
-  },
-  {
-    "name": "autofix-pr",
-    "source_hint": "commands/autofix-pr/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/autofix-pr/index.js"
-  },
-  {
-    "name": "backfill-sessions",
-    "source_hint": "commands/backfill-sessions/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/backfill-sessions/index.js"
-  },
-  {
-    "name": "branch",
-    "source_hint": "commands/branch/branch.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/branch/branch.ts"
-  },
-  {
-    "name": "branch",
-    "source_hint": "commands/branch/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/branch/index.ts"
-  },
-  {
-    "name": "break-cache",
-    "source_hint": "commands/break-cache/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/break-cache/index.js"
-  },
-  {
-    "name": "bridge",
-    "source_hint": "commands/bridge/bridge.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/bridge/bridge.tsx"
-  },
-  {
-    "name": "bridge",
-    "source_hint": "commands/bridge/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/bridge/index.ts"
-  },
-  {
-    "name": "bridge-kick",
-    "source_hint": "commands/bridge-kick.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/bridge-kick.ts"
-  },
-  {
-    "name": "brief",
-    "source_hint": "commands/brief.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/brief.ts"
-  },
-  {
-    "name": "btw",
-    "source_hint": "commands/btw/btw.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/btw/btw.tsx"
-  },
-  {
-    "name": "btw",
-    "source_hint": "commands/btw/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/btw/index.ts"
-  },
-  {
-    "name": "bughunter",
-    "source_hint": "commands/bughunter/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/bughunter/index.js"
-  },
-  {
-    "name": "chrome",
-    "source_hint": "commands/chrome/chrome.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/chrome/chrome.tsx"
-  },
-  {
-    "name": "chrome",
-    "source_hint": "commands/chrome/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/chrome/index.ts"
-  },
-  {
-    "name": "caches",
-    "source_hint": "commands/clear/caches.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/clear/caches.ts"
-  },
-  {
-    "name": "clear",
-    "source_hint": "commands/clear/clear.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/clear/clear.ts"
-  },
-  {
-    "name": "conversation",
-    "source_hint": "commands/clear/conversation.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/clear/conversation.ts"
-  },
-  {
-    "name": "clear",
-    "source_hint": "commands/clear/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/clear/index.ts"
-  },
-  {
-    "name": "color",
-    "source_hint": "commands/color/color.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/color/color.ts"
-  },
-  {
-    "name": "color",
-    "source_hint": "commands/color/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/color/index.ts"
-  },
-  {
-    "name": "commit-push-pr",
-    "source_hint": "commands/commit-push-pr.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/commit-push-pr.ts"
-  },
-  {
-    "name": "commit",
-    "source_hint": "commands/commit.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/commit.ts"
-  },
-  {
-    "name": "compact",
-    "source_hint": "commands/compact/compact.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/compact/compact.ts"
-  },
-  {
-    "name": "compact",
-    "source_hint": "commands/compact/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/compact/index.ts"
-  },
-  {
-    "name": "config",
-    "source_hint": "commands/config/config.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/config/config.tsx"
-  },
-  {
-    "name": "config",
-    "source_hint": "commands/config/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/config/index.ts"
-  },
-  {
-    "name": "context-noninteractive",
-    "source_hint": "commands/context/context-noninteractive.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/context/context-noninteractive.ts"
-  },
-  {
-    "name": "context",
-    "source_hint": "commands/context/context.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/context/context.tsx"
-  },
-  {
-    "name": "context",
-    "source_hint": "commands/context/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/context/index.ts"
-  },
-  {
-    "name": "copy",
-    "source_hint": "commands/copy/copy.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/copy/copy.tsx"
-  },
-  {
-    "name": "copy",
-    "source_hint": "commands/copy/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/copy/index.ts"
-  },
-  {
-    "name": "cost",
-    "source_hint": "commands/cost/cost.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/cost/cost.ts"
-  },
-  {
-    "name": "cost",
-    "source_hint": "commands/cost/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/cost/index.ts"
-  },
-  {
-    "name": "createMovedToPluginCommand",
-    "source_hint": "commands/createMovedToPluginCommand.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/createMovedToPluginCommand.ts"
-  },
-  {
-    "name": "ctx_viz",
-    "source_hint": "commands/ctx_viz/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/ctx_viz/index.js"
-  },
-  {
-    "name": "debug-tool-call",
-    "source_hint": "commands/debug-tool-call/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/debug-tool-call/index.js"
-  },
-  {
-    "name": "desktop",
-    "source_hint": "commands/desktop/desktop.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/desktop/desktop.tsx"
-  },
-  {
-    "name": "desktop",
-    "source_hint": "commands/desktop/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/desktop/index.ts"
-  },
-  {
-    "name": "diff",
-    "source_hint": "commands/diff/diff.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/diff/diff.tsx"
-  },
-  {
-    "name": "diff",
-    "source_hint": "commands/diff/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/diff/index.ts"
-  },
-  {
-    "name": "doctor",
-    "source_hint": "commands/doctor/doctor.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/doctor/doctor.tsx"
-  },
-  {
-    "name": "doctor",
-    "source_hint": "commands/doctor/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/doctor/index.ts"
-  },
-  {
-    "name": "effort",
-    "source_hint": "commands/effort/effort.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/effort/effort.tsx"
-  },
-  {
-    "name": "effort",
-    "source_hint": "commands/effort/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/effort/index.ts"
-  },
-  {
-    "name": "env",
-    "source_hint": "commands/env/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/env/index.js"
-  },
-  {
-    "name": "exit",
-    "source_hint": "commands/exit/exit.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/exit/exit.tsx"
-  },
-  {
-    "name": "exit",
-    "source_hint": "commands/exit/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/exit/index.ts"
-  },
-  {
-    "name": "export",
-    "source_hint": "commands/export/export.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/export/export.tsx"
-  },
-  {
-    "name": "export",
-    "source_hint": "commands/export/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/export/index.ts"
-  },
-  {
-    "name": "extra-usage-core",
-    "source_hint": "commands/extra-usage/extra-usage-core.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/extra-usage/extra-usage-core.ts"
-  },
-  {
-    "name": "extra-usage-noninteractive",
-    "source_hint": "commands/extra-usage/extra-usage-noninteractive.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/extra-usage/extra-usage-noninteractive.ts"
-  },
-  {
-    "name": "extra-usage",
-    "source_hint": "commands/extra-usage/extra-usage.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/extra-usage/extra-usage.tsx"
-  },
-  {
-    "name": "extra-usage",
-    "source_hint": "commands/extra-usage/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/extra-usage/index.ts"
-  },
-  {
-    "name": "fast",
-    "source_hint": "commands/fast/fast.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/fast/fast.tsx"
-  },
-  {
-    "name": "fast",
-    "source_hint": "commands/fast/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/fast/index.ts"
-  },
-  {
-    "name": "feedback",
-    "source_hint": "commands/feedback/feedback.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/feedback/feedback.tsx"
-  },
-  {
-    "name": "feedback",
-    "source_hint": "commands/feedback/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/feedback/index.ts"
-  },
-  {
-    "name": "files",
-    "source_hint": "commands/files/files.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/files/files.ts"
-  },
-  {
-    "name": "files",
-    "source_hint": "commands/files/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/files/index.ts"
-  },
-  {
-    "name": "good-claude",
-    "source_hint": "commands/good-claude/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/good-claude/index.js"
-  },
-  {
-    "name": "heapdump",
-    "source_hint": "commands/heapdump/heapdump.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/heapdump/heapdump.ts"
-  },
-  {
-    "name": "heapdump",
-    "source_hint": "commands/heapdump/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/heapdump/index.ts"
-  },
-  {
-    "name": "help",
-    "source_hint": "commands/help/help.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/help/help.tsx"
-  },
-  {
-    "name": "help",
-    "source_hint": "commands/help/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/help/index.ts"
-  },
-  {
-    "name": "hooks",
-    "source_hint": "commands/hooks/hooks.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/hooks/hooks.tsx"
-  },
-  {
-    "name": "hooks",
-    "source_hint": "commands/hooks/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/hooks/index.ts"
-  },
-  {
-    "name": "ide",
-    "source_hint": "commands/ide/ide.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/ide/ide.tsx"
-  },
-  {
-    "name": "ide",
-    "source_hint": "commands/ide/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/ide/index.ts"
-  },
-  {
-    "name": "init-verifiers",
-    "source_hint": "commands/init-verifiers.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/init-verifiers.ts"
-  },
-  {
-    "name": "init",
-    "source_hint": "commands/init.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/init.ts"
-  },
-  {
-    "name": "insights",
-    "source_hint": "commands/insights.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/insights.ts"
-  },
-  {
-    "name": "ApiKeyStep",
-    "source_hint": "commands/install-github-app/ApiKeyStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/ApiKeyStep.tsx"
-  },
-  {
-    "name": "CheckExistingSecretStep",
-    "source_hint": "commands/install-github-app/CheckExistingSecretStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/CheckExistingSecretStep.tsx"
-  },
-  {
-    "name": "CheckGitHubStep",
-    "source_hint": "commands/install-github-app/CheckGitHubStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/CheckGitHubStep.tsx"
-  },
-  {
-    "name": "ChooseRepoStep",
-    "source_hint": "commands/install-github-app/ChooseRepoStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/ChooseRepoStep.tsx"
-  },
-  {
-    "name": "CreatingStep",
-    "source_hint": "commands/install-github-app/CreatingStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/CreatingStep.tsx"
-  },
-  {
-    "name": "ErrorStep",
-    "source_hint": "commands/install-github-app/ErrorStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/ErrorStep.tsx"
-  },
-  {
-    "name": "ExistingWorkflowStep",
-    "source_hint": "commands/install-github-app/ExistingWorkflowStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/ExistingWorkflowStep.tsx"
-  },
-  {
-    "name": "InstallAppStep",
-    "source_hint": "commands/install-github-app/InstallAppStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/InstallAppStep.tsx"
-  },
-  {
-    "name": "OAuthFlowStep",
-    "source_hint": "commands/install-github-app/OAuthFlowStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/OAuthFlowStep.tsx"
-  },
-  {
-    "name": "SuccessStep",
-    "source_hint": "commands/install-github-app/SuccessStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/SuccessStep.tsx"
-  },
-  {
-    "name": "WarningsStep",
-    "source_hint": "commands/install-github-app/WarningsStep.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/WarningsStep.tsx"
-  },
-  {
-    "name": "install-github-app",
-    "source_hint": "commands/install-github-app/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/index.ts"
-  },
-  {
-    "name": "install-github-app",
-    "source_hint": "commands/install-github-app/install-github-app.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/install-github-app.tsx"
-  },
-  {
-    "name": "setupGitHubActions",
-    "source_hint": "commands/install-github-app/setupGitHubActions.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-github-app/setupGitHubActions.ts"
-  },
-  {
-    "name": "install-slack-app",
-    "source_hint": "commands/install-slack-app/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-slack-app/index.ts"
-  },
-  {
-    "name": "install-slack-app",
-    "source_hint": "commands/install-slack-app/install-slack-app.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install-slack-app/install-slack-app.ts"
-  },
-  {
-    "name": "install",
-    "source_hint": "commands/install.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/install.tsx"
-  },
-  {
-    "name": "issue",
-    "source_hint": "commands/issue/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/issue/index.js"
-  },
-  {
-    "name": "keybindings",
-    "source_hint": "commands/keybindings/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/keybindings/index.ts"
-  },
-  {
-    "name": "keybindings",
-    "source_hint": "commands/keybindings/keybindings.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/keybindings/keybindings.ts"
-  },
-  {
-    "name": "login",
-    "source_hint": "commands/login/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/login/index.ts"
-  },
-  {
-    "name": "login",
-    "source_hint": "commands/login/login.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/login/login.tsx"
-  },
-  {
-    "name": "logout",
-    "source_hint": "commands/logout/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/logout/index.ts"
-  },
-  {
-    "name": "logout",
-    "source_hint": "commands/logout/logout.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/logout/logout.tsx"
-  },
-  {
-    "name": "addCommand",
-    "source_hint": "commands/mcp/addCommand.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/mcp/addCommand.ts"
-  },
-  {
-    "name": "mcp",
-    "source_hint": "commands/mcp/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/mcp/index.ts"
-  },
-  {
-    "name": "mcp",
-    "source_hint": "commands/mcp/mcp.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/mcp/mcp.tsx"
-  },
-  {
-    "name": "xaaIdpCommand",
-    "source_hint": "commands/mcp/xaaIdpCommand.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/mcp/xaaIdpCommand.ts"
-  },
-  {
-    "name": "memory",
-    "source_hint": "commands/memory/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/memory/index.ts"
-  },
-  {
-    "name": "memory",
-    "source_hint": "commands/memory/memory.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/memory/memory.tsx"
-  },
-  {
-    "name": "mobile",
-    "source_hint": "commands/mobile/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/mobile/index.ts"
-  },
-  {
-    "name": "mobile",
-    "source_hint": "commands/mobile/mobile.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/mobile/mobile.tsx"
-  },
-  {
-    "name": "mock-limits",
-    "source_hint": "commands/mock-limits/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/mock-limits/index.js"
-  },
-  {
-    "name": "model",
-    "source_hint": "commands/model/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/model/index.ts"
-  },
-  {
-    "name": "model",
-    "source_hint": "commands/model/model.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/model/model.tsx"
-  },
-  {
-    "name": "oauth-refresh",
-    "source_hint": "commands/oauth-refresh/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/oauth-refresh/index.js"
-  },
-  {
-    "name": "onboarding",
-    "source_hint": "commands/onboarding/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/onboarding/index.js"
-  },
-  {
-    "name": "output-style",
-    "source_hint": "commands/output-style/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/output-style/index.ts"
-  },
-  {
-    "name": "output-style",
-    "source_hint": "commands/output-style/output-style.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/output-style/output-style.tsx"
-  },
-  {
-    "name": "passes",
-    "source_hint": "commands/passes/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/passes/index.ts"
-  },
-  {
-    "name": "passes",
-    "source_hint": "commands/passes/passes.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/passes/passes.tsx"
-  },
-  {
-    "name": "perf-issue",
-    "source_hint": "commands/perf-issue/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/perf-issue/index.js"
-  },
-  {
-    "name": "permissions",
-    "source_hint": "commands/permissions/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/permissions/index.ts"
-  },
-  {
-    "name": "permissions",
-    "source_hint": "commands/permissions/permissions.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/permissions/permissions.tsx"
-  },
-  {
-    "name": "plan",
-    "source_hint": "commands/plan/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plan/index.ts"
-  },
-  {
-    "name": "plan",
-    "source_hint": "commands/plan/plan.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plan/plan.tsx"
-  },
-  {
-    "name": "AddMarketplace",
-    "source_hint": "commands/plugin/AddMarketplace.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/AddMarketplace.tsx"
-  },
-  {
-    "name": "BrowseMarketplace",
-    "source_hint": "commands/plugin/BrowseMarketplace.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/BrowseMarketplace.tsx"
-  },
-  {
-    "name": "DiscoverPlugins",
-    "source_hint": "commands/plugin/DiscoverPlugins.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/DiscoverPlugins.tsx"
-  },
-  {
-    "name": "ManageMarketplaces",
-    "source_hint": "commands/plugin/ManageMarketplaces.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/ManageMarketplaces.tsx"
-  },
-  {
-    "name": "ManagePlugins",
-    "source_hint": "commands/plugin/ManagePlugins.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/ManagePlugins.tsx"
-  },
-  {
-    "name": "PluginErrors",
-    "source_hint": "commands/plugin/PluginErrors.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/PluginErrors.tsx"
-  },
-  {
-    "name": "PluginOptionsDialog",
-    "source_hint": "commands/plugin/PluginOptionsDialog.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/PluginOptionsDialog.tsx"
-  },
-  {
-    "name": "PluginOptionsFlow",
-    "source_hint": "commands/plugin/PluginOptionsFlow.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/PluginOptionsFlow.tsx"
-  },
-  {
-    "name": "PluginSettings",
-    "source_hint": "commands/plugin/PluginSettings.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/PluginSettings.tsx"
-  },
-  {
-    "name": "PluginTrustWarning",
-    "source_hint": "commands/plugin/PluginTrustWarning.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/PluginTrustWarning.tsx"
-  },
-  {
-    "name": "UnifiedInstalledCell",
-    "source_hint": "commands/plugin/UnifiedInstalledCell.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/UnifiedInstalledCell.tsx"
-  },
-  {
-    "name": "ValidatePlugin",
-    "source_hint": "commands/plugin/ValidatePlugin.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/ValidatePlugin.tsx"
-  },
-  {
-    "name": "plugin",
-    "source_hint": "commands/plugin/index.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/index.tsx"
-  },
-  {
-    "name": "parseArgs",
-    "source_hint": "commands/plugin/parseArgs.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/parseArgs.ts"
-  },
-  {
-    "name": "plugin",
-    "source_hint": "commands/plugin/plugin.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/plugin.tsx"
-  },
-  {
-    "name": "pluginDetailsHelpers",
-    "source_hint": "commands/plugin/pluginDetailsHelpers.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/pluginDetailsHelpers.tsx"
-  },
-  {
-    "name": "usePagination",
-    "source_hint": "commands/plugin/usePagination.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/plugin/usePagination.ts"
-  },
-  {
-    "name": "pr_comments",
-    "source_hint": "commands/pr_comments/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/pr_comments/index.ts"
-  },
-  {
-    "name": "privacy-settings",
-    "source_hint": "commands/privacy-settings/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/privacy-settings/index.ts"
-  },
-  {
-    "name": "privacy-settings",
-    "source_hint": "commands/privacy-settings/privacy-settings.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/privacy-settings/privacy-settings.tsx"
-  },
-  {
-    "name": "rate-limit-options",
-    "source_hint": "commands/rate-limit-options/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/rate-limit-options/index.ts"
-  },
-  {
-    "name": "rate-limit-options",
-    "source_hint": "commands/rate-limit-options/rate-limit-options.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/rate-limit-options/rate-limit-options.tsx"
-  },
-  {
-    "name": "release-notes",
-    "source_hint": "commands/release-notes/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/release-notes/index.ts"
-  },
-  {
-    "name": "release-notes",
-    "source_hint": "commands/release-notes/release-notes.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/release-notes/release-notes.ts"
-  },
-  {
-    "name": "reload-plugins",
-    "source_hint": "commands/reload-plugins/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/reload-plugins/index.ts"
-  },
-  {
-    "name": "reload-plugins",
-    "source_hint": "commands/reload-plugins/reload-plugins.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/reload-plugins/reload-plugins.ts"
-  },
-  {
-    "name": "remote-env",
-    "source_hint": "commands/remote-env/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/remote-env/index.ts"
-  },
-  {
-    "name": "remote-env",
-    "source_hint": "commands/remote-env/remote-env.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/remote-env/remote-env.tsx"
-  },
-  {
-    "name": "api",
-    "source_hint": "commands/remote-setup/api.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/remote-setup/api.ts"
-  },
-  {
-    "name": "remote-setup",
-    "source_hint": "commands/remote-setup/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/remote-setup/index.ts"
-  },
-  {
-    "name": "remote-setup",
-    "source_hint": "commands/remote-setup/remote-setup.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/remote-setup/remote-setup.tsx"
-  },
-  {
-    "name": "generateSessionName",
-    "source_hint": "commands/rename/generateSessionName.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/rename/generateSessionName.ts"
-  },
-  {
-    "name": "rename",
-    "source_hint": "commands/rename/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/rename/index.ts"
-  },
-  {
-    "name": "rename",
-    "source_hint": "commands/rename/rename.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/rename/rename.ts"
-  },
-  {
-    "name": "reset-limits",
-    "source_hint": "commands/reset-limits/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/reset-limits/index.js"
-  },
-  {
-    "name": "resume",
-    "source_hint": "commands/resume/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/resume/index.ts"
-  },
-  {
-    "name": "resume",
-    "source_hint": "commands/resume/resume.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/resume/resume.tsx"
-  },
-  {
-    "name": "UltrareviewOverageDialog",
-    "source_hint": "commands/review/UltrareviewOverageDialog.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/review/UltrareviewOverageDialog.tsx"
-  },
-  {
-    "name": "reviewRemote",
-    "source_hint": "commands/review/reviewRemote.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/review/reviewRemote.ts"
-  },
-  {
-    "name": "ultrareviewCommand",
-    "source_hint": "commands/review/ultrareviewCommand.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/review/ultrareviewCommand.tsx"
-  },
-  {
-    "name": "ultrareviewEnabled",
-    "source_hint": "commands/review/ultrareviewEnabled.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/review/ultrareviewEnabled.ts"
-  },
-  {
-    "name": "review",
-    "source_hint": "commands/review.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/review.ts"
-  },
-  {
-    "name": "rewind",
-    "source_hint": "commands/rewind/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/rewind/index.ts"
-  },
-  {
-    "name": "rewind",
-    "source_hint": "commands/rewind/rewind.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/rewind/rewind.ts"
-  },
-  {
-    "name": "sandbox-toggle",
-    "source_hint": "commands/sandbox-toggle/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/sandbox-toggle/index.ts"
-  },
-  {
-    "name": "sandbox-toggle",
-    "source_hint": "commands/sandbox-toggle/sandbox-toggle.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/sandbox-toggle/sandbox-toggle.tsx"
-  },
-  {
-    "name": "security-review",
-    "source_hint": "commands/security-review.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/security-review.ts"
-  },
-  {
-    "name": "session",
-    "source_hint": "commands/session/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/session/index.ts"
-  },
-  {
-    "name": "session",
-    "source_hint": "commands/session/session.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/session/session.tsx"
-  },
-  {
-    "name": "share",
-    "source_hint": "commands/share/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/share/index.js"
-  },
-  {
-    "name": "skills",
-    "source_hint": "commands/skills/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/skills/index.ts"
-  },
-  {
-    "name": "skills",
-    "source_hint": "commands/skills/skills.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/skills/skills.tsx"
-  },
-  {
-    "name": "stats",
-    "source_hint": "commands/stats/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/stats/index.ts"
-  },
-  {
-    "name": "stats",
-    "source_hint": "commands/stats/stats.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/stats/stats.tsx"
-  },
-  {
-    "name": "status",
-    "source_hint": "commands/status/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/status/index.ts"
-  },
-  {
-    "name": "status",
-    "source_hint": "commands/status/status.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/status/status.tsx"
-  },
-  {
-    "name": "statusline",
-    "source_hint": "commands/statusline.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/statusline.tsx"
-  },
-  {
-    "name": "stickers",
-    "source_hint": "commands/stickers/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/stickers/index.ts"
-  },
-  {
-    "name": "stickers",
-    "source_hint": "commands/stickers/stickers.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/stickers/stickers.ts"
-  },
-  {
-    "name": "summary",
-    "source_hint": "commands/summary/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/summary/index.js"
-  },
-  {
-    "name": "tag",
-    "source_hint": "commands/tag/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/tag/index.ts"
-  },
-  {
-    "name": "tag",
-    "source_hint": "commands/tag/tag.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/tag/tag.tsx"
-  },
-  {
-    "name": "tasks",
-    "source_hint": "commands/tasks/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/tasks/index.ts"
-  },
-  {
-    "name": "tasks",
-    "source_hint": "commands/tasks/tasks.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/tasks/tasks.tsx"
-  },
-  {
-    "name": "teleport",
-    "source_hint": "commands/teleport/index.js",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/teleport/index.js"
-  },
-  {
-    "name": "terminalSetup",
-    "source_hint": "commands/terminalSetup/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/terminalSetup/index.ts"
-  },
-  {
-    "name": "terminalSetup",
-    "source_hint": "commands/terminalSetup/terminalSetup.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/terminalSetup/terminalSetup.tsx"
-  },
-  {
-    "name": "theme",
-    "source_hint": "commands/theme/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/theme/index.ts"
-  },
-  {
-    "name": "theme",
-    "source_hint": "commands/theme/theme.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/theme/theme.tsx"
-  },
-  {
-    "name": "thinkback",
-    "source_hint": "commands/thinkback/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/thinkback/index.ts"
-  },
-  {
-    "name": "thinkback",
-    "source_hint": "commands/thinkback/thinkback.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/thinkback/thinkback.tsx"
-  },
-  {
-    "name": "thinkback-play",
-    "source_hint": "commands/thinkback-play/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/thinkback-play/index.ts"
-  },
-  {
-    "name": "thinkback-play",
-    "source_hint": "commands/thinkback-play/thinkback-play.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/thinkback-play/thinkback-play.ts"
-  },
-  {
-    "name": "ultraplan",
-    "source_hint": "commands/ultraplan.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/ultraplan.tsx"
-  },
-  {
-    "name": "upgrade",
-    "source_hint": "commands/upgrade/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/upgrade/index.ts"
-  },
-  {
-    "name": "upgrade",
-    "source_hint": "commands/upgrade/upgrade.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/upgrade/upgrade.tsx"
-  },
-  {
-    "name": "usage",
-    "source_hint": "commands/usage/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/usage/index.ts"
-  },
-  {
-    "name": "usage",
-    "source_hint": "commands/usage/usage.tsx",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/usage/usage.tsx"
-  },
-  {
-    "name": "version",
-    "source_hint": "commands/version.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/version.ts"
-  },
-  {
-    "name": "vim",
-    "source_hint": "commands/vim/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/vim/index.ts"
-  },
-  {
-    "name": "vim",
-    "source_hint": "commands/vim/vim.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/vim/vim.ts"
-  },
-  {
-    "name": "voice",
-    "source_hint": "commands/voice/index.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/voice/index.ts"
-  },
-  {
-    "name": "voice",
-    "source_hint": "commands/voice/voice.ts",
-    "responsibility": "Command module mirrored from archived TypeScript path commands/voice/voice.ts"
-  }
-]
+  {"name": "InitCommand", "responsibility": "Initialize new project workspace", "source_hint": "core/init.ts"},
+  {"name": "ChatCommand", "responsibility": "Start interactive chat session", "source_hint": "core/chat.ts"},
+  {"name": "ReviewCommand", "responsibility": "Review code changes", "source_hint": "core/review.ts"},
+  {"name": "CommitCommand", "responsibility": "Generate commit messages", "source_hint": "core/commit.ts"},
+  {"name": "ExplainCommand", "responsibility": "Explain code or concepts", "source_hint": "core/explain.ts"},
+  {"name": "FixCommand", "responsibility": "Fix code issues", "source_hint": "core/fix.ts"},
+  {"name": "TestCommand", "responsibility": "Generate and run tests", "source_hint": "core/test.ts"},
+  {"name": "DocsCommand", "responsibility": "Generate documentation", "source_hint": "core/docs.ts"},
+  {"name": "RefactorCommand", "responsibility": "Refactor code", "source_hint": "core/refactor.ts"},
+  {"name": "SearchCommand", "responsibility": "Search codebase", "source_hint": "core/search.ts"},
+  {"name": "DebugCommand", "responsibility": "Debug errors", "source_hint": "core/debug.ts"},
+  {"name": "OptimizeCommand", "responsibility": "Optimize performance", "source_hint": "core/optimize.ts"},
+  {"name": "LintCommand", "responsibility": "Run linters", "source_hint": "core/lint.ts"},
+  {"name": "BuildCommand", "responsibility": "Build project", "source_hint": "core/build.ts"},
+  {"name": "DeployCommand", "responsibility": "Deploy application", "source_hint": "core/deploy.ts"},
+  {"name": "AnalyzeCommand", "responsibility": "Analyze code quality", "source_hint": "core/analyze.ts"},
+  {"name": "MigrateCommand", "responsibility": "Migrate code versions", "source_hint": "core/migrate.ts"},
+  {"name": "GenerateCommand", "responsibility": "Generate code from specs", "source_hint": "core/generate.ts"},
+  {"name": "CompareCommand", "responsibility": "Compare files or versions", "source_hint": "core/compare.ts"},
+  {"name": "SummarizeCommand", "responsibility": "Summarize content", "source_hint": "core/summarize.ts"},
+  {"name": "TranslateCommand", "responsibility": "Translate languages", "source_hint": "core/translate.ts"},
+  {"name": "FormatCommand", "responsibility": "Format code", "source_hint": "core/format.ts"},
+  {"name": "CheckCommand", "responsibility": "Check code health", "source_hint": "core/check.ts"},
+  {"name": "InstallCommand", "responsibility": "Install dependencies", "source_hint": "core/install.ts"},
+  {"name": "UpdateCommand", "responsibility": "Update dependencies", "source_hint": "core/update.ts"},
+  {"name": "CleanCommand", "responsibility": "Clean build artifacts", "source_hint": "core/clean.ts"},
+  {"name": "ValidateCommand", "responsibility": "Validate configuration", "source_hint": "core/validate.ts"},
+  {"name": "ExportCommand", "responsibility": "Export data", "source_hint": "core/export.ts"},
+  {"name": "ImportCommand", "responsibility": "Import data", "source_hint": "core/import.ts"},
+  {"name": "SyncCommand", "responsibility": "Sync repositories", "source_hint": "core/sync.ts"},
+  {"name": "BackupCommand", "responsibility": "Create backups", "source_hint": "core/backup.ts"},
+  {"name": "RestoreCommand", "responsibility": "Restore from backup", "source_hint": "core/restore.ts"},
+  {"name": "ConfigCommand", "responsibility": "Manage configuration", "source_hint": "core/config.ts"},
+  {"name": "StatusCommand", "responsibility": "Show system status", "source_hint": "core/status.ts"},
+  {"name": "HistoryCommand", "responsibility": "Show command history", "source_hint": "core/history.ts"},
+  {"name": "HelpCommand", "responsibility": "Show help information", "source_hint": "core/help.ts"},
+  {"name": "VersionCommand", "responsibility": "Show version info", "source_hint": "core/version.ts"},
+  {"name": "ExitCommand", "responsibility": "Exit application", "source_hint": "core/exit.ts"},
+  {"name": "ResetCommand", "responsibility": "Reset session state", "source_hint": "core/reset.ts"},
+  {"name": "SaveCommand", "responsibility": "Save session", "source_hint": "core/save.ts"},
+  {"name": "LoadCommand", "responsibility": "Load session", "source_hint": "core/load.ts"},
+  {"name": "UndoCommand", "responsibility": "Undo last action", "source_hint": "core/undo.ts"},
+  {"name": "RedoCommand", "responsibility": "Redo last action", "source_hint": "core/redo.ts"},
+  {"name": "CancelCommand", "responsibility": "Cancel operation", "source_hint": "core/cancel.ts"},
+  {"name": "ConfirmCommand", "responsibility": "Confirm action", "source_hint": "core/confirm.ts"},
+  {"name": "PromptCommand", "responsibility": "Show prompt", "source_hint": "core/prompt.ts"},
+  {"name": "InputCommand", "responsibility": "Get user input", "source_hint": "core/input.ts"},
+  {"name": "OutputCommand", "responsibility": "Display output", "source_hint": "core/output.ts"},
+  {"name": "ErrorCommand", "responsibility": "Handle errors", "source_hint": "core/error.ts"},
+  {"name": "WarnCommand", "responsibility": "Show warnings", "source_hint": "core/warn.ts"},
+  {"name": "InfoCommand", "responsibility": "Show information", "source_hint": "core/info.ts"},
+  {"name": "LogCommand", "responsibility": "Log messages", "source_hint": "core/log.ts"},
+  {"name": "TraceCommand", "responsibility": "Trace execution", "source_hint": "core/trace.ts"},
+  {"name": "DebugModeCommand", "responsibility": "Toggle debug mode", "source_hint": "core/debug_mode.ts"},
+  {"name": "VerboseCommand", "responsibility": "Toggle verbose mode", "source_hint": "core/verbose.ts"},
+  {"name": "QuietCommand", "responsibility": "Toggle quiet mode", "source_hint": "core/quiet.ts"},
+  {"name": "InteractiveCommand", "responsibility": "Toggle interactive mode", "source_hint": "core/interactive.ts"},
+  {"name": "BatchCommand", "responsibility": "Run batch operations", "source_hint": "core/batch.ts"},
+  {"name": "ParallelCommand", "responsibility": "Run parallel tasks", "source_hint": "core/parallel.ts"},
+  {"name": "SequentialCommand", "responsibility": "Run sequential tasks", "source_hint": "core/sequential.ts"},
+  {"name": "AsyncCommand", "responsibility": "Run async operations", "source_hint": "core/async.ts"},
+  {"name": "SyncWaitCommand", "responsibility": "Wait for sync", "source_hint": "core/sync_wait.ts"},
+  {"name": "TimeoutCommand", "responsibility": "Set timeout", "source_hint": "core/timeout.ts"},
+  {"name": "RetryCommand", "responsibility": "Retry failed operations", "source_hint": "core/retry.ts"},
+  {"name": "FallbackCommand", "responsibility": "Set fallback action", "source_hint": "core/fallback.ts"},
+  {"name": "AbortCommand", "responsibility": "Abort operations", "source_hint": "core/abort.ts"},
+  {"name": "PauseCommand", "responsibility": "Pause execution", "source_hint": "core/pause.ts"},
+  {"name": "ResumeCommand", "responsibility": "Resume execution", "source_hint": "core/resume.ts"},
+  {"name": "StepCommand", "responsibility": "Step through code", "source_hint": "core/step.ts"},
+  {"name": "NextCommand", "responsibility": "Go to next", "source_hint": "core/next.ts"},
+  {"name": "PrevCommand", "responsibility": "Go to previous", "source_hint": "core/prev.ts"},
+  {"name": "FirstCommand", "responsibility": "Go to first", "source_hint": "core/first.ts"},
+  {"name": "LastCommand", "responsibility": "Go to last", "source_hint": "core/last.ts"},
+  {"name": "GotoCommand", "responsibility": "Go to location", "source_hint": "core/goto.ts"},
+  {"name": "FindCommand", "responsibility": "Find in files", "source_hint": "core/find.ts"},
+  {"name": "ReplaceCommand", "responsibility": "Replace text", "source_hint": "core/replace.ts"},
+  {"name": "InsertCommand", "responsibility": "Insert content", "source_hint": "core/insert.ts"},
+  {"name": "DeleteCommand", "responsibility": "Delete content", "source_hint": "core/delete.ts"},
+  {"name": "CopyCommand", "responsibility": "Copy content", "source_hint": "core/copy.ts"},
+  {"name": "PasteCommand", "responsibility": "Paste content", "source_hint": "core/paste.ts"},
+  {"name": "CutCommand", "responsibility": "Cut content", "source_hint": "core/cut.ts"},
+  {"name": "SelectCommand", "responsibility": "Select content", "source_hint": "core/select.ts"},
+  {"name": "SelectAllCommand", "responsibility": "Select all", "source_hint": "core/select_all.ts"},
+  {"name": "DeselectCommand", "responsibility": "Deselect", "source_hint": "core/deselect.ts"},
+  {"name": "ClearCommand", "responsibility": "Clear content", "source_hint": "core/clear.ts"},
+  {"name": "RefreshCommand", "responsibility": "Refresh view", "source_hint": "core/refresh.ts"},
+  {"name": "ReloadCommand", "responsibility": "Reload configuration", "source_hint": "core/reload.ts"},
+  {"name": "RestartCommand", "responsibility": "Restart system", "source_hint": "core/restart.ts"},
+  {"name": "ShutdownCommand", "responsibility": "Shutdown system", "source_hint": "core/shutdown.ts"},
+  {"name": "StartupCommand", "responsibility": "Startup sequence", "source_hint": "core/startup.ts"},
+  {"name": "InitializeCommand", "responsibility": "Initialize system", "source_hint": "core/initialize.ts"},
+  {"name": "FinalizeCommand", "responsibility": "Finalize operations", "source_hint": "core/finalize.ts"},
+  {"name": "CleanupCommand", "responsibility": "Cleanup resources", "source_hint": "core/cleanup.ts"},
+  {"name": "PrepareCommand", "responsibility": "Prepare environment", "source_hint": "core/prepare.ts"},
+  {"name": "SetupCommand", "responsibility": "Setup components", "source_hint": "core/setup.ts"},
+  {"name": "TeardownCommand", "responsibility": "Teardown components", "source_hint": "core/teardown.ts"},
+  {"name": "MountCommand", "responsibility": "Mount resources", "source_hint": "core/mount.ts"},
+  {"name": "UnmountCommand", "responsibility": "Unmount resources", "source_hint": "core/unmount.ts"},
+  {"name": "ConnectCommand", "responsibility": "Connect to service", "source_hint": "core/connect.ts"},
+  {"name": "DisconnectCommand", "responsibility": "Disconnect service", "source_hint": "core/disconnect.ts"},
+  {"name": "SubscribeCommand", "responsibility": "Subscribe to events", "source_hint": "core/subscribe.ts"},
+  {"name": "UnsubscribeCommand", "responsibility": "Unsubscribe events", "source_hint": "core/unsubscribe.ts"},
+  {"name": "PublishCommand", "responsibility": "Publish events", "source_hint": "core/publish.ts"},
+  {"name": "ListenCommand", "responsibility": "Listen for events", "source_hint": "core/listen.ts"},
+  {"name": "EmitCommand", "responsibility": "Emit events", "source_hint": "core/emit.ts"},
+  {"name": "BroadcastCommand", "responsibility": "Broadcast messages", "source_hint": "core/broadcast.ts"},
+  {"name": "SendCommand", "responsibility": "Send messages", "source_hint": "core/send.ts"},
+  {"name": "ReceiveCommand", "responsibility": "Receive messages", "source_hint": "core/receive.ts"},
+  {"name": "RequestCommand", "responsibility": "Make requests", "source_hint": "core/request.ts"},
+  {"name": "ResponseCommand", "responsibility": "Handle responses", "source_hint": "core/response.ts"},
+  {"name": "NotifyCommand", "responsibility": "Send notifications", "source_hint": "core/notify.ts"},
+  {"name": "AlertCommand", "responsibility": "Show alerts", "source_hint": "core/alert.ts"},
+  {"name": "ToastCommand", "responsibility": "Show toast messages", "source_hint": "core/toast.ts"},
+  {"name": "ModalCommand", "responsibility": "Show modal dialogs", "source_hint": "core/modal.ts"},
+  {"name": "PopupCommand", "responsibility": "Show popups", "source_hint": "core/popup.ts"},
+  {"name": "TooltipCommand", "responsibility": "Show tooltips", "source_hint": "core/tooltip.ts"},
+  {"name": "MenuCommand", "responsibility": "Show menus", "source_hint": "core/menu.ts"},
+  {"name": "ToolbarCommand", "responsibility": "Show toolbars", "source_hint": "core/toolbar.ts"},
+  {"name": "SidebarCommand", "responsibility": "Show sidebars", "source_hint": "core/sidebar.ts"},
+  {"name": "PanelCommand", "responsibility": "Show panels", "source_hint": "core/panel.ts"},
+  {"name": "TabCommand", "responsibility": "Manage tabs", "source_hint": "core/tab.ts"},
+  {"name": "WindowCommand", "responsibility": "Manage windows", "source_hint": "core/window.ts"},
+  {"name": "DialogCommand", "responsibility": "Show dialogs", "source_hint": "core/dialog.ts"},
+  {"name": "WizardCommand", "responsibility": "Run wizards", "source_hint": "core/wizard.ts"},
+  {"name": "FormCommand", "responsibility": "Show forms", "source_hint": "core/form.ts"},
+  {"name": "InputDialogCommand", "responsibility": "Show input dialogs", "source_hint": "core/input_dialog.ts"},
+  {"name": "ConfirmDialogCommand", "responsibility": "Show confirm dialogs", "source_hint": "core/confirm_dialog.ts"},
+  {"name": "AlertDialogCommand", "responsibility": "Show alert dialogs", "source_hint": "core/alert_dialog.ts"},
+  {"name": "ProgressDialogCommand", "responsibility": "Show progress dialogs", "source_hint": "core/progress_dialog.ts"},
+  {"name": "FileDialogCommand", "responsibility": "Show file dialogs", "source_hint": "core/file_dialog.ts"},
+  {"name": "ColorDialogCommand", "responsibility": "Show color dialogs", "source_hint": "core/color_dialog.ts"},
+  {"name": "FontDialogCommand", "responsibility": "Show font dialogs", "source_hint": "core/font_dialog.ts"},
+  {"name": "PrintDialogCommand", "responsibility": "Show print dialogs", "source_hint": "core/print_dialog.ts"},
+  {"name": "PageSetupCommand", "responsibility": "Setup page", "source_hint": "core/page_setup.ts"},
+  {"name": "PreviewCommand", "responsibility": "Preview content", "source_hint": "core/preview.ts"},
+  {"name": "PrintCommand", "responsibility": "Print content", "source_hint": "core/print.ts"},
+  {"name": "ExportPDFCommand", "responsibility": "Export to PDF", "source_hint": "core/export_pdf.ts"},
+  {"name": "ExportHTMLCommand", "responsibility": "Export to HTML", "source_hint": "core/export_html.ts"},
+  {"name": "ExportMarkdownCommand", "responsibility": "Export to Markdown", "source_hint": "core/export_markdown.ts"},
+  {"name": "ExportJSONCommand", "responsibility": "Export to JSON", "source_hint": "core/export_json.ts"},
+  {"name": "ExportXMLCommand", "responsibility": "Export to XML", "source_hint": "core/export_xml.ts"},
+  {"name": "ExportCSVCommand", "responsibility": "Export to CSV", "source_hint": "core/export_csv.ts"},
+  {"name": "ImportJSONCommand", "responsibility": "Import from JSON", "source_hint": "core/import_json.ts"},
+  {"name": "ImportXMLCommand", "responsibility": "Import from XML", "source_hint": "core/import_xml.ts"},
+  {"name": "ImportCSVCommand", "responsibility": "Import from CSV", "source_hint": "core/import_csv.ts"},
+  {"name": "ConvertCommand", "responsibility": "Convert formats", "source_hint": "core/convert.ts"},
+  {"name": "EncodeCommand", "responsibility": "Encode data", "source_hint": "core/encode.ts"},
+  {"name": "DecodeCommand", "responsibility": "Decode data", "source_hint": "core/decode.ts"},
+  {"name": "EncryptCommand", "responsibility": "Encrypt data", "source_hint": "core/encrypt.ts"},
+  {"name": "DecryptCommand", "responsibility": "Decrypt data", "source_hint": "core/decrypt.ts"},
+  {"name": "HashCommand", "responsibility": "Generate hash", "source_hint": "core/hash.ts"},
+  {"name": "SignCommand", "responsibility": "Sign data", "source_hint": "core/sign.ts"},
+  {"name": "VerifyCommand", "responsibility": "Verify signature", "source_hint": "core/verify.ts"},
+  {"name": "CompressCommand", "responsibility": "Compress data", "source_hint": "core/compress.ts"},
+  {"name": "DecompressCommand", "responsibility": "Decompress data", "source_hint": "core/decompress.ts"},
+  {"name": "ArchiveCommand", "responsibility": "Create archive", "source_hint": "core/archive.ts"},
+  {"name": "ExtractCommand", "responsibility": "Extract archive", "source_hint": "core/extract.ts"},
+  {"name": "UploadCommand", "responsibility": "Upload files", "source_hint": "core/upload.ts"},
+  {"name": "DownloadCommand", "responsibility": "Download files", "source_hint": "core/download.ts"},
+  {"name": "ShareCommand", "responsibility": "Share content", "source_hint": "core/share.ts"},
+  {"name": "CollaborateCommand", "responsibility": "Collaborate with others", "source_hint": "core/collaborate.ts"},
+  {"name": "CommentCommand", "responsibility": "Add comments", "source_hint": "core/comment.ts"},
+  {"name": "AnnotateCommand", "responsibility": "Add annotations", "source_hint": "core/annotate.ts"},
+  {"name": "BookmarkCommand", "responsibility": "Manage bookmarks", "source_hint": "core/bookmark.ts"},
+  {"name": "TagCommand", "responsibility": "Manage tags", "source_hint": "core/tag.ts"},
+  {"name": "CategorizeCommand", "responsibility": "Categorize items", "source_hint": "core/categorize.ts"},
+  {"name": "OrganizeCommand", "responsibility": "Organize content", "source_hint": "core/organize.ts"},
+  {"name": "SortCommand", "responsibility": "Sort items", "source_hint": "core/sort.ts"},
+  {"name": "FilterCommand", "responsibility": "Filter items", "source_hint": "core/filter.ts"},
+  {"name": "GroupCommand", "responsibility": "Group items", "source_hint": "core/group.ts"},
+  {"name": "MergeCommand", "responsibility": "Merge content", "source_hint": "core/merge.ts"},
+  {"name": "SplitCommand", "responsibility": "Split content", "source_hint": "core/split.ts"},
+  {"name": "JoinCommand", "responsibility": "Join content", "source_hint": "core/join.ts"},
+  {"name": "DiffCommand", "responsibility": "Show differences", "source_hint": "core/diff.ts"},
+  {"name": "PatchCommand", "responsibility": "Apply patches", "source_hint": "core/patch.ts"},
+  {"name": "BranchCommand", "responsibility": "Manage branches", "source_hint": "core/branch.ts"},
+  {"name": "MergeBranchCommand", "responsibility": "Merge branches", "source_hint": "core/merge_branch.ts"},
+  {"name": "RebaseCommand", "responsibility": "Rebase branches", "source_hint": "core/rebase.ts"},
+  {"name": "CherryPickCommand", "responsibility": "Cherry-pick commits", "source_hint": "core/cherry_pick.ts"},
+  {"name": "StashCommand", "responsibility": "Stash changes", "source_hint": "core/stash.ts"},
+  {"name": "PopStashCommand", "responsibility": "Pop stashed changes", "source_hint": "core/pop_stash.ts"},
+  {"name": "StageCommand", "responsibility": "Stage changes", "source_hint": "core/stage.ts"},
+  {"name": "UnstageCommand", "responsibility": "Unstage changes", "source_hint": "core/unstage.ts"},
+  {"name": "CloneCommand", "responsibility": "Clone repository", "source_hint": "core/clone.ts"},
+  {"name": "ForkCommand", "responsibility": "Fork repository", "source_hint": "core/fork.ts"},
+  {"name": "PullCommand", "responsibility": "Pull changes", "source_hint": "core/pull.ts"},
+  {"name": "PushCommand", "responsibility": "Push changes", "source_hint": "core/push.ts"},
+  {"name": "FetchCommand", "responsibility": "Fetch changes", "source_hint": "core/fetch.ts"},
+  {"name": "CheckoutCommand", "responsibility": "Checkout branch/file", "source_hint": "core/checkout.ts"},
+  {"name": "AddCommand", "responsibility": "Add files", "source_hint": "core/add.ts"},
+  {"name": "RemoveCommand", "responsibility": "Remove files", "source_hint": "core/remove.ts"},
+  {"name": "MoveCommand", "responsibility": "Move files", "source_hint": "core/move.ts"},
+  {"name": "RenameCommand", "responsibility": "Rename files", "source_hint": "core/rename.ts"},
+  {"name": "LinkCommand", "responsibility": "Create links", "source_hint": "core/link.ts"},
+  {"name": "UnlinkCommand", "responsibility": "Remove links", "source_hint": "core/unlink.ts"},
+  {"name": "ChmodCommand", "responsibility": "Change permissions", "source_hint": "core/chmod.ts"},
+  {"name": "ChownCommand", "responsibility": "Change ownership", "source_hint": "core/chown.ts"},
+  {"name": "StatCommand", "responsibility": "Show file stats", "source_hint": "core/stat.ts"},
+  {"name": "ListCommand", "responsibility": "List files", "source_hint": "core/list.ts"},
+  {"name": "TreeCommand", "responsibility": "Show directory tree", "source_hint": "core/tree.ts"},
+  {"name": "FindFileCommand", "responsibility": "Find files", "source_hint": "core/find_file.ts"},
+  {"name": "GrepCommand", "responsibility": "Search in files", "source_hint": "core/grep.ts"},
+  {"name": "AwgCommand", "responsibility": "Advanced search", "source_hint": "core/awg.ts"},
+  {"name": "SedCommand", "responsibility": "Stream editor", "source_hint": "core/sed.ts"},
+  {"name": "AwkCommand", "responsibility": "Pattern scanning", "source_hint": "core/awk.ts"},
+  {"name": "XargsCommand", "responsibility": "Build commands", "source_hint": "core/xargs.ts"},
+  {"name": "ParallelExecCommand", "responsibility": "Parallel execution", "source_hint": "core/parallel_exec.ts"},
+  {"name": "ScheduleCommand", "responsibility": "Schedule tasks", "source_hint": "core/schedule.ts"},
+  {"name": "CronCommand", "responsibility": "Manage cron jobs", "source_hint": "core/cron.ts"},
+  {"name": "TimerCommand", "responsibility": "Set timers", "source_hint": "core/timer.ts"},
+  {"name": "AlarmCommand", "responsibility": "Set alarms", "source_hint": "core/alarm.ts"},
+  {"name": "ReminderCommand", "responsibility": "Set reminders", "source_hint": "core/reminder.ts"},
+  {"name": "CalendarCommand", "responsibility": "Manage calendar", "source_hint": "core/calendar.ts"},
+  {"name": "EventCommand", "responsibility": "Manage events", "source_hint": "core/event.ts"},
+  {"name": "TaskCommand", "responsibility": "Manage tasks", "source_hint": "core/task.ts"},
+  {"name": "TodoCommand", "responsibility": "Manage todos", "source_hint": "core/todo.ts"},
+  {"name": "NoteCommand", "responsibility": "Manage notes", "source_hint": "core/note.ts"},
+  {"name": "SnippetCommand", "responsibility": "Manage snippets", "source_hint": "core/snippet.ts"},
+  {"name": "TemplateCommand", "responsibility": "Manage templates", "source_hint": "core/template.ts"},
+  {"name": "MacroCommand", "responsibility": "Manage macros", "source_hint": "core/macro.ts"},
+  {"name": "ShortcutCommand", "responsibility": "Manage shortcuts", "source_hint": "core/shortcut.ts"},
+  {"name": "AliasCommand", "responsibility": "Manage aliases", "source_hint": "core/alias.ts"},
+  {"name": "PluginCommand", "responsibility": "Manage plugins", "source_hint": "plugins/manager.ts"},
+  {"name": "ExtensionCommand", "responsibility": "Manage extensions", "source_hint": "plugins/extension.ts"},
+  {"name": "ThemeCommand", "responsibility": "Manage themes", "source_hint": "ui/theme.ts"},
+  {"name": "LayoutCommand", "responsibility": "Manage layouts", "source_hint": "ui/layout.ts"},
+  {"name": "ViewCommand", "responsibility": "Manage views", "source_hint": "ui/view.ts"},
+  {"name": "PerspectiveCommand", "responsibility": "Manage perspectives", "source_hint": "ui/perspective.ts"},
+  {"name": "WorkspaceCommand", "responsibility": "Manage workspaces", "source_hint": "ui/workspace.ts"},
+  {"name": "ProjectCommand", "responsibility": "Manage projects", "source_hint": "ui/project.ts"},
+  {"name": "SolutionCommand", "responsibility": "Manage solutions", "source_hint": "ui/solution.ts"},
+  {"name": "FolderCommand", "responsibility": "Manage folders", "source_hint": "ui/folder.ts"},
+  {"name": "FileCommand", "responsibility": "Manage files", "source_hint": "ui/file.ts"},
+  {"name": "EditorCommand", "responsibility": "Manage editor", "source_hint": "ui/editor.ts"},
+  {"name": "TerminalCommand", "responsibility": "Manage terminal", "source_hint": "ui/terminal.ts"},
+  {"name": "ConsoleCommand", "responsibility": "Manage console", "source_hint": "ui/console.ts"},
+  {"name": "DebugPanelCommand", "responsibility": "Manage debug panel", "source_hint": "ui/debug_panel.ts"},
+  {"name": "OutputPanelCommand", "responsibility": "Manage output panel", "source_hint": "ui/output_panel.ts"},
+  {"name": "ProblemsPanelCommand", "responsibility": "Manage problems panel", "source_hint": "ui/problems_panel.ts"},
+  {"name": "SearchPanelCommand", "responsibility": "Manage search panel", "source_hint": "ui/search_panel.ts"},
+  {"name": "SourceControlPanelCommand", "responsibility": "Manage source control", "source_hint": "ui/source_control.ts"},
+  {"name": "ExtensionsPanelCommand", "responsibility": "Manage extensions panel", "source_hint": "ui/extensions_panel.ts"},
+  {"name": "SettingsPanelCommand", "responsibility": "Manage settings", "source_hint": "ui/settings.ts"},
+  {"name": "KeybindingsPanelCommand", "responsibility": "Manage keybindings", "source_hint": "ui/keybindings.ts"},
+  {"name": "CommandsPanelCommand", "responsibility": "Show commands panel", "source_hint": "ui/commands_panel.ts"},
+  {"name": "MarketplaceCommand", "responsibility": "Browse marketplace", "source_hint": "ui/marketplace.ts"},
+  {"name": "AccountCommand", "responsibility": "Manage account", "source_hint": "ui/account.ts"},
+  {"name": "ProfileCommand", "responsibility": "Manage profile", "source_hint": "ui/profile.ts"},
+  {"name": "PreferencesCommand", "responsibility": "Manage preferences", "source_hint": "ui/preferences.ts"},
+  {"name": "SettingsCommand", "responsibility": "Manage settings", "source_hint": "ui/settings.ts"},
+  {"name": "ConfigurationCommand", "responsibility": "Manage configuration", "source_hint": "ui/configuration.ts"},
+  {"name": "EnvironmentCommand", "responsibility": "Manage environment", "source_hint": "ui/environment.ts"},
+  {"name": "VariablesCommand", "responsibility": "Manage variables", "source_hint": "ui/variables.ts"},
+  {"name": "SecretsCommand", "responsibility": "Manage secrets", "source_hint": "ui/secrets.ts"},
+  {"name": "CredentialsCommand", "responsibility": "Manage credentials", "source_hint": "ui/credentials.ts"},
+  {"name": "TokensCommand", "responsibility": "Manage tokens", "source_hint": "ui/tokens.ts"},
+  {"name": "KeysCommand", "responsibility": "Manage keys", "source_hint": "ui/keys.ts"},
+  {"name": "CertificatesCommand", "responsibility": "Manage certificates", "source_hint": "ui/certificates.ts"},
+  {"name": "PermissionsCommand", "responsibility": "Manage permissions", "source_hint": "ui/permissions.ts"},
+  {"name": "RolesCommand", "responsibility": "Manage roles", "source_hint": "ui/roles.ts"},
+  {"name": "UsersCommand", "responsibility": "Manage users", "source_hint": "ui/users.ts"},
+  {"name": "GroupsCommand", "responsibility": "Manage groups", "source_hint": "ui/groups.ts"},
+  {"name": "TeamsCommand", "responsibility": "Manage teams", "source_hint": "ui/teams.ts"},
+  {"name": "OrganizationsCommand", "responsibility": "Manage organizations", "source_hint": "ui/organizations.ts"},
+  {"name": "BillingCommand", "responsibility": "Manage billing", "source_hint": "ui/billing.ts"},
+  {"name": "SubscriptionCommand", "responsibility": "Manage subscription", "source_hint": "ui/subscription.ts"},
+  {"name": "PlanCommand", "responsibility": "Manage plans", "source_hint": "ui/plan.ts"},
+  {"name": "UsageCommand", "responsibility": "Show usage stats", "source_hint": "ui/usage.ts"},
+  {"name": "QuotaCommand", "responsibility": "Show quotas", "source_hint": "ui/quota.ts"},
+  {"name": "LimitsCommand", "responsibility": "Show limits", "source_hint": "ui/limits.ts"},
+  {"name": "RateLimitCommand", "responsibility": "Show rate limits", "source_hint": "ui/rate_limit.ts"},
+  {"name": "ThrottleCommand", "responsibility": "Manage throttling", "source_hint": "ui/throttle.ts"},
+  {"name": "CacheCommand", "responsibility": "Manage cache", "source_hint": "ui/cache.ts"},
+  {"name": "StorageCommand", "responsibility": "Manage storage", "source_hint": "ui/storage.ts"},
+  {"name": "DatabaseCommand", "responsibility": "Manage database", "source_hint": "ui/database.ts"},
+  {"name": "IndexCommand", "responsibility": "Manage indexes", "source_hint": "ui/index.ts"},
+  {"name": "QueryPanelCommand", "responsibility": "Show query panel", "source_hint": "ui/query_panel.ts"},
+  {"name": "ResultsPanelCommand", "responsibility": "Show results panel", "source_hint": "ui/results_panel.ts"},
+  {"name": "VisualizationPanelCommand", "responsibility": "Show visualization panel", "source_hint": "ui/visualization.ts"},
+  {"name": "DashboardCommand", "responsibility": "Show dashboard", "source_hint": "ui/dashboard.ts"},
+  {"name": "ReportCommand", "responsibility": "Generate reports", "source_hint": "ui/report.ts"},
+  {"name": "AnalyticsCommand", "responsibility": "Show analytics", "source_hint": "ui/analytics.ts"},
+  {"name": "MetricsCommand", "responsibility": "Show metrics", "source_hint": "ui/metrics.ts"},
+  {"name": "MonitoringCommand", "responsibility": "Monitor system", "source_hint": "ui/monitoring.ts"},
+  {"name": "LoggingCommand", "responsibility": "Manage logging", "source_hint": "ui/logging.ts"},
+  {"name": "TracingCommand", "responsibility": "Manage tracing", "source_hint": "ui/tracing.ts"},
+  {"name": "ProfilingCommand", "responsibility": "Profile performance", "source_hint": "ui/profiling.ts"},
+  {"name": "BenchmarkCommand", "responsibility": "Run benchmarks", "source_hint": "ui/benchmark.ts"},
+  {"name": "TestPanelCommand", "responsibility": "Show test panel", "source_hint": "ui/test_panel.ts"},
+  {"name": "CoveragePanelCommand", "responsibility": "Show coverage panel", "source_hint": "ui/coverage_panel.ts"},
+  {"name": "QualityPanelCommand", "responsibility": "Show quality panel", "source_hint": "ui/quality_panel.ts"},
+  {"name": "SecurityPanelCommand", "responsibility": "Show security panel", "source_hint": "ui/security_panel.ts"},
+  {"name": "CompliancePanelCommand", "responsibility": "Show compliance panel", "source_hint": "ui/compliance_panel.ts"},
+  {"name": "AuditPanelCommand", "responsibility": "Show audit panel", "source_hint": "ui/audit_panel.ts"},
+  {"name": "ActivityPanelCommand", "responsibility": "Show activity panel", "source_hint": "ui/activity_panel.ts"},
+  {"name": "NotificationPanelCommand", "responsibility": "Show notification panel", "source_hint": "ui/notification_panel.ts"},
+  {"name": "ChatPanelCommand", "responsibility": "Show chat panel", "source_hint": "ui/chat_panel.ts"},
+  {"name": "VideoPanelCommand", "responsibility": "Show video panel", "source_hint": "ui/video_panel.ts"},
+  {"name": "AudioPanelCommand", "responsibility": "Show audio panel", "source_hint": "ui/audio_panel.ts"},
+  {"name": "ScreenShareCommand", "responsibility": "Share screen", "source_hint": "ui/screen_share.ts"},
+  {"name": "RecordingCommand", "responsibility": "Record session", "source_hint": "ui/recording.ts"},
+  {"name": "StreamingCommand", "responsibility": "Stream content", "source_hint": "ui/streaming.ts"},
+  {"name": "CastingCommand", "responsibility": "Cast to device", "source_hint": "ui/casting.ts"},
+  {"name": "MirroringCommand", "responsibility": "Mirror display", "source_hint": "ui/mirroring.ts"},
+  {"name": "RemoteCommand", "responsibility": "Remote control", "source_hint": "ui/remote.ts"},
+  {"name": "AccessibilityCommand", "responsibility": "Accessibility features", "source_hint": "ui/accessibility.ts"},
+  {"name": "LocalizationCommand", "responsibility": "Manage localization", "source_hint": "ui/localization.ts"},
+  {"name": "InternationalizationCommand", "responsibility": "Manage i18n", "source_hint": "ui/i18n.ts"},
+  {"name": "TranslationPanelCommand", "responsibility": "Show translation panel", "source_hint": "ui/translation_panel.ts"},
+  {"name": "DictionaryCommand", "responsibility": "Manage dictionary", "source_hint": "ui/dictionary.ts"},
+  {"name": "SpellCheckCommand", "responsibility": "Spell checking", "source_hint": "ui/spell_check.ts"},
+  {"name": "GrammarCheckCommand", "responsibility": "Grammar checking", "source_hint": "ui/grammar_check.ts"},
+  {"name": "StyleCheckCommand", "responsibility": "Style checking", "source_hint": "ui/style_check.ts"},
+  {"name": "ReadabilityCommand", "responsibility": "Check readability", "source_hint": "ui/readability.ts"},
+  {"name": "AccessibilityCheckCommand", "responsibility": "Check accessibility", "source_hint": "ui/accessibility_check.ts"},
+  {"name": "PerformanceCheckCommand", "responsibility": "Check performance", "source_hint": "ui/performance_check.ts"},
+  {"name": "SecurityCheckCommand", "responsibility": "Check security", "source_hint": "ui/security_check.ts"},
+  {"name": "CodeQualityCommand", "responsibility": "Check code quality", "source_hint": "ui/code_quality.ts"},
+  {"name": "BestPracticesCommand", "responsibility": "Check best practices", "source_hint": "ui/best_practices.ts"},
+  {"name": "StandardsCommand", "responsibility": "Check standards", "source_hint": "ui/standards.ts"},
+  {"name": "GuidelinesCommand", "responsibility": "Check guidelines", "source_hint": "ui/guidelines.ts"},
+  {"name": "ConventionsCommand", "responsibility": "Check conventions", "source_hint": "ui/conventions.ts"},
+  {"name": "PatternsCommand", "responsibility": "Check patterns", "source_hint": "ui/patterns.ts"},
+  {"name": "AntiPatternsCommand", "responsibility": "Check anti-patterns", "source_hint": "ui/anti_patterns.ts"},
+  {"name": "SmellsCommand", "responsibility": "Detect code smells", "source_hint": "ui/smells.ts"},
+  {"name": "VulnerabilitiesCommand", "responsibility": "Detect vulnerabilities", "source_hint": "ui/vulnerabilities.ts"},
+  {"name": "BugsCommand", "responsibility": "Detect bugs", "source_hint": "ui/bugs.ts"},
+  {"name": "IssuesCommand", "responsibility": "Detect issues", "source_hint": "ui/issues.ts"},
+  {"name": "WarningsCommand", "responsibility": "Show warnings", "source_hint": "ui/warnings.ts"},
+  {"name": "ErrorsCommand", "responsibility": "Show errors", "source_hint": "ui/errors.ts"},
+  {"name": "DiagnosticsCommand", "responsibility": "Show diagnostics", "source_hint": "ui/diagnostics.ts"},
+  {"name": "SuggestionsCommand", "responsibility": "Show suggestions", "source_hint": "ui/suggestions.ts"},
+  {"name": "RecommendationsCommand", "responsibility": "Show recommendations", "source_hint": "ui/recommendations.ts"},
+  {"name": "TipsCommand", "responsibility": "Show tips", "source_hint": "ui/tips.ts"},
+  {"name": "HintsCommand", "responsibility": "Show hints", "source_hint": "ui/hints.ts"},
+  {"name": "InsightsCommand", "responsibility": "Show insights", "source_hint": "ui/insights.ts"},
+  {"name": "IntelligenceCommand", "responsibility": "Show intelligence", "source_hint": "ui/intelligence.ts"},
+  {"name": "KnowledgeCommand", "responsibility": "Show knowledge", "source_hint": "ui/knowledge.ts"},
+  {"name": "WisdomCommand", "responsibility": "Show wisdom", "source_hint": "ui/wisdom.ts"},
+  {"name": "AdviceCommand", "responsibility": "Show advice", "source_hint": "ui/advice.ts"},
+  {"name": "GuidanceCommand", "responsibility": "Show guidance", "source_hint": "ui/guidance.ts"},
+  {"name": "DirectionCommand", "responsibility": "Show direction", "source_hint": "ui/direction.ts"},
+  {"name": "InstructionCommand", "responsibility": "Show instructions", "source_hint": "ui/instruction.ts"},
+  {"name": "TutorialCommand", "responsibility": "Show tutorials", "source_hint": "ui/tutorial.ts"},
+  {"name": "GuideCommand", "responsibility": "Show guides", "source_hint": "ui/guide.ts"},
+  {"name": "ManualCommand", "responsibility": "Show manuals", "source_hint": "ui/manual.ts"},
+  {"name": "DocumentationCommand", "responsibility": "Show documentation", "source_hint": "ui/documentation.ts"},
+  {"name": "ReferenceCommand", "responsibility": "Show references", "source_hint": "ui/reference.ts"},
+  {"name": "APIReferenceCommand", "responsibility": "Show API reference", "source_hint": "ui/api_reference.ts"},
+  {"name": "ExamplesCommand", "responsibility": "Show examples", "source_hint": "ui/examples.ts"},
+  {"name": "SamplesCommand", "responsibility": "Show samples", "source_hint": "ui/samples.ts"},
+  {"name": "DemosCommand", "responsibility": "Show demos", "source_hint": "ui/demos.ts"},
+  {"name": "ShowcaseCommand", "responsibility": "Show showcases", "source_hint": "ui/showcase.ts"},
+  {"name": "GalleryCommand", "responsibility": "Show galleries", "source_hint": "ui/gallery.ts"},
+  {"name": "PortfolioCommand", "responsibility": "Show portfolios", "source_hint": "ui/portfolio.ts"},
+  {"name": "ResumeCommand", "responsibility": "Show resumes", "source_hint": "ui/resume.ts"},
+  {"name": "CVCommand", "responsibility": "Show CVs", "source_hint": "ui/cv.ts"},
+  {"name": "BioCommand", "responsibility": "Show bios", "source_hint": "ui/bio.ts"},
+  {"name": "AboutCommand", "responsibility": "Show about info", "source_hint": "ui/about.ts"},
+  {"name": "ContactCommand", "responsibility": "Show contact info", "source_hint": "ui/contact.ts"},
+  {"name": "SupportCommand", "responsibility": "Show support info", "source_hint": "ui/support.ts"},
+  {"name": "FeedbackCommand", "responsibility": "Collect feedback", "source_hint": "ui/feedback.ts"},
+  {"name": "SurveyCommand", "responsibility": "Run surveys", "source_hint": "ui/survey.ts"},
+  {"name": "PollCommand", "responsibility": "Run polls", "source_hint": "ui/poll.ts"},
+  {"name": "VoteCommand", "responsibility": "Collect votes", "source_hint": "ui/vote.ts"},
+  {"name": "RateCommand", "responsibility": "Collect ratings", "source_hint": "ui/rate.ts"},
+  {"name": "ReviewPanelCommand", "responsibility": "Show review panel", "source_hint": "ui/review_panel.ts"},
+  {"name": "CommentPanelCommand", "responsibility": "Show comment panel", "source_hint": "ui/comment_panel.ts"},
+  {"name": "DiscussionCommand", "responsibility": "Manage discussions", "source_hint": "ui/discussion.ts"},
+  {"name": "ForumCommand", "responsibility": "Manage forums", "source_hint": "ui/forum.ts"},
+  {"name": "BlogCommand", "responsibility": "Manage blogs", "source_hint": "ui/blog.ts"},
+  {"name": "WikiCommand", "responsibility": "Manage wikis", "source_hint": "ui/wiki.ts"},
+  {"name": "KnowledgeBaseCommand", "responsibility": "Manage knowledge base", "source_hint": "ui/knowledge_base.ts"},
+  {"name": "FAQCommand", "responsibility": "Manage FAQs", "source_hint": "ui/faq.ts"},
+  {"name": "HelpPanelCommand", "responsibility": "Show help panel", "source_hint": "ui/help_panel.ts"},
+  {"name": "GettingStartedCommand", "responsibility": "Show getting started", "source_hint": "ui/getting_started.ts"},
+  {"name": "QuickStartCommand", "responsibility": "Show quick start", "source_hint": "ui/quick_start.ts"},
+  {"name": "OnboardingCommand", "responsibility": "Manage onboarding", "source_hint": "ui/onboarding.ts"},
+  {"name": "TourCommand", "responsibility": "Show tours", "source_hint": "ui/tour.ts"},
+  {"name": "WalkthroughCommand", "responsibility": "Show walkthroughs", "source_hint": "ui/walkthrough.ts"},
+  {"name": "DemoModeCommand", "responsibility": "Toggle demo mode", "source_hint": "ui/demo_mode.ts"},
+  {"name": "PresentationModeCommand", "responsibility": "Toggle presentation mode", "source_hint": "ui/presentation_mode.ts"},
+  {"name": "FocusModeCommand", "responsibility": "Toggle focus mode", "source_hint": "ui/focus_mode.ts"},
+  {"name": "ZenModeCommand", "responsibility": "Toggle zen mode", "source_hint": "ui/zen_mode.ts"},
+  {"name": "DistractionFreeCommand", "responsibility": "Toggle distraction free", "source_hint": "ui/distraction_free.ts"},
+  {"name": "FullscreenCommand", "responsibility": "Toggle fullscreen", "source_hint": "ui/fullscreen.ts"},
+  {"name": "MinimizeCommand", "responsibility": "Minimize window", "source_hint": "ui/minimize.ts"},
+  {"name": "MaximizeCommand", "responsibility": "Maximize window", "source_hint": "ui/maximize.ts"},
+  {"name": "RestoreWindowCommand", "responsibility": "Restore window", "source_hint": "ui/restore_window.ts"},
+  {"name": "CloseWindowCommand", "responsibility": "Close window", "source_hint": "ui/close_window.ts"},
+  {"name": "NewWindowCommand", "responsibility": "Open new window", "source_hint": "ui/new_window.ts"},
+  {"name": "SwitchWindowCommand", "responsibility": "Switch windows", "source_hint": "ui/switch_window.ts"},
+  {"name": "TileWindowsCommand", "responsibility": "Tile windows", "source_hint": "ui/tile_windows.ts"},
+  {"name": "CascadeWindowsCommand", "responsibility": "Cascade windows", "source_hint": "ui/cascade_windows.ts"},
+  {"name": "ArrangeWindowsCommand", "responsibility": "Arrange windows", "source_hint": "ui/arrange_windows.ts"},
+  {"name": "ManageWindowsCommand", "responsibility": "Manage windows", "source_hint": "ui/manage_windows.ts"},
+  {"name": "SplitViewCommand", "responsibility": "Split view", "source_hint": "ui/split_view.ts"},
+  {"name": "MergeViewCommand", "responsibility": "Merge views", "source_hint": "ui/merge_view.ts"},
+  {"name": "SwapViewCommand", "responsibility": "Swap views", "source_hint": "ui/swap_view.ts"},
+  {"name": "RotateViewCommand", "responsibility": "Rotate views", "source_hint": "ui/rotate_view.ts"},
+  {"name": "FlipViewCommand", "responsibility": "Flip views", "source_hint": "ui/flip_view.ts"},
+  {"name": "ZoomInCommand", "responsibility": "Zoom in", "source_hint": "ui/zoom_in.ts"},
+  {"name": "ZoomOutCommand", "responsibility": "Zoom out", "source_hint": "ui/zoom_out.ts"},
+  {"name": "ResetZoomCommand", "responsibility": "Reset zoom", "source_hint": "ui/reset_zoom.ts"},
+  {"name": "FitToWidthCommand", "responsibility": "Fit to width", "source_hint": "ui/fit_to_width.ts"},
+  {"name": "FitToHeightCommand", "responsibility": "Fit to height", "source_hint": "ui/fit_to_height.ts"},
+  {"name": "FitToScreenCommand", "responsibility": "Fit to screen", "source_hint": "ui/fit_to_screen.ts"},
+  {"name": "ActualSizeCommand", "responsibility": "Show actual size", "source_hint": "ui/actual_size.ts"},
+  {"name": "ScaleCommand", "responsibility": "Scale content", "source_hint": "ui/scale.ts"},
+  {"name": "ResizeCommand", "responsibility": "Resize elements", "source_hint": "ui/resize.ts"},
+  {"name": "RotateCommand", "responsibility": "Rotate elements", "source_hint": "ui/rotate.ts"},
+  {"name": "CropCommand", "responsibility": "Crop content", "source_hint": "ui/crop.ts"},
+  {"name": "FlipCommand", "responsibility": "Flip content", "source_hint": "ui/flip.ts"},
+  {"name": "MirrorCommand", "responsibility": "Mirror content", "source_hint": "ui/mirror.ts"},
+  {"name": "InvertCommand", "responsibility": "Invert colors", "source_hint": "ui/invert.ts"},
+  {"name": "GrayscaleCommand", "responsibility": "Convert to grayscale", "source_hint": "ui/grayscale.ts"},
+  {"name": "SepiaCommand", "responsibility": "Convert to sepia", "source_hint": "ui/sepia.ts"},
+  {"name": "BlurCommand", "responsibility": "Apply blur", "source_hint": "ui/blur.ts"},
+  {"name": "SharpenCommand", "responsibility": "Apply sharpen", "source_hint": "ui/sharpen.ts"},
+  {"name": "BrightnessCommand", "responsibility": "Adjust brightness", "source_hint": "ui/brightness.ts"},
+  {"name": "ContrastCommand", "responsibility": "Adjust contrast", "source_hint": "ui/contrast.ts"},
+  {"name": "SaturationCommand", "responsibility": "Adjust saturation", "source_hint": "ui/saturation.ts"},
+  {"name": "HueCommand", "responsibility": "Adjust hue", "source_hint": "ui/hue.ts"},
+  {"name": "OpacityCommand", "responsibility": "Adjust opacity", "source_hint": "ui/opacity.ts"},
+  {"name": "BlendCommand", "responsibility": "Blend modes", "source_hint": "ui/blend.ts"},
+  {"name": "FilterEffectsCommand", "responsibility": "Apply filters", "source_hint": "ui/filter_effects.ts"},
+  {"name": "AnimationCommand", "responsibility": "Manage animations", "source_hint": "ui/animation.ts"},
+  {"name": "TransitionCommand", "responsibility": "Manage transitions", "source_hint": "ui/transition.ts"},
+  {"name": "TransformCommand", "responsibility": "Apply transforms", "source_hint": "ui/transform.ts"},
+  {"name": "PerspectiveTransformCommand", "responsibility": "Apply perspective", "source_hint": "ui/perspective_transform.ts"},
+  {"name": "3DTransformCommand", "responsibility": "Apply 3D transforms", "source_hint": "ui/3d_transform.ts"},
+  {"name": "ShadowCommand", "responsibility": "Apply shadows", "source_hint": "ui/shadow.ts"},
+  {"name": "GlowCommand", "responsibility": "Apply glow", "source_hint": "ui/glow.ts"},
+  {"name": "GradientCommand", "responsibility": "Apply gradients", "source_hint": "ui/gradient.ts"},
+  {"name": "PatternCommand", "responsibility": "Apply patterns", "source_hint": "ui/pattern.ts"},
+  {"name": "TextureCommand", "responsibility": "Apply textures", "source_hint": "ui/texture.ts"},
+  {"name": "BorderCommand", "responsibility": "Apply borders", "source_hint": "ui/border.ts"},
+  {"name": "OutlineCommand", "responsibility": "Apply outlines", "source_hint": "ui/outline.ts"},
+  {"name": "FillCommand", "responsibility": "Apply fill", "source_hint": "ui/fill.ts"},
+  {"name": "StrokeCommand", "responsibility": "Apply stroke", "source_hint": "ui/stroke.ts"},
+  {"name": "MaskCommand", "responsibility": "Apply masks", "source_hint": "ui/mask.ts"},
+  {"name": "ClipCommand", "responsibility": "Apply clipping", "source_hint": "ui/clip.ts"},
+  {"name": "CompositeCommand", "responsibility": "Composite operations", "source_hint": "ui/composite.ts"},
+  {"name": "LayerCommand", "responsibility": "Manage layers", "source_hint": "ui/layer.ts"},
+  {"name": "GroupLayerCommand", "responsibility": "Group layers", "source_hint": "ui/group_layer.ts"},
+  {"name": "MergeLayerCommand", "responsibility": "Merge layers", "source_hint": "ui/merge_layer.ts"},
+  {"name": "LockLayerCommand", "responsibility": "Lock layers", "source_hint": "ui/lock_layer.ts"},
+  {"name": "UnlockLayerCommand", "responsibility": "Unlock layers", "source_hint": "ui/unlock_layer.ts"},
+  {"name": "ShowLayerCommand", "responsibility": "Show layers", "source_hint": "ui/show_layer.ts"},
+  {"name": "HideLayerCommand", "responsibility": "Hide layers", "source_hint": "ui/hide_layer.ts"},
+  {"name": "RenameLayerCommand", "responsibility": "Rename layers", "source_hint": "ui/rename_layer.ts"},
+  {"name": "DuplicateLayerCommand", "responsibility": "Duplicate layers", "source_hint": "ui/duplicate_layer.ts"},
+  {"name": "DeleteLayerCommand", "responsibility": "Delete layers", "source_hint": "ui/delete_layer.ts"},
+  {"name": "MoveLayerCommand", "responsibility": "Move layers", "source_hint": "ui/move_layer.ts"},
+  {"name": "ArrangeLayerCommand", "responsibility": "Arrange layers", "source_hint": "ui/arrange_layer.ts"},
+  {"name": "AlignLayerCommand", "responsibility": "Align layers", "source_hint": "ui/align_layer.ts"},
+  {"name": "DistributeLayerCommand", "responsibility": "Distribute layers", "source_hint": "ui/distribute_layer.ts"},
+  {"name": "TransformLayerCommand", "responsibility": "Transform layers", "source_hint": "ui/transform_layer.ts"},
+  {"name": "StyleLayerCommand", "responsibility": "Style layers", "source_hint": "ui/style_layer.ts"},
+  {"name": "EffectLayerCommand", "responsibility": "Apply layer effects", "source_hint": "ui/effect_layer.ts"},
+  {"name": "AdjustmentLayerCommand", "responsibility": "Adjustment layers", "source_hint": "ui/adjustment_layer.ts"},
+  {"name": "SmartObjectCommand", "responsibility": "Smart objects", "source_hint": "ui/smart_object.ts"},
+  {"name": "SymbolCommand", "responsibility": "Manage symbols", "source_hint": "ui/symbol.ts"},
+  {"name": "ComponentCommand", "responsibility": "Manage components", "source_hint": "ui/component.ts"},
+  {"name": "InstanceCommand", "responsibility": "Manage instances", "source_hint": "ui/instance.ts"},
+  {"name": "VariantCommand", "responsibility": "Manage variants", "source_hint": "ui/variant.ts"},
+  {"name": "PropertyCommand", "responsibility": "Manage properties", "source_hint": "ui/property.ts"},
+  {"name": "AttributeCommand", "responsibility": "Manage attributes", "source_hint": "ui/attribute.ts"},
+  {"name": "StateCommand", "responsibility": "Manage states", "source_hint": "ui/state.ts"},
+  {"name": "EventCommand", "responsibility": "Manage events", "source_hint": "ui/event.ts"},
+  {"name": "ActionCommand", "responsibility": "Manage actions", "source_hint": "ui/action.ts"},
+  {"name": "TriggerCommand", "responsibility": "Manage triggers", "source_hint": "ui/trigger.ts"},
+  {"name": "ConditionCommand", "responsibility": "Manage conditions", "source_hint": "ui/condition.ts"},
+  {"name": "LoopCommand", "responsibility": "Manage loops", "source_hint": "ui/loop.ts"},
+  {"name": "IteratorCommand", "responsibility": "Manage iterators", "source_hint": "ui/iterator.ts"},
+  {"name": "GeneratorCommand", "responsibility": "Manage generators", "source_hint": "ui/generator.ts"},
+  {"name": "CoroutineCommand", "responsibility": "Manage coroutines", "source_hint": "ui/coroutine.ts"},
+  {"name": "PromiseCommand", "responsibility": "Manage promises", "source_hint": "ui/promise.ts"},
+  {"name": "ObservableCommand", "responsibility": "Manage observables", "source_hint": "ui/observable.ts"},
+  {"name": "StreamCommand", "responsibility": "Manage streams", "source_hint": "ui/stream.ts"},
+  {"name": "BufferCommand", "responsibility": "Manage buffers", "source_hint": "ui/buffer.ts"},
+  {"name": "QueueCommand", "responsibility": "Manage queues", "source_hint": "ui/queue.ts"},
+  {"name": "StackCommand", "responsibility": "Manage stacks", "source_hint": "ui/stack.ts"},
+  {"name": "HeapCommand", "responsibility": "Manage heaps", "source_hint": "ui/heap.ts"},
+  {"name": "TreeCommand", "responsibility": "Manage trees", "source_hint": "ui/tree.ts"},
+  {"name": "GraphCommand", "responsibility": "Manage graphs", "source_hint": "ui/graph.ts"},
+  {"name": "MatrixCommand", "responsibility": "Manage matrices", "source_hint": "ui/matrix.ts"},
+  {"name": "VectorCommand", "responsibility": "Manage vectors", "source_hint": "ui/vector.ts"},
+  {"name": "TensorCommand", "responsibility": "Manage tensors", "source_hint": "ui/tensor.ts"},
+  {"name": "NeuralNetworkCommand", "responsibility": "Manage neural networks", "source_hint": "ml/neural_network.ts"},
+  {"name": "ModelCommand", "responsibility": "Manage ML models", "source_hint": "ml/model.ts"},
+  {"name": "DatasetCommand", "responsibility": "Manage datasets", "source_hint": "ml/dataset.ts"},
+  {"name": "TrainingCommand", "responsibility": "Manage training", "source_hint": "ml/training.ts"},
+  {"name": "InferenceCommand", "responsibility": "Run inference", "source_hint": "ml/inference.ts"},
+  {"name": "PredictionCommand", "responsibility": "Make predictions", "source_hint": "ml/prediction.ts"},
+  {"name": "ClassificationCommand", "responsibility": "Classify data", "source_hint": "ml/classification.ts"},
+  {"name": "RegressionCommand", "responsibility": "Run regression", "source_hint": "ml/regression.ts"},
+  {"name": "ClusteringCommand", "responsibility": "Cluster data", "source_hint": "ml/clustering.ts"},
+  {"name": "DimensionalityCommand", "responsibility": "Reduce dimensions", "source_hint": "ml/dimensionality.ts"},
+  {"name": "FeatureCommand", "responsibility": "Extract features", "source_hint": "ml/feature.ts"},
+  {"name": "EmbeddingCommand", "responsibility": "Generate embeddings", "source_hint": "ml/embedding.ts"},
+  {"name": "VectorDBCommand", "responsibility": "Manage vector DB", "source_hint": "ml/vector_db.ts"},
+  {"name": "RAGCommand", "responsibility": "RAG operations", "source_hint": "ml/rag.ts"},
+  {"name": "FineTuneCommand", "responsibility": "Fine-tune models", "source_hint": "ml/fine_tune.ts"},
+  {"name": "PromptEngineeringCommand", "responsibility": "Engineer prompts", "source_hint": "ml/prompt_engineering.ts"},
+  {"name": "ChainCommand", "responsibility": "Build chains", "source_hint": "ml/chain.ts"},
+  {"name": "AgentCommand", "responsibility": "Manage agents", "source_hint": "ml/agent.ts"},
+  {"name": "WorkflowCommand", "responsibility": "Manage workflows", "source_hint": "ml/workflow.ts"},
+  {"name": "PipelineCommand", "responsibility": "Manage pipelines", "source_hint": "ml/pipeline.ts"},
+  {"name": "OrchestrationCommand", "responsibility": "Orchestrate tasks", "source_hint": "ml/orchestration.ts"},
+  {"name": "SchedulingCommand", "responsibility": "Schedule tasks", "source_hint": "ml/scheduling.ts"},
+  {"name": "ResourceCommand", "responsibility": "Manage resources", "source_hint": "ml/resource.ts"},
+  {"name": "AllocationCommand", "responsibility": "Allocate resources", "source_hint": "ml/allocation.ts"},
+  {"name": "ScalingCommand", "responsibility": "Scale systems", "source_hint": "ml/scaling.ts"},
+  {"name": "LoadBalanceCommand", "responsibility": "Load balancing", "source_hint": "ml/load_balance.ts"},
+  {"name": "FailoverCommand", "responsibility": "Handle failover", "source_hint": "ml/failover.ts"},
+  {"name": "RecoveryCommand", "responsibility": "Handle recovery", "source_hint": "ml/recovery.ts"},
+  {"name": "BackupCommand2", "responsibility": "Backup systems", "source_hint": "ml/backup.ts"},
+  {"name": "ReplicationCommand", "responsibility": "Replicate data", "source_hint": "ml/replication.ts"},
+  {"name": "ShardingCommand", "responsibility": "Shard data", "source_hint": "ml/sharding.ts"},
+  {"name": "PartitionCommand", "responsibility": "Partition data", "source_hint": "ml/partition.ts"},
+  {"name": "MigrationCommand2", "responsibility": "Migrate data", "source_hint": "ml/migration.ts"},
+  {"name": "SyncCommand2", "responsibility": "Synchronize data", "source_hint": "ml/sync.ts"},
+  {"name": "ConflictCommand", "responsibility": "Resolve conflicts", "source_hint": "ml/conflict.ts"},
+  {"name": "MergeCommand2", "responsibility": "Merge data", "source_hint": "ml/merge.ts"},
+  {"name": "TransformCommand2", "responsibility": "Transform data", "source_hint": "ml/transform.ts"},
+  {"name": "NormalizeCommand", "responsibility": "Normalize data", "source_hint": "ml/normalize.ts"},
+  {"name": "ValidateCommand2", "responsibility": "Validate data", "source_hint": "ml/validate.ts"},
+  {"name": "SanitizeCommand", "responsibility": "Sanitize data", "source_hint": "ml/sanitize.ts"},
+  {"name": "ParseCommand", "responsibility": "Parse data", "source_hint": "ml/parse.ts"},
+  {"name": "SerializeCommand", "responsibility": "Serialize data", "source_hint": "ml/serialize.ts"},
+  {"name": "DeserializeCommand", "responsibility": "Deserialize data", "source_hint": "ml/deserialize.ts"},
+  {"name": "MarshalCommand", "responsibility": "Marshal data", "source_hint": "ml/marshal.ts"},
+  {"name": "UnmarshalCommand", "responsibility": "Unmarshal data", "source_hint": "ml/unmarshal.ts"},
+  {"name": "PackCommand", "responsibility": "Pack data", "source_hint": "ml/pack.ts"},
+  {"name": "UnpackCommand", "responsibility": "Unpack data", "source_hint": "ml/unpack.ts"},
+  {"name": "WrapCommand", "responsibility": "Wrap data", "source_hint": "ml/wrap.ts"},
+  {"name": "UnwrapCommand", "responsibility": "Unwrap data", "source_hint": "ml/unwrap.ts"},
+  {"name": "BindCommand", "responsibility": "Bind data", "source_hint": "ml/bind.ts"},
+  {"name": "UnbindCommand", "responsibility": "Unbind data", "source_hint": "ml/unbind.ts"},
+  {"name": "AttachCommand", "responsibility": "Attach resources", "source_hint": "ml/attach.ts"},
+  {"name": "DetachCommand", "responsibility": "Detach resources", "source_hint": "ml/detach.ts"},
+  {"name": "RegisterCommand", "responsibility": "Register components", "source_hint": "ml/register.ts"},
+  {"name": "UnregisterCommand", "responsibility": "Unregister components", "source_hint": "ml/unregister.ts"},
+  {"name": "EnableCommand", "responsibility": "Enable features", "source_hint": "ml/enable.ts"},
+  {"name": "DisableCommand", "responsibility": "Disable features", "source_hint": "ml/disable.ts"},
+  {"name": "ToggleCommand", "responsibility": "Toggle features", "source_hint": "ml/toggle.ts"},
+  {"name": "ShowCommand2", "responsibility": "Show elements", "source_hint": "ml/show.ts"},
+  {"name": "HideCommand2", "responsibility": "Hide elements", "source_hint": "ml/hide.ts"},
+  {"name": "EnableFeatureCommand", "responsibility": "Enable features", "source_hint": "ml/enable_feature.ts"},
+  {"name": "DisableFeatureCommand", "responsibility": "Disable features", "source_hint": "ml/disable_feature.ts"},
+  {"name": "ConfigureFeatureCommand", "responsibility": "Configure features", "source_hint": "ml/configure_feature.ts"},
+  {"name": "ResetFeatureCommand", "responsibility": "Reset features", "source_hint": "ml/reset_feature.ts"},
+  {"name": "FeatureFlagsCommand", "responsibility": "Manage feature flags", "source_hint": "ml/feature_flags.ts"},
+  {"name": "ExperimentsCommand", "responsibility": "Manage experiments", "source_hint": "ml/experiments.ts"},
+  {"name": "ABTestCommand", "responsibility": "Run A/B tests", "source_hint": "ml/ab_test.ts"},
+  {"name": "CanaryCommand", "responsibility": "Canary deployments", "source_hint": "ml/canary.ts"},
+  {"name": "BlueGreenCommand", "responsibility": "Blue-green deployments", "source_hint": "ml/blue_green.ts"},
+  {"name": "RolloutCommand", "responsibility": "Manage rollouts", "source_hint": "ml/rollout.ts"},
+  {"name": "RollbackCommand", "responsibility": "Handle rollbacks", "source_hint": "ml/rollback.ts"},
+  {"name": "DeployCommand2", "responsibility": "Deploy applications", "source_hint": "ml/deploy.ts"},
+  {"name": "ReleaseCommand", "responsibility": "Manage releases", "source_hint": "ml/release.ts"},
+  {"name": "VersionCommand2", "responsibility": "Manage versions", "source_hint": "ml/version.ts"},
+  {"name": "TagCommand2", "responsibility": "Manage tags", "source_hint": "ml/tag.ts"},
+  {"name": "BranchCommand2", "responsibility": "Manage branches", "source_hint": "ml/branch.ts"},
+  {"name": "MergeCommand3", "responsibility": "Merge changes", "source_hint": "ml/merge.ts"},
+  {"name": "CherryPickCommand2", "responsibility": "Cherry-pick commits", "source_hint": "ml/cherry_pick.ts"},
+  {"name": "RevertCommand", "responsibility": "Revert changes", "source_hint": "ml/revert.ts"},
+  {"name": "ResetCommand2", "responsibility": "Reset state", "source_hint": "ml/reset.ts"},
+  {"name": "CleanCommand2", "responsibility": "Clean up", "source_hint": "ml/clean.ts"},
+  {"name": "PurgeCommand", "responsibility": "Purge data", "source_hint": "ml/purge.ts"},
+  {"name": "FlushCommand", "responsibility": "Flush caches", "source_hint": "ml/flush.ts"},
+  {"name": "InvalidateCommand", "responsibility": "Invalidate caches", "source_hint": "ml/invalidate.ts"},
+  {"name": "RefreshCommand2", "responsibility": "Refresh data", "source_hint": "ml/refresh.ts"},
+  {"name": "ReloadCommand2", "responsibility": "Reload configuration", "source_hint": "ml/reload.ts"},
+  {"name": "RestartCommand2", "responsibility": "Restart services", "source_hint": "ml/restart.ts"},
+  {"name": "RebuildCommand", "responsibility": "Rebuild components", "source_hint": "ml/rebuild.ts"},
+  {"name": "RegenerateCommand", "responsibility": "Regenerate content", "source_hint": "ml/regenerate.ts"},
+  {"name": "ReindexCommand", "responsibility": "Reindex data", "source_hint": "ml/reindex.ts"},
+  {"name": "ReprocessCommand", "responsibility": "Reprocess data", "source_hint": "ml/reprocess.ts"},
+  {"name": "RecalculateCommand", "responsibility": "Recalculate values", "source_hint": "ml/recalculate.ts"},
+  {"name": "RevalidateCommand", "responsibility": "Revalidate data", "source_hint": "ml/revalidate.ts"},
+  {"name": "ReformatCommand", "responsibility": "Reformat content", "source_hint": "ml/reformat.ts"},
+  {"name": "ReparseCommand", "responsibility": "Reparse content", "source_hint": "ml/reparse.ts"},
+  {"name": "RecompileCommand", "responsibility": "Recompile code", "source_hint": "ml/recompile.ts"},
+  {"name": "RebundleCommand", "responsibility": "Rebundle assets", "source_hint": "ml/rebundle.ts"},
+  {"name": "ReoptimizeCommand", "responsibility": "Reoptimize content", "source_hint": "ml/reoptimize.ts"},
+  {"name": "RecompressCommand", "responsibility": "Recompress data", "source_hint": "ml/recompress.ts"},
+  {"name": "ReencodeCommand", "responsibility": "Reencode data", "source_hint": "ml/reencode.ts"},
+  {"name": "RetranscodeCommand", "responsibility": "Retranscode media", "source_hint": "ml/retranscode.ts"},
+  {"name": "ResampleCommand", "responsibility": "Resample data", "source_hint": "ml/resample.ts"},
+  {"name": "ResizeCommand2", "responsibility": "Resize content", "source_hint": "ml/resize.ts"},
+  {"name": "RescaleCommand", "responsibility": "Rescale content", "source_hint": "ml/rescale.ts"},
+  {"name": "RecropCommand", "responsibility": "Recrop content", "source_hint": "ml/recrop.ts"},
+  {"name": "RetrimCommand", "responsibility": "Retrim content", "source_hint": "ml/retrim.ts"},
+  {"name": "ResliceCommand", "responsibility": "Reslice content", "source_hint": "ml/reslice.ts"},
+  {"name": "RedactCommand", "responsibility": "Redact content", "source_hint": "ml/redact.ts"},
+  {"name": "AnonymizeCommand", "responsibility": "Anonymize data", "source_hint": "ml/anonymize.ts"},
+  {"name": "PseudonymizeCommand", "responsibility": "Pseudonymize data", "source_hint": "ml/pseudonymize.ts"},
+  {"name": "TokenizeCommand", "responsibility": "Tokenize content", "source_hint": "ml/tokenize.ts"},
+  {"name": "StemCommand", "responsibility": "Stem words", "source_hint": "ml/stem.ts"},
+  {"name": "LemmatizeCommand", "responsibility": "Lemmatize words", "source_hint": "ml/lemmatize.ts"},
+  {"name": "SegmentCommand", "responsibility": "Segment content", "source_hint": "ml/segment.ts"},
+  {"name": "ChunkCommand", "responsibility": "Chunk content", "source_hint": "ml/chunk.ts"},
+  {"name": "SplitCommand2", "responsibility": "Split content", "source_hint": "ml/split.ts"},
+  {"name": "JoinCommand2", "responsibility": "Join content", "source_hint": "ml/join.ts"},
+  {"name": "ConcatenateCommand", "responsibility": "Concatenate content", "source_hint": "ml/concatenate.ts"},
+  {"name": "InterleaveCommand", "responsibility": "Interleave content", "source_hint": "ml/interleave.ts"},
+  {"name": "ZipCommand", "responsibility": "Zip content", "source_hint": "ml/zip.ts"},
+  {"name": "UnzipCommand", "responsibility": "Unzip content", "source_hint": "ml/unzip.ts"},
+  {"name": "TransposeCommand", "responsibility": "Transpose data", "source_hint": "ml/transpose.ts"},
+  {"name": "PivotCommand", "responsibility": "Pivot data", "source_hint": "ml/pivot.ts"},
+  {"name": "UnpivotCommand", "responsibility": "Unpivot data", "source_hint": "ml/unpivot.ts"},
+  {"name": "FlattenCommand", "responsibility": "Flatten data", "source_hint": "ml/flatten.ts"},
+  {"name": "NestCommand", "responsibility": "Nest data", "source_hint": "ml/nest.ts"},
+  {"name": "UnnestCommand", "responsibility": "Unnest data", "source_hint": "ml/unnest.ts"},
+  {"name": "ExplodeCommand", "responsibility": "Explode data", "source_hint": "ml/explode.ts"},
+  {"name": "ImplodeCommand", "responsibility": "Implode data", "source_hint": "ml/implode.ts"},
+  {"name": "ExpandCommand", "responsibility": "Expand data", "source_hint": "ml/expand.ts"},
+  {"name": "CollapseCommand", "responsibility": "Collapse data", "source_hint": "ml/collapse.ts"},
+  {"name": "AggregateCommand", "responsibility": "Aggregate data", "source_hint": "ml/aggregate.ts"},
+  {"name": "RollupCommand", "responsibility": "Rollup data", "source_hint": "ml/rollup.ts"},
+  {"name": "CubeCommand", "responsibility": "Cube data", "source_hint": "ml/cube.ts"},
+  {"name": "WindowCommand2", "responsibility": "Window functions", "source_hint": "ml/window.ts"},
+  {"name": "RankCommand", "responsibility": "Rank data", "source_hint": "ml/rank.ts"},
+  {"name": "DenseRankCommand", "responsibility": "Dense rank", "source_hint": "ml/dense_rank.ts"},
+  {"name": "RowNumberCommand", "responsibility": "Row numbers", "source_hint": "ml/row_number.ts"},
+  {"name": "LeadCommand", "responsibility": "Lead function", "source_hint": "ml/lead.ts"},
+  {"name": "LagCommand", "responsibility": "Lag function", "source_hint": "ml/lag.ts"},
+  {"name": "FirstValueCommand", "responsibility": "First value", "source_hint": "ml/first_value.ts"},
+  {"name": "LastValueCommand", "responsibility": "Last value", "source_hint": "ml/last_value.ts"},
+  {"name": "NthValueCommand", "responsibility": "Nth value", "source_hint": "ml/nth_value.ts"},
+  {"name": "CumeDistCommand", "responsibility": "Cumulative distribution", "source_hint": "ml/cume_dist.ts"},
+  {"name": "PercentRankCommand", "responsibility": "Percent rank", "source_hint": "ml/percent_rank.ts"},
+  {"name": "NTileCommand", "responsibility": "NTile function", "source_hint": "ml/ntile.ts"},
+  {"name": "PercentileCommand", "responsibility": "Calculate percentiles", "source_hint": "ml/percentile.ts"},
+  {"name": "QuartileCommand", "responsibility": "Calculate quartiles", "source_hint": "ml/quartile.ts"},
+  {"name": "MedianCommand", "responsibility": "Calculate median", "source_hint": "ml/median.ts"},
+  {"name": "ModeCommand", "responsibility": "Calculate mode", "source_hint": "ml/mode.ts"},
+  {"name": "VarianceCommand", "responsibility": "Calculate variance", "source_hint": "ml/variance.ts"},
+  {"name": "StdDevCommand", "responsibility": "Calculate std dev", "source_hint": "ml/std_dev.ts"},
+  {"name": "CorrelationCommand", "responsibility": "Calculate correlation", "source_hint": "ml/correlation.ts"},
+  {"name": "CovarianceCommand", "responsibility": "Calculate covariance", "source_hint": "ml/covariance.ts"},
+  {"name": "RegressionCommand2", "responsibility": "Run regression", "source_hint": "ml/regression.ts"},
+  {"name": "ANOVACommand", "responsibility": "Run ANOVA", "source_hint": "ml/anova.ts"},
+  {"name": "TTestCommand", "responsibility": "Run t-test", "source_hint": "ml/t_test.ts"},
+  {"name": "ChiSquareCommand", "responsibility": "Run chi-square", "source_hint": "ml/chi_square.ts"},
+  {"name": "FTestCommand", "responsibility": "Run F-test", "source_hint": "ml/f_test.ts"},
+  {"name": "ZTestCommand", "responsibility": "Run Z-test", "source_hint": "ml/z_test.ts"},
+  {"name": "HypothesisTestCommand", "responsibility": "Run hypothesis tests", "source_hint": "ml/hypothesis_test.ts"},
+  {"name": "ConfidenceIntervalCommand", "responsibility": "Calculate confidence intervals", "source_hint": "ml/confidence_interval.ts"},
+  {"name": "PValueCommand", "responsibility": "Calculate p-values", "source_hint": "ml/p_value.ts"},
+  {"name": "EffectSizeCommand", "responsibility": "Calculate effect sizes", "source_hint": "ml/effect_size.ts"},
+  {"name": "PowerAnalysisCommand", "responsibility": "Run power analysis", "source_hint": "ml/power_analysis.ts"},
+  {"name": "SampleSizeCommand", "responsibility": "Calculate sample size", "source_hint": "ml/sample_size.ts"},
+  {"name": "BootstrapCommand", "responsibility": "Bootstrap sampling", "source_hint": "ml/bootstrap.ts"},
+  {"name": "MonteCarloCommand", "responsibility": "Monte Carlo simulation", "source_hint": "ml/monte_carlo.ts"},
+  {"name": "SimulationCommand", "responsibility": "Run simulations", "source_hint": "ml/simulation.ts"},
+  {"name": "ModelingCommand", "responsibility": "Build models", "source_hint": "ml/modeling.ts"},
+  {"name": "ForecastingCommand", "responsibility": "Forecast trends", "source_hint": "ml/forecasting.ts"},
+  {"name": "TrendAnalysisCommand", "responsibility": "Analyze trends", "source_hint": "ml/trend_analysis.ts"},
+  {"name": "SeasonalityCommand", "responsibility": "Detect seasonality", "source_hint": "ml/seasonality.ts"},
+  {"name": "AnomalyDetectionCommand", "responsibility": "Detect anomalies", "source_hint": "ml/anomaly_detection.ts"},
+  {"name": "OutlierDetectionCommand", "responsibility": "Detect outliers", "source_hint": "ml/outlier_detection.ts"},
+  {"name": "ChangePointCommand", "responsibility": "Detect change points", "source_hint": "ml/change_point.ts"},
+  {"name": "BreakoutDetectionCommand", "responsibility": "Detect breakouts", "source_hint": "ml/breakout_detection.ts"},
+  {"name": "PatternRecognitionCommand", "responsibility": "Recognize patterns", "source_hint": "ml/pattern_recognition.ts"},
+  {"name": "SignalProcessingCommand", "responsibility": "Process signals", "source_hint": "ml/signal_processing.ts"},
+  {"name": "NoiseReductionCommand", "responsibility": "Reduce noise", "source_hint": "ml/noise_reduction.ts"},
+  {"name": "SmoothingCommand", "responsibility": "Smooth data", "source_hint": "ml/smoothing.ts"},
+  {"name": "InterpolationCommand", "responsibility": "Interpolate data", "source_hint": "ml/interpolation.ts"},
+  {"name": "ExtrapolationCommand", "responsibility": "Extrapolate data", "source_hint": "ml/extrapolation.ts"},
+  {"name": "CurveFittingCommand", "responsibility": "Fit curves", "source_hint": "ml/curve_fitting.ts"},
+  {"name": "SurfaceFittingCommand", "responsibility": "Fit surfaces", "source_hint": "ml/surface_fitting.ts"},
+  {"name": "OptimizationCommand2", "responsibility": "Optimize functions", "source_hint": "ml/optimization.ts"},
+  {"name": "MinimizationCommand", "responsibility": "Minimize functions", "source_hint": "ml/minimization.ts"},
+  {"name": "MaximizationCommand", "responsibility": "Maximize functions", "source_hint": "ml/maximization.ts"},
+  {"name": "RootFindingCommand", "responsibility": "Find roots", "source_hint": "ml/root_finding.ts"},
+  {"name": "IntegrationCommand", "responsibility": "Numerical integration", "source_hint": "ml/integration.ts"},
+  {"name": "DifferentiationCommand", "responsibility": "Numerical differentiation", "source_hint": "ml/differentiation.ts"},
+  {"name": "DifferentialEquationCommand", "responsibility": "Solve ODEs", "source_hint": "ml/differential_equation.ts"},
+  {"name": "LinearAlgebraCommand", "responsibility": "Linear algebra ops", "source_hint": "ml/linear_algebra.ts"},
+  {"name": "MatrixOperationCommand", "responsibility": "Matrix operations", "source_hint": "ml/matrix_operation.ts"},
+  {"name": "EigenvalueCommand", "responsibility": "Calculate eigenvalues", "source_hint": "ml/eigenvalue.ts"},
+  {"name": "SVDCommand", "responsibility": "SVD decomposition", "source_hint": "ml/svd.ts"},
+  {"name": "LUCommand", "responsibility": "LU decomposition", "source_hint": "ml/lu.ts"},
+  {"name": "QRCommand", "responsibility": "QR decomposition", "source_hint": "ml/qr.ts"},
+  {"name": "CholeskyCommand", "responsibility": "Cholesky decomposition", "source_hint": "ml/cholesky.ts"},
+  {"name": "FourierTransformCommand", "responsibility": "Fourier transform", "source_hint": "ml/fourier_transform.ts"},
+  {"name": "WaveletTransformCommand", "responsibility": "Wavelet transform", "source_hint": "ml/wavelet_transform.ts"},
+  {"name": "LaplaceTransformCommand", "responsibility": "Laplace transform", "source_hint": "ml/laplace_transform.ts"},
+  {"name": "ZTransformCommand", "responsibility": "Z-transform", "source_hint": "ml/z_transform.ts"},
+  {"name": "HilbertTransformCommand", "responsibility": "Hilbert transform", "source_hint": "ml/hilbert_transform.ts"},
+  {"name": "ConvolutionCommand", "responsibility": "Convolution", "source_hint": "ml/convolution.ts"},
+  {"name": "DeconvolutionCommand", "responsibility": "Deconvolution", "source_hint": "ml/deconvolution.ts"},
+  {"name": "CrossCorrelationCommand", "responsibility": "Cross-correlation", "source_hint": "ml/cross_correlation.ts"},
+  {"name": "AutoCorrelationCommand", "responsibility": "Auto-correlation", "source_hint": "ml/auto_correlation.ts"},
+  {"name": "PowerSpectrumCommand", "responsibility": "Power spectrum", "source_hint": "ml/power_spectrum.ts"},
+  {"name": "SpectrogramCommand", "responsibility": "Generate spectrograms", "source_hint": "ml/spectrogram.ts"},
+  {"name": "PeriodogramCommand", "responsibility": "Generate periodograms", "source_hint": "ml/periodogram.ts"},
+  {"name": "WelchCommand", "responsibility": "Welch's method", "source_hint": "ml/welch.ts"},
+  {"name": "BartlettCommand", "responsibility": "Bartlett's method", "source_hint": "ml/bartlett.ts"},
+  {"name": "BlackmanTukeyCommand", "responsibility": "Blackman-Tukey method", "source_hint": "ml/blackman_tukey.ts"},
+  {"name": "YuleWalkerCommand", "responsibility": "Yule-Walker equations", "source_hint": "ml/yule_walker.ts"},
+  {"name": "BurgCommand", "responsibility": "Burg's method", "source_hint": "ml/burg.ts"},
+  {"name": "CovarianceMethodCommand", "responsibility": "Covariance method", "source_hint": "ml/covariance_method.ts"},
+  {"name": "ModifiedCovarianceCommand", "responsibility": "Modified covariance", "source_hint": "ml/modified_covariance.ts"},
+  {"name": "MUSICCommand", "responsibility": "MUSIC algorithm", "source_hint": "ml/music.ts"},
+  {"name": "ESPRITCommand", "responsibility": "ESPRIT algorithm", "source_hint": "ml/esprit.ts"},
+  {"name": "PisarenkoCommand", "responsibility": "Pisarenko's method", "source_hint": "ml/pisarenko.ts"},
+  {"name": "MinNormCommand", "responsibility": "Min-Norm method", "source_hint": "ml/min_norm.ts"},
+  {"name": "RootMUSICCommand", "responsibility": "Root-MUSIC algorithm", "source_hint": "ml/root_music.ts"},
+  {"name": "BeamformingCommand", "responsibility": "Beamforming", "source_hint": "ml/beamforming.ts"},
+  {"name": "DOACommand", "responsibility": "Direction of arrival", "source_hint": "ml/doa.ts"},
+  {"name": "TDOACommand", "responsibility": "Time difference of arrival", "source_hint": "ml/tdoa.ts"},
+  {"name": "RSSICommand", "responsibility": "RSSI processing", "source_hint": "ml/rssi.ts"},
+  {"name": "AOACommand", "responsibility": "Angle of arrival", "source_hint": "ml/aoa.ts"},
+  {"name": "RadarCommand", "responsibility": "Radar processing", "source_hint": "ml/radar.ts"},
+  {"name": "SonarCommand", "responsibility": "Sonar processing", "source_hint": "ml/sonar.ts"},
+  {"name": "LidarCommand", "responsibility": "Lidar processing", "source_hint": "ml/lidar.ts"},
+  {"name": "ImageProcessingCommand", "responsibility": "Process images", "source_hint": "ml/image_processing.ts"},
+  {"name": "VideoProcessingCommand", "responsibility": "Process video", "source_hint": "ml/video_processing.ts"},
+  {"name": "AudioProcessingCommand", "responsibility": "Process audio", "source_hint": "ml/audio_processing.ts"},
+  {"name": "SpeechRecognitionCommand", "responsibility": "Speech recognition", "source_hint": "ml/speech_recognition.ts"},
+  {"name": "TextToSpeechCommand", "responsibility": "Text to speech", "source_hint": "ml/text_to_speech.ts"},
+  {"name": "NaturalLanguageCommand", "responsibility": "NLP processing", "source_hint": "ml/natural_language.ts"},
+  {"name": "SentimentAnalysisCommand", "responsibility": "Sentiment analysis", "source_hint": "ml/sentiment_analysis.ts"},
+  {"name": "EntityExtractionCommand", "responsibility": "Extract entities", "source_hint": "ml/entity_extraction.ts"},
+  {"name": "RelationExtractionCommand", "responsibility": "Extract relations", "source_hint": "ml/relation_extraction.ts"},
+  {"name": "CoreferenceCommand", "responsibility": "Coreference resolution", "source_hint": "ml/coreference.ts"},
+  {"name": "DependencyParseCommand", "responsibility": "Dependency parsing", "source_hint": "ml/dependency_parse.ts"},
+  {"name": "ConstituencyParseCommand", "responsibility": "Constituency parsing", "source_hint": "ml/constituency_parse.ts"},
+  {"name": "SemanticRoleCommand", "responsibility": "Semantic role labeling", "source_hint": "ml/semantic_role.ts"},
+  {"name": "NamedEntityCommand", "responsibility": "Named entity recognition", "source_hint": "ml/named_entity.ts"},
+  {"name": "PartOfSpeechCommand", "responsibility": "Part-of-speech tagging", "source_hint": "ml/part_of_speech.ts"},
+  {"name": "ChunkingCommand", "responsibility": "Text chunking", "source_hint": "ml/chunking.ts"},
+  {"name": "ParsingCommand", "responsibility": "Text parsing", "source_hint": "ml/parsing.ts"},
+  {"name": "TranslationCommand2", "responsibility": "Machine translation", "source_hint": "ml/translation.ts"},
+  {"name": "SummarizationCommand", "responsibility": "Text summarization", "source_hint": "ml/summarization.ts"},
+  {"name": "QuestionAnsweringCommand", "responsibility": "Question answering", "source_hint": "ml/question_answering.ts"},
+  {"name": "DialogueCommand", "responsibility": "Dialogue systems", "source_hint": "ml/dialogue.ts"},
+  {"name": "ChatbotCommand", "responsibility": "Chatbot operations", "source_hint": "ml/chatbot.ts"},
+  {"name": "IntentRecognitionCommand", "responsibility": "Intent recognition", "source_hint": "ml/intent_recognition.ts"},
+  {"name": "SlotFillingCommand", "responsibility": "Slot filling", "source_hint": "ml/slot_filling.ts"},
+  {"name": "ContextManagementCommand", "responsibility": "Manage context", "source_hint": "ml/context_management.ts"},
+  {"name": "StateTrackingCommand", "responsibility": "Track state", "source_hint": "ml/state_tracking.ts"},
+  {"name": "PolicyCommand", "responsibility": "Manage policies", "source_hint": "ml/policy.ts"},
+  {"name": "RewardCommand", "responsibility": "Manage rewards", "source_hint": "ml/reward.ts"},
+  {"name": "ReinforcementLearningCommand", "responsibility": "RL operations", "source_hint": "ml/reinforcement_learning.ts"},
+  {"name": "QlearningCommand", "responsibility": "Q-learning", "source_hint": "ml/qlearning.ts"},
+  {"name": "SARSACommand", "responsibility": "SARSA algorithm", "source_hint": "ml/sarsa.ts"},
+  {"name": "DQNCommand", "responsibility": "Deep Q-Networks", "source_hint": "ml/dqn.ts"},
+  {"name": "A3CCommand", "responsibility": "A3C algorithm", "source_hint": "ml/a3c.ts"},
+  {"name": "PPOCommand", "responsibility": "PPO algorithm", "source_hint": "ml/ppo.ts"},
+  {"name": "TRPOCommand", "responsibility": "TRPO algorithm", "source_hint": "ml/trpo.ts"},
+  {"name": "SACCommand", "responsibility": "SAC algorithm", "source_hint": "ml/sac.ts"},
+  {"name": "TD3Command", "responsibility": "TD3 algorithm", "source_hint": "ml/td3.ts"},
+  {"name": "DDPGCommand", "responsibility": "DDPG algorithm", "source_hint": "ml/ddpg.ts"},
+  {"name": "HERCommand", "responsibility": "Hindsight experience replay", "source_hint": "ml/her.ts"},
+  {"name": "ICMCommand", "responsibility": "Intrinsic curiosity module", "source_hint": "ml/icm.ts"},
+  {"name": "RNDCommand", "responsibility": "Random network distillation", "source_hint": "ml/rnd.ts"},
+  {"name": "ModelBasedRLCommand", "responsibility": "Model-based RL", "source_hint": "ml/model_based_rl.ts"},
+  {"name": "MCTSCommand", "responsibility": "Monte Carlo tree search", "source_hint": "ml/mcts.ts"},
+  {"name": "AlphaZeroCommand", "responsibility": "AlphaZero algorithm", "source_hint": "ml/alpha_zero.ts"},
+  {"name": "MuZeroCommand", "responsibility": "MuZero algorithm", "source_hint": "ml/muzero.ts"},
+  {"name": "DreamerCommand", "responsibility": "Dreamer algorithm", "source_hint": "ml/dreamer.ts"},
+  {"name": "Plan2ExploreCommand", "responsibility": "Plan2Explore algorithm", "source_hint": "ml/plan2explore.ts"},
+  {"name": "CuriosityDrivenCommand", "responsibility": "Curiosity-driven exploration", "source_hint": "ml/curiosity_driven.ts"},
+  {"name": "SelfSupervisedCommand", "responsibility": "Self-supervised learning", "source_hint": "ml/self_supervised.ts"},
+  {"name": "SemiSupervisedCommand", "responsibility": "Semi-supervised learning", "source_hint": "ml/semi_supervised.ts"},
+  {"name": "WeaklySupervisedCommand", "responsibility": "Weakly-supervised learning", "source_hint": "ml/weakly_supervised.ts"},
+  {"name": "UnsupervisedCommand", "responsibility": "Unsupervised learning", "source_hint": "ml/unsupervised.ts"},
+  {"name": "SupervisedCommand", "responsibility": "Supervised learning", "source_hint": "ml/supervised.ts"},
+  {"name": "TransferLearningCommand", "responsibility": "Transfer learning", "source_hint": "ml/transfer_learning.ts"},
+  {"name": "MetaLearningCommand", "responsibility": "Meta-learning", "source_hint": "ml/meta_learning.ts"},
+  {"name": "FewShotCommand", "responsibility": "Few-shot learning", "source_hint": "ml/few_shot.ts"},
+  {"name": "ZeroShotCommand", "responsibility": "Zero-shot learning", "source_hint": "ml/zero_shot.ts"},
+  {"name": "OneShotCommand", "responsibility": "One-shot learning", "source_hint": "ml/one_shot.ts"},
+  {"name": "MultiTaskCommand", "responsibility": "Multi-task learning", "source_hint": "ml/multi_task.ts"},
+  {"name": "MultiModalCommand", "responsibility": "Multi-modal learning", "source_hint": "ml/multi_modal.ts"},
+  {"name": "FederatedLearningCommand", "responsibility": "Federated learning", "source_hint": "ml/federated_learning.ts"},
+  {"name": "DistributedTrainingCommand", "responsibility": "Distributed training", "source_hint": "ml/distributed_training.ts"},
+  {"name": "DataParallelCommand", "responsibility": "Data parallelism", "source_hint": "ml/data_parallel.ts"},
+  {"name": "ModelParallelCommand", "responsibility": "Model parallelism", "source_hint": "ml/model_parallel.ts"},
+  {"name": "PipelineParallelCommand", "responsibility": "Pipeline parallelism", "source_hint": "ml/pipeline_parallel.ts"},
+  {"name": "TensorParallelCommand", "responsibility": "Tensor parallelism", "source_hint": "ml/tensor_parallel.ts"},
+  {"name": "SequenceParallelCommand", "responsibility": "Sequence parallelism", "source_hint": "ml/sequence_parallel.ts"},
+  {"name": "ExpertParallelCommand", "responsibility": "Expert parallelism", "source_hint": "ml/expert_parallel.ts"},
+  {"name": "ZeROCommand", "responsibility": "ZeRO optimization", "source_hint": "ml/zero.ts"},
+  {"name": "OffloadCommand", "responsibility": "Offload to CPU", "source_hint": "ml/offload.ts"},
+  {"name": "ActivationCheckpointCommand", "responsibility": "Activation checkpointing", "source_hint": "ml/activation_checkpoint.ts"},
+  {"name": "GradientAccumulationCommand", "responsibility": "Gradient accumulation", "source_hint": "ml/gradient_accumulation.ts"},
+  {"name": "MixedPrecisionCommand", "responsibility": "Mixed precision training", "source_hint": "ml/mixed_precision.ts"},
+  {"name": "DynamicLossScaleCommand", "responsibility": "Dynamic loss scaling", "source_hint": "ml/dynamic_loss_scale.ts"},
+  {"name": "GradientClippingCommand", "responsibility": "Gradient clipping", "source_hint": "ml/gradient_clipping.ts"},
+  {"name": "WeightDecayCommand", "responsibility": "Weight decay", "source_hint": "ml/weight_decay.ts"},
+  {"name": "LearningRateScheduleCommand", "responsibility": "LR scheduling", "source_hint": "ml/lr_schedule.ts"},
+  {"name": "WarmupCommand", "responsibility": "LR warmup", "source_hint": "ml/warmup.ts"},
+  {"name": "CosineAnnealingCommand", "responsibility": "Cosine annealing", "source_hint": "ml/cosine_annealing.ts"},
+  {"name": "ExponentialDecayCommand", "responsibility": "Exponential decay", "source_hint": "ml/exponential_decay.ts"},
+  {"name": "StepDecayCommand", "responsibility": "Step decay", "source_hint": "ml/step_decay.ts"},
+  {"name": "PlateauDecayCommand", "responsibility": "Plateau decay", "source_hint": "ml/plateau_decay.ts"},
+  {"name": "CyclicLRCommand", "responsibility": "Cyclic learning rate", "source_hint": "ml/cyclic_lr.ts"},
+  {"name": "OneCycleLRCommand", "responsibility": "One-cycle learning rate", "source_hint": "ml/one_cycle_lr.ts"},
+  {"name": "SuperConvergenceCommand", "responsibility": "Super-convergence", "source_hint": "ml/super_convergence.ts"},
+  {"name": "SnapshotEnsembleCommand", "responsibility": "Snapshot ensembles", "source_hint": "ml/snapshot_ensemble.ts"},
+  {"name": "StochasticDepthCommand", "responsibility": "Stochastic depth", "source_hint": "ml/stochastic_depth.ts"},
+  {"name": "DropoutCommand", "responsibility": "Dropout regularization", "source_hint": "ml/dropout.ts"},
+  {"name": "DropConnectCommand", "responsibility": "DropConnect regularization", "source_hint": "ml/drop_connect.ts"},
+  {"name": "LabelSmoothingCommand", "responsibility": "Label smoothing", "source_hint": "ml/label_smoothing.ts"},
+  {"name": "MixupCommand", "responsibility": "Mixup augmentation", "source_hint": "ml/mixup.ts"},
+  {"name": "CutMixCommand", "responsibility": "CutMix augmentation", "source_hint": "ml/cutmix.ts"},
+  {"name": "CutoutCommand", "responsibility": "Cutout augmentation", "source_hint": "ml/cutout.ts"},
+  {"name": "RandAugmentCommand", "responsibility": "RandAugment", "source_hint": "ml/randaugment.ts"},
+  {"name": "AutoAugmentCommand", "responsibility": "AutoAugment", "source_hint": "ml/autoaugment.ts"},
+  {"name": "AugMixCommand", "responsibility": "AugMix augmentation", "source_hint": "ml/augmix.ts"},
+  {"name": "TrivialAugmentCommand", "responsibility": "TrivialAugment", "source_hint": "ml/trivialaugment.ts"},
+  {"name": "FeatureExtractCommand", "responsibility": "Feature extraction", "source_hint": "ml/feature_extract.ts"},
+  {"name": "FineTuneCommand2", "responsibility": "Fine-tuning", "source_hint": "ml/fine_tune.ts"},
+  {"name": "TransferCommand", "responsibility": "Transfer learning", "source_hint": "ml/transfer.ts"},
+  {"name": "DistillCommand", "responsibility": "Knowledge distillation", "source_hint": "ml/distill.ts"},
+  {"name": "PruneCommand", "responsibility": "Model pruning", "source_hint": "ml/prune.ts"},
+  {"name": "QuantizeCommand", "responsibility": "Model quantization", "source_hint": "ml/quantize.ts"},
+  {"name": "CompressCommand2", "responsibility": "Model compression", "source_hint": "ml/compress.ts"},
+  {"name": "OptimizeCommand3", "responsibility": "Model optimization", "source_hint": "ml/optimize.ts"},
+  {"name": "CompileCommand", "responsibility": "Model compilation", "source_hint": "ml/compile.ts"},
+  {"name": "JITCommand", "responsibility": "JIT compilation", "source_hint": "ml/jit.ts"},
+  {"name": "AOTCommand", "responsibility": "AOT compilation", "source_hint": "ml/aot.ts"},
+  {"name": "TraceCommand2", "responsibility": "Model tracing", "source_hint": "ml/trace.ts"},
+  {"name": "ScriptCommand", "responsibility": "Model scripting", "source_hint": "ml/script.ts"},
+  {"name": "ExportCommand2", "responsibility": "Model export", "source_hint": "ml/export.ts"},
+  {"name": "ServeCommand", "responsibility": "Model serving", "source_hint": "ml/serve.ts"},
+  {"name": "BatchInferenceCommand", "responsibility": "Batch inference", "source_hint": "ml/batch_inference.ts"},
+  {"name": "RealTimeInferenceCommand", "responsibility": "Real-time inference", "source_hint": "ml/realtime_inference.ts"},
+  {"name": "StreamingInferenceCommand", "responsibility": "Streaming inference", "source_hint": "ml/streaming_inference.ts"},
+  {"name": "EdgeInferenceCommand", "responsibility": "Edge inference", "source_hint": "ml/edge_inference.ts"},
+  {"name": "MobileInferenceCommand", "responsibility": "Mobile inference", "source_hint": "ml/mobile_inference.ts"},
+  {"name": "WebInferenceCommand", "responsibility": "Web inference", "source_hint": "ml/web_inference.ts"},
+  {"name": "ServerlessInferenceCommand", "responsibility": "Serverless inference", "source_hint": "ml/serverless_inference.ts"},
+  {"name": "ContainerizedInferenceCommand", "responsibility": "Containerized inference", "source_hint": "ml/containerized_inference.ts"},
+  {"name": "KubernetesInferenceCommand", "responsibility": "Kubernetes inference", "source_hint": "ml/kubernetes_inference.ts"},
+  {"name": "AutoScaleCommand", "responsibility": "Auto-scaling", "source_hint": "ml/autoscale.ts"},
+  {"name": "LoadBalancerCommand", "responsibility": "Load balancing", "source_hint": "ml/load_balancer.ts"},
+  {"name": "HealthCheckCommand", "responsibility": "Health checks", "source_hint": "ml/health_check.ts"},
+  {"name": "ReadinessProbeCommand", "responsibility": "Readiness probes", "source_hint": "ml/readiness_probe.ts"},
+  {"name": "LivenessProbeCommand", "responsibility": "Liveness probes", "source_hint": "ml/liveness_probe.ts"},
+  {"name": "StartupProbeCommand", "responsibility": "Startup probes", "source_hint": "ml/startup_probe.ts"},
+  {"name": "MetricsEndpointCommand", "responsibility": "Metrics endpoints", "source_hint": "ml/metrics_endpoint.ts"},
+  {"name": "TracingEndpointCommand", "responsibility": "Tracing endpoints", "source_hint": "ml/tracing_endpoint.ts"},
+  {"name": "LoggingEndpointCommand", "responsibility": "Logging endpoints", "source_hint": "ml/logging_endpoint.ts"},
+  {"name": "ProfilingEndpointCommand", "responsibility": "Profiling endpoints", "source_hint": "ml/profiling_endpoint.ts"},
+  {"name": "DebugEndpointCommand", "responsibility": "Debug endpoints", "source_hint": "ml/debug_endpoint.ts"},
+  {"name": "AdminEndpointCommand", "responsibility": "Admin endpoints", "source_hint": "ml/admin_endpoint.ts"},
+  {"name": "GraphQLCommand", "responsibility": "GraphQL operations", "source_hint": "ml/graphql.ts"},
+  {"name": "RESTCommand", "responsibility": "REST operations", "source_hint": "ml/rest.ts"},
+  {"name": "GRPCCommand", "responsibility": "gRPC operations", "source_hint": "ml/grpc.ts"},
+  {"name": "WebSocketCommand", "responsibility": "WebSocket operations", "source_hint": "ml/websocket.ts"},
+  {"name": "SSECommand", "responsibility": "Server-sent events", "source_hint": "ml/sse.ts"},
+  {"name": "WebhookCommand", "responsibility": "Webhook operations", "source_hint": 

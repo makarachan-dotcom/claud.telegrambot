@@ -1,922 +1,437 @@
 [
-  {
-    "name": "AgentTool",
-    "source_hint": "tools/AgentTool/AgentTool.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/AgentTool.tsx"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/AgentTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/UI.tsx"
-  },
-  {
-    "name": "agentColorManager",
-    "source_hint": "tools/AgentTool/agentColorManager.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/agentColorManager.ts"
-  },
-  {
-    "name": "agentDisplay",
-    "source_hint": "tools/AgentTool/agentDisplay.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/agentDisplay.ts"
-  },
-  {
-    "name": "agentMemory",
-    "source_hint": "tools/AgentTool/agentMemory.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/agentMemory.ts"
-  },
-  {
-    "name": "agentMemorySnapshot",
-    "source_hint": "tools/AgentTool/agentMemorySnapshot.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/agentMemorySnapshot.ts"
-  },
-  {
-    "name": "agentToolUtils",
-    "source_hint": "tools/AgentTool/agentToolUtils.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/agentToolUtils.ts"
-  },
-  {
-    "name": "claudeCodeGuideAgent",
-    "source_hint": "tools/AgentTool/built-in/claudeCodeGuideAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/built-in/claudeCodeGuideAgent.ts"
-  },
-  {
-    "name": "exploreAgent",
-    "source_hint": "tools/AgentTool/built-in/exploreAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/built-in/exploreAgent.ts"
-  },
-  {
-    "name": "generalPurposeAgent",
-    "source_hint": "tools/AgentTool/built-in/generalPurposeAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/built-in/generalPurposeAgent.ts"
-  },
-  {
-    "name": "planAgent",
-    "source_hint": "tools/AgentTool/built-in/planAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/built-in/planAgent.ts"
-  },
-  {
-    "name": "statuslineSetup",
-    "source_hint": "tools/AgentTool/built-in/statuslineSetup.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/built-in/statuslineSetup.ts"
-  },
-  {
-    "name": "verificationAgent",
-    "source_hint": "tools/AgentTool/built-in/verificationAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/built-in/verificationAgent.ts"
-  },
-  {
-    "name": "builtInAgents",
-    "source_hint": "tools/AgentTool/builtInAgents.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/builtInAgents.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/AgentTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/constants.ts"
-  },
-  {
-    "name": "forkSubagent",
-    "source_hint": "tools/AgentTool/forkSubagent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/forkSubagent.ts"
-  },
-  {
-    "name": "loadAgentsDir",
-    "source_hint": "tools/AgentTool/loadAgentsDir.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/loadAgentsDir.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/AgentTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/prompt.ts"
-  },
-  {
-    "name": "resumeAgent",
-    "source_hint": "tools/AgentTool/resumeAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/resumeAgent.ts"
-  },
-  {
-    "name": "runAgent",
-    "source_hint": "tools/AgentTool/runAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AgentTool/runAgent.ts"
-  },
-  {
-    "name": "AskUserQuestionTool",
-    "source_hint": "tools/AskUserQuestionTool/AskUserQuestionTool.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AskUserQuestionTool/AskUserQuestionTool.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/AskUserQuestionTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/AskUserQuestionTool/prompt.ts"
-  },
-  {
-    "name": "BashTool",
-    "source_hint": "tools/BashTool/BashTool.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/BashTool.tsx"
-  },
-  {
-    "name": "BashToolResultMessage",
-    "source_hint": "tools/BashTool/BashToolResultMessage.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/BashToolResultMessage.tsx"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/BashTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/UI.tsx"
-  },
-  {
-    "name": "bashCommandHelpers",
-    "source_hint": "tools/BashTool/bashCommandHelpers.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/bashCommandHelpers.ts"
-  },
-  {
-    "name": "bashPermissions",
-    "source_hint": "tools/BashTool/bashPermissions.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/bashPermissions.ts"
-  },
-  {
-    "name": "bashSecurity",
-    "source_hint": "tools/BashTool/bashSecurity.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/bashSecurity.ts"
-  },
-  {
-    "name": "commandSemantics",
-    "source_hint": "tools/BashTool/commandSemantics.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/commandSemantics.ts"
-  },
-  {
-    "name": "commentLabel",
-    "source_hint": "tools/BashTool/commentLabel.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/commentLabel.ts"
-  },
-  {
-    "name": "destructiveCommandWarning",
-    "source_hint": "tools/BashTool/destructiveCommandWarning.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/destructiveCommandWarning.ts"
-  },
-  {
-    "name": "modeValidation",
-    "source_hint": "tools/BashTool/modeValidation.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/modeValidation.ts"
-  },
-  {
-    "name": "pathValidation",
-    "source_hint": "tools/BashTool/pathValidation.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/pathValidation.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/BashTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/prompt.ts"
-  },
-  {
-    "name": "readOnlyValidation",
-    "source_hint": "tools/BashTool/readOnlyValidation.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/readOnlyValidation.ts"
-  },
-  {
-    "name": "sedEditParser",
-    "source_hint": "tools/BashTool/sedEditParser.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/sedEditParser.ts"
-  },
-  {
-    "name": "sedValidation",
-    "source_hint": "tools/BashTool/sedValidation.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/sedValidation.ts"
-  },
-  {
-    "name": "shouldUseSandbox",
-    "source_hint": "tools/BashTool/shouldUseSandbox.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/shouldUseSandbox.ts"
-  },
-  {
-    "name": "toolName",
-    "source_hint": "tools/BashTool/toolName.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/toolName.ts"
-  },
-  {
-    "name": "utils",
-    "source_hint": "tools/BashTool/utils.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BashTool/utils.ts"
-  },
-  {
-    "name": "BriefTool",
-    "source_hint": "tools/BriefTool/BriefTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BriefTool/BriefTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/BriefTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BriefTool/UI.tsx"
-  },
-  {
-    "name": "attachments",
-    "source_hint": "tools/BriefTool/attachments.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BriefTool/attachments.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/BriefTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BriefTool/prompt.ts"
-  },
-  {
-    "name": "upload",
-    "source_hint": "tools/BriefTool/upload.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/BriefTool/upload.ts"
-  },
-  {
-    "name": "ConfigTool",
-    "source_hint": "tools/ConfigTool/ConfigTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ConfigTool/ConfigTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/ConfigTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ConfigTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/ConfigTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ConfigTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/ConfigTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ConfigTool/prompt.ts"
-  },
-  {
-    "name": "supportedSettings",
-    "source_hint": "tools/ConfigTool/supportedSettings.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ConfigTool/supportedSettings.ts"
-  },
-  {
-    "name": "EnterPlanModeTool",
-    "source_hint": "tools/EnterPlanModeTool/EnterPlanModeTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterPlanModeTool/EnterPlanModeTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/EnterPlanModeTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterPlanModeTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/EnterPlanModeTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterPlanModeTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/EnterPlanModeTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterPlanModeTool/prompt.ts"
-  },
-  {
-    "name": "EnterWorktreeTool",
-    "source_hint": "tools/EnterWorktreeTool/EnterWorktreeTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterWorktreeTool/EnterWorktreeTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/EnterWorktreeTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterWorktreeTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/EnterWorktreeTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterWorktreeTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/EnterWorktreeTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/EnterWorktreeTool/prompt.ts"
-  },
-  {
-    "name": "ExitPlanModeV2Tool",
-    "source_hint": "tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitPlanModeTool/ExitPlanModeV2Tool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/ExitPlanModeTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitPlanModeTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/ExitPlanModeTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitPlanModeTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/ExitPlanModeTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitPlanModeTool/prompt.ts"
-  },
-  {
-    "name": "ExitWorktreeTool",
-    "source_hint": "tools/ExitWorktreeTool/ExitWorktreeTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitWorktreeTool/ExitWorktreeTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/ExitWorktreeTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitWorktreeTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/ExitWorktreeTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitWorktreeTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/ExitWorktreeTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ExitWorktreeTool/prompt.ts"
-  },
-  {
-    "name": "FileEditTool",
-    "source_hint": "tools/FileEditTool/FileEditTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileEditTool/FileEditTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/FileEditTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileEditTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/FileEditTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileEditTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/FileEditTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileEditTool/prompt.ts"
-  },
-  {
-    "name": "types",
-    "source_hint": "tools/FileEditTool/types.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileEditTool/types.ts"
-  },
-  {
-    "name": "utils",
-    "source_hint": "tools/FileEditTool/utils.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileEditTool/utils.ts"
-  },
-  {
-    "name": "FileReadTool",
-    "source_hint": "tools/FileReadTool/FileReadTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileReadTool/FileReadTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/FileReadTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileReadTool/UI.tsx"
-  },
-  {
-    "name": "imageProcessor",
-    "source_hint": "tools/FileReadTool/imageProcessor.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileReadTool/imageProcessor.ts"
-  },
-  {
-    "name": "limits",
-    "source_hint": "tools/FileReadTool/limits.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileReadTool/limits.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/FileReadTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileReadTool/prompt.ts"
-  },
-  {
-    "name": "FileWriteTool",
-    "source_hint": "tools/FileWriteTool/FileWriteTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileWriteTool/FileWriteTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/FileWriteTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileWriteTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/FileWriteTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/FileWriteTool/prompt.ts"
-  },
-  {
-    "name": "GlobTool",
-    "source_hint": "tools/GlobTool/GlobTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/GlobTool/GlobTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/GlobTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/GlobTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/GlobTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/GlobTool/prompt.ts"
-  },
-  {
-    "name": "GrepTool",
-    "source_hint": "tools/GrepTool/GrepTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/GrepTool/GrepTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/GrepTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/GrepTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/GrepTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/GrepTool/prompt.ts"
-  },
-  {
-    "name": "LSPTool",
-    "source_hint": "tools/LSPTool/LSPTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/LSPTool/LSPTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/LSPTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/LSPTool/UI.tsx"
-  },
-  {
-    "name": "formatters",
-    "source_hint": "tools/LSPTool/formatters.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/LSPTool/formatters.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/LSPTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/LSPTool/prompt.ts"
-  },
-  {
-    "name": "schemas",
-    "source_hint": "tools/LSPTool/schemas.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/LSPTool/schemas.ts"
-  },
-  {
-    "name": "symbolContext",
-    "source_hint": "tools/LSPTool/symbolContext.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/LSPTool/symbolContext.ts"
-  },
-  {
-    "name": "ListMcpResourcesTool",
-    "source_hint": "tools/ListMcpResourcesTool/ListMcpResourcesTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ListMcpResourcesTool/ListMcpResourcesTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/ListMcpResourcesTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ListMcpResourcesTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/ListMcpResourcesTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ListMcpResourcesTool/prompt.ts"
-  },
-  {
-    "name": "MCPTool",
-    "source_hint": "tools/MCPTool/MCPTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/MCPTool/MCPTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/MCPTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/MCPTool/UI.tsx"
-  },
-  {
-    "name": "classifyForCollapse",
-    "source_hint": "tools/MCPTool/classifyForCollapse.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/MCPTool/classifyForCollapse.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/MCPTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/MCPTool/prompt.ts"
-  },
-  {
-    "name": "McpAuthTool",
-    "source_hint": "tools/McpAuthTool/McpAuthTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/McpAuthTool/McpAuthTool.ts"
-  },
-  {
-    "name": "NotebookEditTool",
-    "source_hint": "tools/NotebookEditTool/NotebookEditTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/NotebookEditTool/NotebookEditTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/NotebookEditTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/NotebookEditTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/NotebookEditTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/NotebookEditTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/NotebookEditTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/NotebookEditTool/prompt.ts"
-  },
-  {
-    "name": "PowerShellTool",
-    "source_hint": "tools/PowerShellTool/PowerShellTool.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/PowerShellTool.tsx"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/PowerShellTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/UI.tsx"
-  },
-  {
-    "name": "clmTypes",
-    "source_hint": "tools/PowerShellTool/clmTypes.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/clmTypes.ts"
-  },
-  {
-    "name": "commandSemantics",
-    "source_hint": "tools/PowerShellTool/commandSemantics.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/commandSemantics.ts"
-  },
-  {
-    "name": "commonParameters",
-    "source_hint": "tools/PowerShellTool/commonParameters.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/commonParameters.ts"
-  },
-  {
-    "name": "destructiveCommandWarning",
-    "source_hint": "tools/PowerShellTool/destructiveCommandWarning.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/destructiveCommandWarning.ts"
-  },
-  {
-    "name": "gitSafety",
-    "source_hint": "tools/PowerShellTool/gitSafety.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/gitSafety.ts"
-  },
-  {
-    "name": "modeValidation",
-    "source_hint": "tools/PowerShellTool/modeValidation.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/modeValidation.ts"
-  },
-  {
-    "name": "pathValidation",
-    "source_hint": "tools/PowerShellTool/pathValidation.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/pathValidation.ts"
-  },
-  {
-    "name": "powershellPermissions",
-    "source_hint": "tools/PowerShellTool/powershellPermissions.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/powershellPermissions.ts"
-  },
-  {
-    "name": "powershellSecurity",
-    "source_hint": "tools/PowerShellTool/powershellSecurity.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/powershellSecurity.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/PowerShellTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/prompt.ts"
-  },
-  {
-    "name": "readOnlyValidation",
-    "source_hint": "tools/PowerShellTool/readOnlyValidation.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/readOnlyValidation.ts"
-  },
-  {
-    "name": "toolName",
-    "source_hint": "tools/PowerShellTool/toolName.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/PowerShellTool/toolName.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/REPLTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/REPLTool/constants.ts"
-  },
-  {
-    "name": "primitiveTools",
-    "source_hint": "tools/REPLTool/primitiveTools.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/REPLTool/primitiveTools.ts"
-  },
-  {
-    "name": "ReadMcpResourceTool",
-    "source_hint": "tools/ReadMcpResourceTool/ReadMcpResourceTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ReadMcpResourceTool/ReadMcpResourceTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/ReadMcpResourceTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ReadMcpResourceTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/ReadMcpResourceTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ReadMcpResourceTool/prompt.ts"
-  },
-  {
-    "name": "RemoteTriggerTool",
-    "source_hint": "tools/RemoteTriggerTool/RemoteTriggerTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/RemoteTriggerTool/RemoteTriggerTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/RemoteTriggerTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/RemoteTriggerTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/RemoteTriggerTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/RemoteTriggerTool/prompt.ts"
-  },
-  {
-    "name": "CronCreateTool",
-    "source_hint": "tools/ScheduleCronTool/CronCreateTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ScheduleCronTool/CronCreateTool.ts"
-  },
-  {
-    "name": "CronDeleteTool",
-    "source_hint": "tools/ScheduleCronTool/CronDeleteTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ScheduleCronTool/CronDeleteTool.ts"
-  },
-  {
-    "name": "CronListTool",
-    "source_hint": "tools/ScheduleCronTool/CronListTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ScheduleCronTool/CronListTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/ScheduleCronTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ScheduleCronTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/ScheduleCronTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ScheduleCronTool/prompt.ts"
-  },
-  {
-    "name": "SendMessageTool",
-    "source_hint": "tools/SendMessageTool/SendMessageTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SendMessageTool/SendMessageTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/SendMessageTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SendMessageTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/SendMessageTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SendMessageTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/SendMessageTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SendMessageTool/prompt.ts"
-  },
-  {
-    "name": "SkillTool",
-    "source_hint": "tools/SkillTool/SkillTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SkillTool/SkillTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/SkillTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SkillTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/SkillTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SkillTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/SkillTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SkillTool/prompt.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/SleepTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SleepTool/prompt.ts"
-  },
-  {
-    "name": "SyntheticOutputTool",
-    "source_hint": "tools/SyntheticOutputTool/SyntheticOutputTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/SyntheticOutputTool/SyntheticOutputTool.ts"
-  },
-  {
-    "name": "TaskCreateTool",
-    "source_hint": "tools/TaskCreateTool/TaskCreateTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskCreateTool/TaskCreateTool.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TaskCreateTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskCreateTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TaskCreateTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskCreateTool/prompt.ts"
-  },
-  {
-    "name": "TaskGetTool",
-    "source_hint": "tools/TaskGetTool/TaskGetTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskGetTool/TaskGetTool.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TaskGetTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskGetTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TaskGetTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskGetTool/prompt.ts"
-  },
-  {
-    "name": "TaskListTool",
-    "source_hint": "tools/TaskListTool/TaskListTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskListTool/TaskListTool.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TaskListTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskListTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TaskListTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskListTool/prompt.ts"
-  },
-  {
-    "name": "TaskOutputTool",
-    "source_hint": "tools/TaskOutputTool/TaskOutputTool.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskOutputTool/TaskOutputTool.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TaskOutputTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskOutputTool/constants.ts"
-  },
-  {
-    "name": "TaskStopTool",
-    "source_hint": "tools/TaskStopTool/TaskStopTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskStopTool/TaskStopTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/TaskStopTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskStopTool/UI.tsx"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TaskStopTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskStopTool/prompt.ts"
-  },
-  {
-    "name": "TaskUpdateTool",
-    "source_hint": "tools/TaskUpdateTool/TaskUpdateTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskUpdateTool/TaskUpdateTool.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TaskUpdateTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskUpdateTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TaskUpdateTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TaskUpdateTool/prompt.ts"
-  },
-  {
-    "name": "TeamCreateTool",
-    "source_hint": "tools/TeamCreateTool/TeamCreateTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamCreateTool/TeamCreateTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/TeamCreateTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamCreateTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TeamCreateTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamCreateTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TeamCreateTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamCreateTool/prompt.ts"
-  },
-  {
-    "name": "TeamDeleteTool",
-    "source_hint": "tools/TeamDeleteTool/TeamDeleteTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamDeleteTool/TeamDeleteTool.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/TeamDeleteTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamDeleteTool/UI.tsx"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TeamDeleteTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamDeleteTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TeamDeleteTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TeamDeleteTool/prompt.ts"
-  },
-  {
-    "name": "TodoWriteTool",
-    "source_hint": "tools/TodoWriteTool/TodoWriteTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TodoWriteTool/TodoWriteTool.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/TodoWriteTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TodoWriteTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/TodoWriteTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/TodoWriteTool/prompt.ts"
-  },
-  {
-    "name": "ToolSearchTool",
-    "source_hint": "tools/ToolSearchTool/ToolSearchTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ToolSearchTool/ToolSearchTool.ts"
-  },
-  {
-    "name": "constants",
-    "source_hint": "tools/ToolSearchTool/constants.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ToolSearchTool/constants.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/ToolSearchTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/ToolSearchTool/prompt.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/WebFetchTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebFetchTool/UI.tsx"
-  },
-  {
-    "name": "WebFetchTool",
-    "source_hint": "tools/WebFetchTool/WebFetchTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebFetchTool/WebFetchTool.ts"
-  },
-  {
-    "name": "preapproved",
-    "source_hint": "tools/WebFetchTool/preapproved.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebFetchTool/preapproved.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/WebFetchTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebFetchTool/prompt.ts"
-  },
-  {
-    "name": "utils",
-    "source_hint": "tools/WebFetchTool/utils.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebFetchTool/utils.ts"
-  },
-  {
-    "name": "UI",
-    "source_hint": "tools/WebSearchTool/UI.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebSearchTool/UI.tsx"
-  },
-  {
-    "name": "WebSearchTool",
-    "source_hint": "tools/WebSearchTool/WebSearchTool.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebSearchTool/WebSearchTool.ts"
-  },
-  {
-    "name": "prompt",
-    "source_hint": "tools/WebSearchTool/prompt.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/WebSearchTool/prompt.ts"
-  },
-  {
-    "name": "gitOperationTracking",
-    "source_hint": "tools/shared/gitOperationTracking.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/shared/gitOperationTracking.ts"
-  },
-  {
-    "name": "spawnMultiAgent",
-    "source_hint": "tools/shared/spawnMultiAgent.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/shared/spawnMultiAgent.ts"
-  },
-  {
-    "name": "TestingPermissionTool",
-    "source_hint": "tools/testing/TestingPermissionTool.tsx",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/testing/TestingPermissionTool.tsx"
-  },
-  {
-    "name": "utils",
-    "source_hint": "tools/utils.ts",
-    "responsibility": "Tool module mirrored from archived TypeScript path tools/utils.ts"
-  }
+  {"name": "BashTool", "responsibility": "Execute bash commands", "source_hint": "tools/bash.ts"},
+  {"name": "FileReadTool", "responsibility": "Read file contents", "source_hint": "tools/file_read.ts"},
+  {"name": "FileEditTool", "responsibility": "Edit file contents", "source_hint": "tools/file_edit.ts"},
+  {"name": "FileWriteTool", "responsibility": "Write files", "source_hint": "tools/file_write.ts"},
+  {"name": "FileDeleteTool", "responsibility": "Delete files", "source_hint": "tools/file_delete.ts"},
+  {"name": "FileSearchTool", "responsibility": "Search files", "source_hint": "tools/file_search.ts"},
+  {"name": "DirectoryReadTool", "responsibility": "Read directories", "source_hint": "tools/directory_read.ts"},
+  {"name": "DirectoryCreateTool", "responsibility": "Create directories", "source_hint": "tools/directory_create.ts"},
+  {"name": "DirectoryDeleteTool", "responsibility": "Delete directories", "source_hint": "tools/directory_delete.ts"},
+  {"name": "GlobTool", "responsibility": "Glob pattern matching", "source_hint": "tools/glob.ts"},
+  {"name": "GrepTool", "responsibility": "Grep search", "source_hint": "tools/grep.ts"},
+  {"name": "FindTool", "responsibility": "Find files", "source_hint": "tools/find.ts"},
+  {"name": "GitTool", "responsibility": "Git operations", "source_hint": "tools/git.ts"},
+  {"name": "GitStatusTool", "responsibility": "Git status", "source_hint": "tools/git_status.ts"},
+  {"name": "GitLogTool", "responsibility": "Git log", "source_hint": "tools/git_log.ts"},
+  {"name": "GitDiffTool", "responsibility": "Git diff", "source_hint": "tools/git_diff.ts"},
+  {"name": "GitBranchTool", "responsibility": "Git branch operations", "source_hint": "tools/git_branch.ts"},
+  {"name": "GitCommitTool", "responsibility": "Git commit", "source_hint": "tools/git_commit.ts"},
+  {"name": "GitPushTool", "responsibility": "Git push", "source_hint": "tools/git_push.ts"},
+  {"name": "GitPullTool", "responsibility": "Git pull", "source_hint": "tools/git_pull.ts"},
+  {"name": "GitCloneTool", "responsibility": "Git clone", "source_hint": "tools/git_clone.ts"},
+  {"name": "GitCheckoutTool", "responsibility": "Git checkout", "source_hint": "tools/git_checkout.ts"},
+  {"name": "GitMergeTool", "responsibility": "Git merge", "source_hint": "tools/git_merge.ts"},
+  {"name": "GitRebaseTool", "responsibility": "Git rebase", "source_hint": "tools/git_rebase.ts"},
+  {"name": "GitStashTool", "responsibility": "Git stash", "source_hint": "tools/git_stash.ts"},
+  {"name": "GitTagTool", "responsibility": "Git tag", "source_hint": "tools/git_tag.ts"},
+  {"name": "GitRemoteTool", "responsibility": "Git remote", "source_hint": "tools/git_remote.ts"},
+  {"name": "GitConfigTool", "responsibility": "Git config", "source_hint": "tools/git_config.ts"},
+  {"name": "GitIgnoreTool", "responsibility": "Git ignore", "source_hint": "tools/git_ignore.ts"},
+  {"name": "GitAttributesTool", "responsibility": "Git attributes", "source_hint": "tools/git_attributes.ts"},
+  {"name": "GitHooksTool", "responsibility": "Git hooks", "source_hint": "tools/git_hooks.ts"},
+  {"name": "GitSubmodulesTool", "responsibility": "Git submodules", "source_hint": "tools/git_submodules.ts"},
+  {"name": "GitLfsTool", "responsibility": "Git LFS", "source_hint": "tools/git_lfs.ts"},
+  {"name": "GitWorktreeTool", "responsibility": "Git worktree", "source_hint": "tools/git_worktree.ts"},
+  {"name": "GitBisectTool", "responsibility": "Git bisect", "source_hint": "tools/git_bisect.ts"},
+  {"name": "GitCherryPickTool", "responsibility": "Git cherry-pick", "source_hint": "tools/git_cherry_pick.ts"},
+  {"name": "GitRevertTool", "responsibility": "Git revert", "source_hint": "tools/git_revert.ts"},
+  {"name": "GitResetTool", "responsibility": "Git reset", "source_hint": "tools/git_reset.ts"},
+  {"name": "GitCleanTool", "responsibility": "Git clean", "source_hint": "tools/git_clean.ts"},
+  {"name": "GitFetchTool", "responsibility": "Git fetch", "source_hint": "tools/git_fetch.ts"},
+  {"name": "GitShowTool", "responsibility": "Git show", "source_hint": "tools/git_show.ts"},
+  {"name": "GitBlameTool", "responsibility": "Git blame", "source_hint": "tools/git_blame.ts"},
+  {"name": "GitAnnotateTool", "responsibility": "Git annotate", "source_hint": "tools/git_annotate.ts"},
+  {"name": "LSTool", "responsibility": "List directory", "source_hint": "tools/ls.ts"},
+  {"name": "CatTool", "responsibility": "Concatenate files", "source_hint": "tools/cat.ts"},
+  {"name": "HeadTool", "responsibility": "Show head of file", "source_hint": "tools/head.ts"},
+  {"name": "TailTool", "responsibility": "Show tail of file", "source_hint": "tools/tail.ts"},
+  {"name": "WCTool", "responsibility": "Word count", "source_hint": "tools/wc.ts"},
+  {"name": "SortTool", "responsibility": "Sort lines", "source_hint": "tools/sort.ts"},
+  {"name": "UniqTool", "responsibility": "Unique lines", "source_hint": "tools/uniq.ts"},
+  {"name": "CutTool", "responsibility": "Cut fields", "source_hint": "tools/cut.ts"},
+  {"name": "PasteTool", "responsibility": "Paste fields", "source_hint": "tools/paste.ts"},
+  {"name": "JoinTool", "responsibility": "Join files", "source_hint": "tools/join.ts"},
+  {"name": "SplitTool", "responsibility": "Split files", "source_hint": "tools/split.ts"},
+  {"name": "TRTool", "responsibility": "Translate characters", "source_hint": "tools/tr.ts"},
+  {"name": "SedTool", "responsibility": "Stream editor", "source_hint": "tools/sed.ts"},
+  {"name": "AWKTool", "responsibility": "Pattern scanning", "source_hint": "tools/awk.ts"},
+  {"name": "XArgsTool", "responsibility": "Build commands", "source_hint": "tools/xargs.ts"},
+  {"name": "ParallelTool", "responsibility": "Parallel execution", "source_hint": "tools/parallel.ts"},
+  {"name": "TarTool", "responsibility": "Archive operations", "source_hint": "tools/tar.ts"},
+  {"name": "ZipTool", "responsibility": "Zip operations", "source_hint": "tools/zip.ts"},
+  {"name": "UnzipTool", "responsibility": "Unzip operations", "source_hint": "tools/unzip.ts"},
+  {"name": "GzipTool", "responsibility": "Gzip operations", "source_hint": "tools/gzip.ts"},
+  {"name": "GunzipTool", "responsibility": "Gunzip operations", "source_hint": "tools/gunzip.ts"},
+  {"name": "Bzip2Tool", "responsibility": "Bzip2 operations", "source_hint": "tools/bzip2.ts"},
+  {"name": "XzTool", "responsibility": "Xz operations", "source_hint": "tools/xz.ts"},
+  {"name": "7zTool", "responsibility": "7z operations", "source_hint": "tools/7z.ts"},
+  {"name": "RarTool", "responsibility": "Rar operations", "source_hint": "tools/rar.ts"},
+  {"name": "CurlTool", "responsibility": "HTTP requests", "source_hint": "tools/curl.ts"},
+  {"name": "WgetTool", "responsibility": "Download files", "source_hint": "tools/wget.ts"},
+  {"name": "HttpTool", "responsibility": "HTTP operations", "source_hint": "tools/http.ts"},
+  {"name": "HttpGetTool", "responsibility": "HTTP GET", "source_hint": "tools/http_get.ts"},
+  {"name": "HttpPostTool", "responsibility": "HTTP POST", "source_hint": "tools/http_post.ts"},
+  {"name": "HttpPutTool", "responsibility": "HTTP PUT", "source_hint": "tools/http_put.ts"},
+  {"name": "HttpDeleteTool", "responsibility": "HTTP DELETE", "source_hint": "tools/http_delete.ts"},
+  {"name": "HttpPatchTool", "responsibility": "HTTP PATCH", "source_hint": "tools/http_patch.ts"},
+  {"name": "HttpHeadTool", "responsibility": "HTTP HEAD", "source_hint": "tools/http_head.ts"},
+  {"name": "HttpOptionsTool", "responsibility": "HTTP OPTIONS", "source_hint": "tools/http_options.ts"},
+  {"name": "WebSocketTool", "responsibility": "WebSocket operations", "source_hint": "tools/websocket.ts"},
+  {"name": "SSETool", "responsibility": "Server-sent events", "source_hint": "tools/sse.ts"},
+  {"name": "GraphQLTool", "responsibility": "GraphQL operations", "source_hint": "tools/graphql.ts"},
+  {"name": "RESTTool", "responsibility": "REST API operations", "source_hint": "tools/rest.ts"},
+  {"name": "GRPCTool", "responsibility": "gRPC operations", "source_hint": "tools/grpc.ts"},
+  {"name": "JSONTool", "responsibility": "JSON operations", "source_hint": "tools/json.ts"},
+  {"name": "JSONParseTool", "responsibility": "Parse JSON", "source_hint": "tools/json_parse.ts"},
+  {"name": "JSONStringifyTool", "responsibility": "Stringify JSON", "source_hint": "tools/json_stringify.ts"},
+  {"name": "JSONValidateTool", "responsibility": "Validate JSON", "source_hint": "tools/json_validate.ts"},
+  {"name": "JSONFormatTool", "responsibility": "Format JSON", "source_hint": "tools/json_format.ts"},
+  {"name": "JSONMinifyTool", "responsibility": "Minify JSON", "source_hint": "tools/json_minify.ts"},
+  {"name": "XMLTool", "responsibility": "XML operations", "source_hint": "tools/xml.ts"},
+  {"name": "XMLParseTool", "responsibility": "Parse XML", "source_hint": "tools/xml_parse.ts"},
+  {"name": "YAMLTool", "responsibility": "YAML operations", "source_hint": "tools/yaml.ts"},
+  {"name": "YAMLParseTool", "responsibility": "Parse YAML", "source_hint": "tools/yaml_parse.ts"},
+  {"name": "TOMLTool", "responsibility": "TOML operations", "source_hint": "tools/toml.ts"},
+  {"name": "CSVTool", "responsibility": "CSV operations", "source_hint": "tools/csv.ts"},
+  {"name": "TSVTool", "responsibility": "TSV operations", "source_hint": "tools/tsv.ts"},
+  {"name": "MarkdownTool", "responsibility": "Markdown operations", "source_hint": "tools/markdown.ts"},
+  {"name": "HTMLTool", "responsibility": "HTML operations", "source_hint": "tools/html.ts"},
+  {"name": "CSSTool", "responsibility": "CSS operations", "source_hint": "tools/css.ts"},
+  {"name": "JavaScriptTool", "responsibility": "JavaScript operations", "source_hint": "tools/javascript.ts"},
+  {"name": "TypeScriptTool", "responsibility": "TypeScript operations", "source_hint": "tools/typescript.ts"},
+  {"name": "PythonTool", "responsibility": "Python operations", "source_hint": "tools/python.ts"},
+  {"name": "RustTool", "responsibility": "Rust operations", "source_hint": "tools/rust.ts"},
+  {"name": "GoTool", "responsibility": "Go operations", "source_hint": "tools/go.ts"},
+  {"name": "JavaTool", "responsibility": "Java operations", "source_hint": "tools/java.ts"},
+  {"name": "CTool", "responsibility": "C operations", "source_hint": "tools/c.ts"},
+  {"name": "CppTool", "responsibility": "C++ operations", "source_hint": "tools/cpp.ts"},
+  {"name": "CSharpTool", "responsibility": "C# operations", "source_hint": "tools/csharp.ts"},
+  {"name": "RubyTool", "responsibility": "Ruby operations", "source_hint": "tools/ruby.ts"},
+  {"name": "PHPTool", "responsibility": "PHP operations", "source_hint": "tools/php.ts"},
+  {"name": "SwiftTool", "responsibility": "Swift operations", "source_hint": "tools/swift.ts"},
+  {"name": "KotlinTool", "responsibility": "Kotlin operations", "source_hint": "tools/kotlin.ts"},
+  {"name": "ScalaTool", "responsibility": "Scala operations", "source_hint": "tools/scala.ts"},
+  {"name": "RTool", "responsibility": "R operations", "source_hint": "tools/r.ts"},
+  {"name": "JuliaTool", "responsibility": "Julia operations", "source_hint": "tools/julia.ts"},
+  {"name": "MATLABTool", "responsibility": "MATLAB operations", "source_hint": "tools/matlab.ts"},
+  {"name": "ShellTool", "responsibility": "Shell operations", "source_hint": "tools/shell.ts"},
+  {"name": "PowerShellTool", "responsibility": "PowerShell operations", "source_hint": "tools/powershell.ts"},
+  {"name": "BatchTool", "responsibility": "Batch operations", "source_hint": "tools/batch.ts"},
+  {"name": "MakefileTool", "responsibility": "Makefile operations", "source_hint": "tools/makefile.ts"},
+  {"name": "CMakeTool", "responsibility": "CMake operations", "source_hint": "tools/cmake.ts"},
+  {"name": "DockerTool", "responsibility": "Docker operations", "source_hint": "tools/docker.ts"},
+  {"name": "DockerComposeTool", "responsibility": "Docker Compose operations", "source_hint": "tools/docker_compose.ts"},
+  {"name": "DockerfileTool", "responsibility": "Dockerfile operations", "source_hint": "tools/dockerfile.ts"},
+  {"name": "KubernetesTool", "responsibility": "Kubernetes operations", "source_hint": "tools/kubernetes.ts"},
+  {"name": "HelmTool", "responsibility": "Helm operations", "source_hint": "tools/helm.ts"},
+  {"name": "TerraformTool", "responsibility": "Terraform operations", "source_hint": "tools/terraform.ts"},
+  {"name": "AnsibleTool", "responsibility": "Ansible operations", "source_hint": "tools/ansible.ts"},
+  {"name": "PuppetTool", "responsibility": "Puppet operations", "source_hint": "tools/puppet.ts"},
+  {"name": "ChefTool", "responsibility": "Chef operations", "source_hint": "tools/chef.ts"},
+  {"name": "VagrantTool", "responsibility": "Vagrant operations", "source_hint": "tools/vagrant.ts"},
+  {"name": "PackerTool", "responsibility": "Packer operations", "source_hint": "tools/packer.ts"},
+  {"name": "VaultTool", "responsibility": "Vault operations", "source_hint": "tools/vault.ts"},
+  {"name": "ConsulTool", "responsibility": "Consul operations", "source_hint": "tools/consul.ts"},
+  {"name": "NomadTool", "responsibility": "Nomad operations", "source_hint": "tools/nomad.ts"},
+  {"name": "EnvoyTool", "responsibility": "Envoy operations", "source_hint": "tools/envoy.ts"},
+  {"name": "IstioTool", "responsibility": "Istio operations", "source_hint": "tools/istio.ts"},
+  {"name": "LinkerdTool", "responsibility": "Linkerd operations", "source_hint": "tools/linkerd.ts"},
+  {"name": "PrometheusTool", "responsibility": "Prometheus operations", "source_hint": "tools/prometheus.ts"},
+  {"name": "GrafanaTool", "responsibility": "Grafana operations", "source_hint": "tools/grafana.ts"},
+  {"name": "JaegerTool", "responsibility": "Jaeger operations", "source_hint": "tools/jaeger.ts"},
+  {"name": "ZipkinTool", "responsibility": "Zipkin operations", "source_hint": "tools/zipkin.ts"},
+  {"name": "ELKTool", "responsibility": "ELK stack operations", "source_hint": "tools/elk.ts"},
+  {"name": "SplunkTool", "responsibility": "Splunk operations", "source_hint": "tools/splunk.ts"},
+  {"name": "DatadogTool", "responsibility": "Datadog operations", "source_hint": "tools/datadog.ts"},
+  {"name": "NewRelicTool", "responsibility": "New Relic operations", "source_hint": "tools/newrelic.ts"},
+  {"name": "CloudWatchTool", "responsibility": "CloudWatch operations", "source_hint": "tools/cloudwatch.ts"},
+  {"name": "StackDriverTool", "responsibility": "StackDriver operations", "source_hint": "tools/stackdriver.ts"},
+  {"name": "AzureMonitorTool", "responsibility": "Azure Monitor operations", "source_hint": "tools/azure_monitor.ts"},
+  {"name": "AWSTool", "responsibility": "AWS operations", "source_hint": "tools/aws.ts"},
+  {"name": "GCPTool", "responsibility": "GCP operations", "source_hint": "tools/gcp.ts"},
+  {"name": "AzureTool", "responsibility": "Azure operations", "source_hint": "tools/azure.ts"},
+  {"name": "AWSS3Tool", "responsibility": "AWS S3 operations", "source_hint": "tools/aws_s3.ts"},
+  {"name": "AWSEC2Tool", "responsibility": "AWS EC2 operations", "source_hint": "tools/aws_ec2.ts"},
+  {"name": "AWSLambdaTool", "responsibility": "AWS Lambda operations", "source_hint": "tools/aws_lambda.ts"},
+  {"name": "AWSDynamoDBTool", "responsibility": "AWS DynamoDB operations", "source_hint": "tools/aws_dynamodb.ts"},
+  {"name": "AWSRDSTool", "responsibility": "AWS RDS operations", "source_hint": "tools/aws_rds.ts"},
+  {"name": "AWSSNSTool", "responsibility": "AWS SNS operations", "source_hint": "tools/aws_sns.ts"},
+  {"name": "AWSSQSTool", "responsibility": "AWS SQS operations", "source_hint": "tools/aws_sqs.ts"},
+  {"name": "AWSEBSTool", "responsibility": "AWS EBS operations", "source_hint": "tools/aws_ebs.ts"},
+  {"name": "GCPStorageTool", "responsibility": "GCP Storage operations", "source_hint": "tools/gcp_storage.ts"},
+  {"name": "GCPComputeTool", "responsibility": "GCP Compute operations", "source_hint": "tools/gcp_compute.ts"},
+  {"name": "GCPCloudFunctionsTool", "responsibility": "GCP Cloud Functions operations", "source_hint": "tools/gcp_cloud_functions.ts"},
+  {"name": "GCPFirestoreTool", "responsibility": "GCP Firestore operations", "source_hint": "tools/gcp_firestore.ts"},
+  {"name": "AzureStorageTool", "responsibility": "Azure Storage operations", "source_hint": "tools/azure_storage.ts"},
+  {"name": "AzureVMTool", "responsibility": "Azure VM operations", "source_hint": "tools/azure_vm.ts"},
+  {"name": "AzureFunctionsTool", "responsibility": "Azure Functions operations", "source_hint": "tools/azure_functions.ts"},
+  {"name": "AzureCosmosDBTool", "responsibility": "Azure CosmosDB operations", "source_hint": "tools/azure_cosmosdb.ts"},
+  {"name": "MongoDBTool", "responsibility": "MongoDB operations", "source_hint": "tools/mongodb.ts"},
+  {"name": "PostgreSQLTool", "responsibility": "PostgreSQL operations", "source_hint": "tools/postgresql.ts"},
+  {"name": "MySQLTool", "responsibility": "MySQL operations", "source_hint": "tools/mysql.ts"},
+  {"name": "SQLiteTool", "responsibility": "SQLite operations", "source_hint": "tools/sqlite.ts"},
+  {"name": "RedisTool", "responsibility": "Redis operations", "source_hint": "tools/redis.ts"},
+  {"name": "ElasticsearchTool", "responsibility": "Elasticsearch operations", "source_hint": "tools/elasticsearch.ts"},
+  {"name": "CassandraTool", "responsibility": "Cassandra operations", "source_hint": "tools/cassandra.ts"},
+  {"name": "CouchbaseTool", "responsibility": "Couchbase operations", "source_hint": "tools/couchbase.ts"},
+  {"name": "Neo4jTool", "responsibility": "Neo4j operations", "source_hint": "tools/neo4j.ts"},
+  {"name": "InfluxDBTool", "responsibility": "InfluxDB operations", "source_hint": "tools/influxdb.ts"},
+  {"name": "TimescaleDBTool", "responsibility": "TimescaleDB operations", "source_hint": "tools/timescaledb.ts"},
+  {"name": "CockroachDBTool", "responsibility": "CockroachDB operations", "source_hint": "tools/cockroachdb.ts"},
+  {"name": "ClickHouseTool", "responsibility": "ClickHouse operations", "source_hint": "tools/clickhouse.ts"},
+  {"name": "BigQueryTool", "responsibility": "BigQuery operations", "source_hint": "tools/bigquery.ts"},
+  {"name": "SnowflakeTool", "responsibility": "Snowflake operations", "source_hint": "tools/snowflake.ts"},
+  {"name": "DatabricksTool", "responsibility": "Databricks operations", "source_hint": "tools/databricks.ts"},
+  {"name": "SparkTool", "responsibility": "Spark operations", "source_hint": "tools/spark.ts"},
+  {"name": "HadoopTool", "responsibility": "Hadoop operations", "source_hint": "tools/hadoop.ts"},
+  {"name": "KafkaTool", "responsibility": "Kafka operations", "source_hint": "tools/kafka.ts"},
+  {"name": "RabbitMQTool", "responsibility": "RabbitMQ operations", "source_hint": "tools/rabbitmq.ts"},
+  {"name": "ActiveMQTool", "responsibility": "ActiveMQ operations", "source_hint": "tools/activemq.ts"},
+  {"name": "NatsTool", "responsibility": "NATS operations", "source_hint": "tools/nats.ts"},
+  {"name": "PulsarTool", "responsibility": "Pulsar operations", "source_hint": "tools/pulsar.ts"},
+  {"name": "KinesisTool", "responsibility": "Kinesis operations", "source_hint": "tools/kinesis.ts"},
+  {"name": "PubSubTool", "responsibility": "Pub/Sub operations", "source_hint": "tools/pubsub.ts"},
+  {"name": "EventBridgeTool", "responsibility": "EventBridge operations", "source_hint": "tools/eventbridge.ts"},
+  {"name": "StepFunctionsTool", "responsibility": "Step Functions operations", "source_hint": "tools/step_functions.ts"},
+  {"name": "AirflowTool", "responsibility": "Airflow operations", "source_hint": "tools/airflow.ts"},
+  {"name": "PrefectTool", "responsibility": "Prefect operations", "source_hint": "tools/prefect.ts"},
+  {"name": "DagsterTool", "responsibility": "Dagster operations", "source_hint": "tools/dagster.ts"},
+  {"name": "LuigiTool", "responsibility": "Luigi operations", "source_hint": "tools/luigi.ts"},
+  {"name": "ArgoTool", "responsibility": "Argo operations", "source_hint": "tools/argo.ts"},
+  {"name": "JenkinsTool", "responsibility": "Jenkins operations", "source_hint": "tools/jenkins.ts"},
+  {"name": "GitLabCITool", "responsibility": "GitLab CI operations", "source_hint": "tools/gitlab_ci.ts"},
+  {"name": "GitHubActionsTool", "responsibility": "GitHub Actions operations", "source_hint": "tools/github_actions.ts"},
+  {"name": "CircleCITool", "responsibility": "CircleCI operations", "source_hint": "tools/circleci.ts"},
+  {"name": "TravisCITool", "responsibility": "Travis CI operations", "source_hint": "tools/travis_ci.ts"},
+  {"name": "TeamCityTool", "responsibility": "TeamCity operations", "source_hint": "tools/teamcity.ts"},
+  {"name": "BambooTool", "responsibility": "Bamboo operations", "source_hint": "tools/bamboo.ts"},
+  {"name": "CodeBuildTool", "responsibility": "CodeBuild operations", "source_hint": "tools/codebuild.ts"},
+  {"name": "CodePipelineTool", "responsibility": "CodePipeline operations", "source_hint": "tools/codepipeline.ts"},
+  {"name": "AzureDevOpsTool", "responsibility": "Azure DevOps operations", "source_hint": "tools/azure_devops.ts"},
+  {"name": "SnykTool", "responsibility": "Snyk operations", "source_hint": "tools/snyk.ts"},
+  {"name": "SonarQubeTool", "responsibility": "SonarQube operations", "source_hint": "tools/sonarqube.ts"},
+  {"name": "CodeClimateTool", "responsibility": "CodeClimate operations", "source_hint": "tools/codeclimate.ts"},
+  {"name": "CoverallsTool", "responsibility": "Coveralls operations", "source_hint": "tools/coveralls.ts"},
+  {"name": "CodecovTool", "responsibility": "Codecov operations", "source_hint": "tools/codecov.ts"},
+  {"name": "FOSSATool", "responsibility": "FOSSA operations", "source_hint": "tools/fossa.ts"},
+  {"name": "BlackDuckTool", "responsibility": "Black Duck operations", "source_hint": "tools/blackduck.ts"},
+  {"name": "VeracodeTool", "responsibility": "Veracode operations", "source_hint": "tools/veracode.ts"},
+  {"name": "CheckmarxTool", "responsibility": "Checkmarx operations", "source_hint": "tools/checkmarx.ts"},
+  {"name": "WhiteSourceTool", "responsibility": "WhiteSource operations", "source_hint": "tools/whitesource.ts"},
+  {"name": "DependabotTool", "responsibility": "Dependabot operations", "source_hint": "tools/dependabot.ts"},
+  {"name": "RenovateTool", "responsibility": "Renovate operations", "source_hint": "tools/renovate.ts"},
+  {"name": "SentryTool", "responsibility": "Sentry operations", "source_hint": "tools/sentry.ts"},
+  {"name": "RollbarTool", "responsibility": "Rollbar operations", "source_hint": "tools/rollbar.ts"},
+  {"name": "BugsnagTool", "responsibility": "Bugsnag operations", "source_hint": "tools/bugsnag.ts"},
+  {"name": "AirbrakeTool", "responsibility": "Airbrake operations", "source_hint": "tools/airbrake.ts"},
+  {"name": "LogRocketTool", "responsibility": "LogRocket operations", "source_hint": "tools/logrocket.ts"},
+  {"name": "FullStoryTool", "responsibility": "FullStory operations", "source_hint": "tools/fullstory.ts"},
+  {"name": "HotjarTool", "responsibility": "Hotjar operations", "source_hint": "tools/hotjar.ts"},
+  {"name": "MixpanelTool", "responsibility": "Mixpanel operations", "source_hint": "tools/mixpanel.ts"},
+  {"name": "AmplitudeTool", "responsibility": "Amplitude operations", "source_hint": "tools/amplitude.ts"},
+  {"name": "SegmentTool", "responsibility": "Segment operations", "source_hint": "tools/segment.ts"},
+  {"name": "GoogleAnalyticsTool", "responsibility": "Google Analytics operations", "source_hint": "tools/google_analytics.ts"},
+  {"name": "PostHogTool", "responsibility": "PostHog operations", "source_hint": "tools/posthog.ts"},
+  {"name": "LaunchDarklyTool", "responsibility": "LaunchDarkly operations", "source_hint": "tools/launchdarkly.ts"},
+  {"name": "SplitTool", "responsibility": "Split operations", "source_hint": "tools/split.ts"},
+  {"name": "OptimizelyTool", "responsibility": "Optimizely operations", "source_hint": "tools/optimizely.ts"},
+  {"name": "StatsigTool", "responsibility": "Statsig operations", "source_hint": "tools/statsig.ts"},
+  {"name": "UnleashTool", "responsibility": "Unleash operations", "source_hint": "tools/unleash.ts"},
+  {"name": "FlagsmithTool", "responsibility": "Flagsmith operations", "source_hint": "tools/flagsmith.ts"},
+  {"name": "GrowthBookTool", "responsibility": "GrowthBook operations", "source_hint": "tools/growthbook.ts"},
+  {"name": "OpenFeatureTool", "responsibility": "OpenFeature operations", "source_hint": "tools/openfeature.ts"},
+  {"name": "MCPBrowserTool", "responsibility": "Browser automation via MCP", "source_hint": "tools/mcp_browser.ts"},
+  {"name": "MCPFileSystemTool", "responsibility": "Filesystem operations via MCP", "source_hint": "tools/mcp_filesystem.ts"},
+  {"name": "MCPShellTool", "responsibility": "Shell operations via MCP", "source_hint": "tools/mcp_shell.ts"},
+  {"name": "MCPDatabaseTool", "responsibility": "Database operations via MCP", "source_hint": "tools/mcp_database.ts"},
+  {"name": "MCPGitTool", "responsibility": "Git operations via MCP", "source_hint": "tools/mcp_git.ts"},
+  {"name": "MCPGitHubTool", "responsibility": "GitHub operations via MCP", "source_hint": "tools/mcp_github.ts"},
+  {"name": "MCPAWSTool", "responsibility": "AWS operations via MCP", "source_hint": "tools/mcp_aws.ts"},
+  {"name": "MCPDockerTool", "responsibility": "Docker operations via MCP", "source_hint": "tools/mcp_docker.ts"},
+  {"name": "MCPKubernetesTool", "responsibility": "Kubernetes operations via MCP", "source_hint": "tools/mcp_kubernetes.ts"},
+  {"name": "MCPSearchTool", "responsibility": "Search operations via MCP", "source_hint": "tools/mcp_search.ts"},
+  {"name": "MCPCodeAnalysisTool", "responsibility": "Code analysis via MCP", "source_hint": "tools/mcp_code_analysis.ts"},
+  {"name": "MCPLLMTool", "responsibility": "LLM operations via MCP", "source_hint": "tools/mcp_llm.ts"},
+  {"name": "MCPMemoryTool", "responsibility": "Memory operations via MCP", "source_hint": "tools/mcp_memory.ts"},
+  {"name": "MCPVectorStoreTool", "responsibility": "Vector store via MCP", "source_hint": "tools/mcp_vector_store.ts"},
+  {"name": "MCPPromptTool", "responsibility": "Prompt management via MCP", "source_hint": "tools/mcp_prompt.ts"},
+  {"name": "MCPConfigTool", "responsibility": "Configuration via MCP", "source_hint": "tools/mcp_config.ts"},
+  {"name": "MCPTelemetryTool", "responsibility": "Telemetry via MCP", "source_hint": "tools/mcp_telemetry.ts"},
+  {"name": "MCPLoggingTool", "responsibility": "Logging via MCP", "source_hint": "tools/mcp_logging.ts"},
+  {"name": "MCPMetricsTool", "responsibility": "Metrics via MCP", "source_hint": "tools/mcp_metrics.ts"},
+  {"name": "MCPTracingTool", "responsibility": "Tracing via MCP", "source_hint": "tools/mcp_tracing.ts"},
+  {"name": "MCPAuthTool", "responsibility": "Authentication via MCP", "source_hint": "tools/mcp_auth.ts"},
+  {"name": "MCPRateLimitTool", "responsibility": "Rate limiting via MCP", "source_hint": "tools/mcp_rate_limit.ts"},
+  {"name": "MCPCacheTool", "responsibility": "Caching via MCP", "source_hint": "tools/mcp_cache.ts"},
+  {"name": "MCPQueueTool", "responsibility": "Queue operations via MCP", "source_hint": "tools/mcp_queue.ts"},
+  {"name": "MCPSchedulerTool", "responsibility": "Scheduling via MCP", "source_hint": "tools/mcp_scheduler.ts"},
+  {"name": "MCPNotificationTool", "responsibility": "Notifications via MCP", "source_hint": "tools/mcp_notification.ts"},
+  {"name": "MCPWebhookTool", "responsibility": "Webhooks via MCP", "source_hint": "tools/mcp_webhook.ts"},
+  {"name": "MCPEventTool", "responsibility": "Events via MCP", "source_hint": "tools/mcp_event.ts"},
+  {"name": "MCPStateTool", "responsibility": "State management via MCP", "source_hint": "tools/mcp_state.ts"},
+  {"name": "MCPWorkflowTool", "responsibility": "Workflows via MCP", "source_hint": "tools/mcp_workflow.ts"},
+  {"name": "MCPAgentTool", "responsibility": "Agent operations via MCP", "source_hint": "tools/mcp_agent.ts"},
+  {"name": "MCPToolRegistryTool", "responsibility": "Tool registry via MCP", "source_hint": "tools/mcp_tool_registry.ts"},
+  {"name": "MCPPluginTool", "responsibility": "Plugin management via MCP", "source_hint": "tools/mcp_plugin.ts"},
+  {"name": "MCPSkillTool", "responsibility": "Skill management via MCP", "source_hint": "tools/mcp_skill.ts"},
+  {"name": "MCPCommandTool", "responsibility": "Command execution via MCP", "source_hint": "tools/mcp_command.ts"},
+  {"name": "MCPQueryTool", "responsibility": "Query execution via MCP", "source_hint": "tools/mcp_query.ts"},
+  {"name": "MCPReportTool", "responsibility": "Report generation via MCP", "source_hint": "tools/mcp_report.ts"},
+  {"name": "MCPDashboardTool", "responsibility": "Dashboard via MCP", "source_hint": "tools/mcp_dashboard.ts"},
+  {"name": "MCPVisualizationTool", "responsibility": "Visualization via MCP", "source_hint": "tools/mcp_visualization.ts"},
+  {"name": "MCPChartTool", "responsibility": "Chart generation via MCP", "source_hint": "tools/mcp_chart.ts"},
+  {"name": "MCPGraphTool", "responsibility": "Graph operations via MCP", "source_hint": "tools/mcp_graph.ts"},
+  {"name": "MCPMapTool", "responsibility": "Map operations via MCP", "source_hint": "tools/mcp_map.ts"},
+  {"name": "MCPGeoTool", "responsibility": "Geospatial via MCP", "source_hint": "tools/mcp_geo.ts"},
+  {"name": "MCPTimeTool", "responsibility": "Time operations via MCP", "source_hint": "tools/mcp_time.ts"},
+  {"name": "MCPDateTool", "responsibility": "Date operations via MCP", "source_hint": "tools/mcp_date.ts"},
+  {"name": "MCPMathTool", "responsibility": "Math operations via MCP", "source_hint": "tools/mcp_math.ts"},
+  {"name": "MCPStatTool", "responsibility": "Statistics via MCP", "source_hint": "tools/mcp_stat.ts"},
+  {"name": "MCPMLTool", "responsibility": "ML operations via MCP", "source_hint": "tools/mcp_ml.ts"},
+  {"name": "MCPNLPToo", "responsibility": "NLP operations via MCP", "source_hint": "tools/mcp_nlp.ts"},
+  {"name": "MCPCVTool", "responsibility": "Computer vision via MCP", "source_hint": "tools/mcp_cv.ts"},
+  {"name": "MCPAudioTool", "responsibility": "Audio processing via MCP", "source_hint": "tools/mcp_audio.ts"},
+  {"name": "MCPVideoTool", "responsibility": "Video processing via MCP", "source_hint": "tools/mcp_video.ts"},
+  {"name": "MCPImageTool", "responsibility": "Image processing via MCP", "source_hint": "tools/mcp_image.ts"},
+  {"name": "MCPDocumentTool", "responsibility": "Document processing via MCP", "source_hint": "tools/mcp_document.ts"},
+  {"name": "MCPSpreadsheetTool", "responsibility": "Spreadsheet via MCP", "source_hint": "tools/mcp_spreadsheet.ts"},
+  {"name": "MCPPresentationTool", "responsibility": "Presentations via MCP", "source_hint": "tools/mcp_presentation.ts"},
+  {"name": "MCPPDFTool", "responsibility": "PDF operations via MCP", "source_hint": "tools/mcp_pdf.ts"},
+  {"name": "MCPEmailTool", "responsibility": "Email via MCP", "source_hint": "tools/mcp_email.ts"},
+  {"name": "MCPCalendarTool", "responsibility": "Calendar via MCP", "source_hint": "tools/mcp_calendar.ts"},
+  {"name": "MCPContactTool", "responsibility": "Contacts via MCP", "source_hint": "tools/mcp_contact.ts"},
+  {"name": "MCPTaskTool", "responsibility": "Tasks via MCP", "source_hint": "tools/mcp_task.ts"},
+  {"name": "MCPNoteTool", "responsibility": "Notes via MCP", "source_hint": "tools/mcp_note.ts"},
+  {"name": "MCPBookmarkTool", "responsibility": "Bookmarks via MCP", "source_hint": "tools/mcp_bookmark.ts"},
+  {"name": "MCPSearchEngineTool", "responsibility": "Search engine via MCP", "source_hint": "tools/mcp_search_engine.ts"},
+  {"name": "MCPSocialTool", "responsibility": "Social media via MCP", "source_hint": "tools/mcp_social.ts"},
+  {"name": "MCPMessagingTool", "responsibility": "Messaging via MCP", "source_hint": "tools/mcp_messaging.ts"},
+  {"name": "MCPVoiceTool", "responsibility": "Voice via MCP", "source_hint": "tools/mcp_voice.ts"},
+  {"name": "MCPVideoCallTool", "responsibility": "Video calls via MCP", "source_hint": "tools/mcp_video_call.ts"},
+  {"name": "MCPScreenShareTool", "responsibility": "Screen sharing via MCP", "source_hint": "tools/mcp_screen_share.ts"},
+  {"name": "MCPWhiteboardTool", "responsibility": "Whiteboard via MCP", "source_hint": "tools/mcp_whiteboard.ts"},
+  {"name": "MCPPollTool", "responsibility": "Polls via MCP", "source_hint": "tools/mcp_poll.ts"},
+  {"name": "MCPSurveyTool", "responsibility": "Surveys via MCP", "source_hint": "tools/mcp_survey.ts"},
+  {"name": "MCPQuizTool", "responsibility": "Quizzes via MCP", "source_hint": "tools/mcp_quiz.ts"},
+  {"name": "MCPFormTool", "responsibility": "Forms via MCP", "source_hint": "tools/mcp_form.ts"},
+  {"name": "MCPPaymentTool", "responsibility": "Payments via MCP", "source_hint": "tools/mcp_payment.ts"},
+  {"name": "MCPECommerceTool", "responsibility": "E-commerce via MCP", "source_hint": "tools/mcp_ecommerce.ts"},
+  {"name": "MCPInventoryTool", "responsibility": "Inventory via MCP", "source_hint": "tools/mcp_inventory.ts"},
+  {"name": "MCPShippingTool", "responsibility": "Shipping via MCP", "source_hint": "tools/mcp_shipping.ts"},
+  {"name": "MCPTrackingTool", "responsibility": "Tracking via MCP", "source_hint": "tools/mcp_tracking.ts"},
+  {"name": "MCPSubscriptionTool", "responsibility": "Subscriptions via MCP", "source_hint": "tools/mcp_subscription.ts"},
+  {"name": "MCPBillingTool", "responsibility": "Billing via MCP", "source_hint": "tools/mcp_billing.ts"},
+  {"name": "MCPInvoiceTool", "responsibility": "Invoices via MCP", "source_hint": "tools/mcp_invoice.ts"},
+  {"name": "MCPReceiptTool", "responsibility": "Receipts via MCP", "source_hint": "tools/mcp_receipt.ts"},
+  {"name": "MCPRefundTool", "responsibility": "Refunds via MCP", "source_hint": "tools/mcp_refund.ts"},
+  {"name": "MCPCouponTool", "responsibility": "Coupons via MCP", "source_hint": "tools/mcp_coupon.ts"},
+  {"name": "MCPDiscountTool", "responsibility": "Discounts via MCP", "source_hint": "tools/mcp_discount.ts"},
+  {"name": "MCPTaxTool", "responsibility": "Tax via MCP", "source_hint": "tools/mcp_tax.ts"},
+  {"name": "MCPCurrencyTool", "responsibility": "Currency via MCP", "source_hint": "tools/mcp_currency.ts"},
+  {"name": "MCPExchangeRateTool", "responsibility": "Exchange rates via MCP", "source_hint": "tools/mcp_exchange_rate.ts"},
+  {"name": "MCPStockTool", "responsibility": "Stocks via MCP", "source_hint": "tools/mcp_stock.ts"},
+  {"name": "MCPCryptoTool", "responsibility": "Cryptocurrency via MCP", "source_hint": "tools/mcp_crypto.ts"},
+  {"name": "MCPWeatherTool", "responsibility": "Weather via MCP", "source_hint": "tools/mcp_weather.ts"},
+  {"name": "MCPNewsTool", "responsibility": "News via MCP", "source_hint": "tools/mcp_news.ts"},
+  {"name": "MCPTranslateTool", "responsibility": "Translation via MCP", "source_hint": "tools/mcp_translate.ts"},
+  {"name": "MCPSummarizeTool", "responsibility": "Summarization via MCP", "source_hint": "tools/mcp_summarize.ts"},
+  {"name": "MCPAnalyzeTool", "responsibility": "Analysis via MCP", "source_hint": "tools/mcp_analyze.ts"},
+  {"name": "MCPCompareTool", "responsibility": "Comparison via MCP", "source_hint": "tools/mcp_compare.ts"},
+  {"name": "MCPRecommendTool", "responsibility": "Recommendations via MCP", "source_hint": "tools/mcp_recommend.ts"},
+  {"name": "MCPSuggestTool", "responsibility": "Suggestions via MCP", "source_hint": "tools/mcp_suggest.ts"},
+  {"name": "MCPPredictTool", "responsibility": "Predictions via MCP", "source_hint": "tools/mcp_predict.ts"},
+  {"name": "MCPForecastTool", "responsibility": "Forecasting via MCP", "source_hint": "tools/mcp_forecast.ts"},
+  {"name": "MCPAlertTool", "responsibility": "Alerts via MCP", "source_hint": "tools/mcp_alert.ts"},
+  {"name": "MCPNotifyTool", "responsibility": "Notifications via MCP", "source_hint": "tools/mcp_notify.ts"},
+  {"name": "MCPRemindTool", "responsibility": "Reminders via MCP", "source_hint": "tools/mcp_remind.ts"},
+  {"name": "MCPSearchHistoryTool", "responsibility": "Search history via MCP", "source_hint": "tools/mcp_search_history.ts"},
+  {"name": "MCPBrowseHistoryTool", "responsibility": "Browse history via MCP", "source_hint": "tools/mcp_browse_history.ts"},
+  {"name": "MCPDownloadHistoryTool", "responsibility": "Download history via MCP", "source_hint": "tools/mcp_download_history.ts"},
+  {"name": "MCPClipboardTool", "responsibility": "Clipboard via MCP", "source_hint": "tools/mcp_clipboard.ts"},
+  {"name": "MCPScreenshotTool", "responsibility": "Screenshots via MCP", "source_hint": "tools/mcp_screenshot.ts"},
+  {"name": "MCPRecordingTool", "responsibility": "Recordings via MCP", "source_hint": "tools/mcp_recording.ts"},
+  {"name": "MCPStreamTool", "responsibility": "Streaming via MCP", "source_hint": "tools/mcp_stream.ts"},
+  {"name": "MCPCastTool", "responsibility": "Casting via MCP", "source_hint": "tools/mcp_cast.ts"},
+  {"name": "MCPMirrorTool", "responsibility": "Mirroring via MCP", "source_hint": "tools/mcp_mirror.ts"},
+  {"name": "MCPRemoteTool", "responsibility": "Remote control via MCP", "source_hint": "tools/mcp_remote.ts"},
+  {"name": "MCPAutomationTool", "responsibility": "Automation via MCP", "source_hint": "tools/mcp_automation.ts"},
+  {"name": "MCPIntegrationTool", "responsibility": "Integrations via MCP", "source_hint": "tools/mcp_integration.ts"},
+  {"name": "MCPAPITool", "responsibility": "API operations via MCP", "source_hint": "tools/mcp_api.ts"},
+  {"name": "MCPSDKTool", "responsibility": "SDK operations via MCP", "source_hint": "tools/mcp_sdk.ts"},
+  {"name": "MCPCLITool", "responsibility": "CLI operations via MCP", "source_hint": "tools/mcp_cli.ts"},
+  {"name": "MCPGUITool", "responsibility": "GUI operations via MCP", "source_hint": "tools/mcp_gui.ts"},
+  {"name": "MCPTUItool", "responsibility": "TUI operations via MCP", "source_hint": "tools/mcp_tui.ts"},
+  {"name": "MCPWebTool", "responsibility": "Web operations via MCP", "source_hint": "tools/mcp_web.ts"},
+  {"name": "MCPMobileTool", "responsibility": "Mobile operations via MCP", "source_hint": "tools/mcp_mobile.ts"},
+  {"name": "MCPDesktopTool", "responsibility": "Desktop operations via MCP", "source_hint": "tools/mcp_desktop.ts"},
+  {"name": "MCPServerTool", "responsibility": "Server operations via MCP", "source_hint": "tools/mcp_server.ts"},
+  {"name": "MCPClientTool", "responsibility": "Client operations via MCP", "source_hint": "tools/mcp_client.ts"},
+  {"name": "MCPPeerToPeerTool", "responsibility": "P2P operations via MCP", "source_hint": "tools/mcp_p2p.ts"},
+  {"name": "MCPMeshTool", "responsibility": "Mesh operations via MCP", "source_hint": "tools/mcp_mesh.ts"},
+  {"name": "MCPGridTool", "responsibility": "Grid operations via MCP", "source_hint": "tools/mcp_grid.ts"},
+  {"name": "MCPClusterTool", "responsibility": "Cluster operations via MCP", "source_hint": "tools/mcp_cluster.ts"},
+  {"name": "MCPFederationTool", "responsibility": "Federation via MCP", "source_hint": "tools/mcp_federation.ts"},
+  {"name": "MCPConsensusTool", "responsibility": "Consensus via MCP", "source_hint": "tools/mcp_consensus.ts"},
+  {"name": "MCPBlockchainTool", "responsibility": "Blockchain via MCP", "source_hint": "tools/mcp_blockchain.ts"},
+  {"name": "MCPSmartContractTool", "responsibility": "Smart contracts via MCP", "source_hint": "tools/mcp_smart_contract.ts"},
+  {"name": "MCPNFTTool", "responsibility": "NFT operations via MCP", "source_hint": "tools/mcp_nft.ts"},
+  {"name": "MCPDeFiTool", "responsibility": "DeFi operations via MCP", "source_hint": "tools/mcp_defi.ts"},
+  {"name": "MCPDAOTool", "responsibility": "DAO operations via MCP", "source_hint": "tools/mcp_dao.ts"},
+  {"name": "MCPIoTTool", "responsibility": "IoT operations via MCP", "source_hint": "tools/mcp_iot.ts"},
+  {"name": "MCPEdgeTool", "responsibility": "Edge computing via MCP", "source_hint": "tools/mcp_edge.ts"},
+  {"name": "MCPFogTool", "responsibility": "Fog computing via MCP", "source_hint": "tools/mcp_fog.ts"},
+  {"name": "MCPQuantumTool", "responsibility": "Quantum computing via MCP", "source_hint": "tools/mcp_quantum.ts"},
+  {"name": "MCPHPCtool", "responsibility": "HPC operations via MCP", "source_hint": "tools/mcp_hpc.ts"},
+  {"name": "MCPSupercomputingTool", "responsibility": "Supercomputing via MCP", "source_hint": "tools/mcp_supercomputing.ts"},
+  {"name": "MCPExascaleTool", "responsibility": "Exascale computing via MCP", "source_hint": "tools/mcp_exascale.ts"},
+  {"name": "MCPNeuromorphicTool", "responsibility": "Neuromorphic computing via MCP", "source_hint": "tools/mcp_neuromorphic.ts"},
+  {"name": "MCPPhotonicTool", "responsibility": "Photonic computing via MCP", "source_hint": "tools/mcp_photonic.ts"},
+  {"name": "MCPDNAComputingTool", "responsibility": "DNA computing via MCP", "source_hint": "tools/mcp_dna_computing.ts"},
+  {"name": "MCPBiocomputingTool", "responsibility": "Biocomputing via MCP", "source_hint": "tools/mcp_biocomputing.ts"},
+  {"name": "MCPSpatialTool", "responsibility": "Spatial computing via MCP", "source_hint": "tools/mcp_spatial.ts"},
+  {"name": "MCPExtendedRealityTool", "responsibility": "XR operations via MCP", "source_hint": "tools/mcp_xr.ts"},
+  {"name": "MCPVirtualRealityTool", "responsibility": "VR operations via MCP", "source_hint": "tools/mcp_vr.ts"},
+  {"name": "MCPAugmentedRealityTool", "responsibility": "AR operations via MCP", "source_hint": "tools/mcp_ar.ts"},
+  {"name": "MCPMixedRealityTool", "responsibility": "MR operations via MCP", "source_hint": "tools/mcp_mr.ts"},
+  {"name": "MCPSimulationTool", "responsibility": "Simulations via MCP", "source_hint": "tools/mcp_simulation.ts"},
+  {"name": "MCPDigitalTwinTool", "responsibility": "Digital twins via MCP", "source_hint": "tools/mcp_digital_twin.ts"},
+  {"name": "MCPMetaverseTool", "responsibility": "Metaverse via MCP", "source_hint": "tools/mcp_metaverse.ts"},
+  {"name": "MCPGenerativeAITool", "responsibility": "Generative AI via MCP", "source_hint": "tools/mcp_generative_ai.ts"},
+  {"name": "MCPLLMtool", "responsibility": "LLM operations via MCP", "source_hint": "tools/mcp_llm_ops.ts"},
+  {"name": "MCPMultimodalTool", "responsibility": "Multimodal AI via MCP", "source_hint": "tools/mcp_multimodal.ts"},
+  {"name": "MCPAgenticAITool", "responsibility": "Agentic AI via MCP", "source_hint": "tools/mcp_agentic_ai.ts"},
+  {"name": "MCPCognitiveTool", "responsibility": "Cognitive AI via MCP", "source_hint": "tools/mcp_cognitive.ts"},
+  {"name": "MCPEmotionTool", "responsibility": "Emotion AI via MCP", "source_hint": "tools/mcp_emotion.ts"},
+  {"name": "MCPEmpathyTool", "responsibility": "Empathy AI via MCP", "source_hint": "tools/mcp_empathy.ts"},
+  {"name": "MCPEthicalAITool", "responsibility": "Ethical AI via MCP", "source_hint": "tools/mcp_ethical_ai.ts"},
+  {"name": "MCPExplainableAITool", "responsibility": "XAI via MCP", "source_hint": "tools/mcp_xai.ts"},
+  {"name": "MCPResponsibleAITool", "responsibility": "Responsible AI via MCP", "source_hint": "tools/mcp_responsible_ai.ts"},
+  {"name": "MCPFairnessTool", "responsibility": "AI fairness via MCP", "source_hint": "tools/mcp_fairness.ts"},
+  {"name": "MCPBiasDetectionTool", "responsibility": "Bias detection via MCP", "source_hint": "tools/mcp_bias_detection.ts"},
+  {"name": "MCPPrivacyTool", "responsibility": "Privacy via MCP", "source_hint": "tools/mcp_privacy.ts"},
+  {"name": "MCPSecurityTool", "responsibility": "Security via MCP", "source_hint": "tools/mcp_security.ts"},
+  {"name": "MCPSafetyTool", "responsibility": "Safety via MCP", "source_hint": "tools/mcp_safety.ts"},
+  {"name": "MCPRobustnessTool", "responsibility": "Robustness via MCP", "source_hint": "tools/mcp_robustness.ts"},
+  {"name": "MCPReliabilityTool", "responsibility": "Reliability via MCP", "source_hint": "tools/mcp_reliability.ts"},
+  {"name": "MCPTrustTool", "responsibility": "Trust via MCP", "source_hint": "tools/mcp_trust.ts"},
+  {"name": "MCPTransparencyTool", "responsibility": "Transparency via MCP", "source_hint": "tools/mcp_transparency.ts"},
+  {"name": "MCPAccountabilityTool", "responsibility": "Accountability via MCP", "source_hint": "tools/mcp_accountability.ts"},
+  {"name": "MCPGovernanceTool", "responsibility": "Governance via MCP", "source_hint": "tools/mcp_governance.ts"},
+  {"name": "MCPComplianceTool", "responsibility": "Compliance via MCP", "source_hint": "tools/mcp_compliance.ts"},
+  {"name": "MCPRegulationTool", "responsibility": "Regulation via MCP", "source_hint": "tools/mcp_regulation.ts"},
+  {"name": "MCPLegalTool", "responsibility": "Legal via MCP", "source_hint": "tools/mcp_legal.ts"},
+  {"name": "MCPEnvironmentalTool", "responsibility": "Environmental via MCP", "source_hint": "tools/mcp_environmental.ts"},
+  {"name": "MCPSustainabilityTool", "responsibility": "Sustainability via MCP", "source_hint": "tools/mcp_sustainability.ts"},
+  {"name": "MCPCarbonFootprintTool", "responsibility": "Carbon footprint via MCP", "source_hint": "tools/mcp_carbon_footprint.ts"},
+  {"name": "MCPEnergyEfficiencyTool", "responsibility": "Energy efficiency via MCP", "source_hint": "tools/mcp_energy_efficiency.ts"},
+  {"name": "MCPGreenComputingTool", "responsibility": "Green computing via MCP", "source_hint": "tools/mcp_green_computing.ts"},
+  {"name": "MCPCircularEconomyTool", "responsibility": "Circular economy via MCP", "source_hint": "tools/mcp_circular_economy.ts"},
+  {"name": "MCPSocialImpactTool", "responsibility": "Social impact via MCP", "source_hint": "tools/mcp_social_impact.ts"},
+  {"name": "MCPEconomicImpactTool", "responsibility": "Economic impact via MCP", "source_hint": "tools/mcp_economic_impact.ts"},
+  {"name": "MCPInclusiveDesignTool", "responsibility": "Inclusive design via MCP", "source_hint": "tools/mcp_inclusive_design.ts"},
+  {"name": "MCPUniversalDesignTool", "responsibility": "Universal design via MCP", "source_hint": "tools/mcp_universal_design.ts"},
+  {"name": "MCPAccessibilityTool", "responsibility": "Accessibility via MCP", "source_hint": "tools/mcp_accessibility.ts"},
+  {"name": "MCPLocalizationTool", "responsibility": "Localization via MCP", "source_hint": "tools/mcp_localization.ts"},
+  {"name": "MCPInternationalizationTool", "responsibility": "Internationalization via MCP", "source_hint": "tools/mcp_i18n.ts"}
 ]
