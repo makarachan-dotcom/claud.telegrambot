@@ -857,4 +857,5 @@
   {"name": "GRPCCommand", "responsibility": "gRPC operations", "source_hint": "ml/grpc.ts"},
   {"name": "WebSocketCommand", "responsibility": "WebSocket operations", "source_hint": "ml/websocket.ts"},
   {"name": "SSECommand", "responsibility": "Server-sent events", "source_hint": "ml/sse.ts"},
-  {"name": "WebhookCommand", "responsibility": "Webhook operations", "source_hint": 
+  {"name": "WebhookCommand", "responsibility": "Webhook operations", "source_hint": "ml/webhook.ts"}
+]
